@@ -1,0 +1,60 @@
+CREATE SCHEMA integracao_precos;
+
+CREATE TABLE integracao_precos.produto (
+	id SERIAL,
+	nome VARCHAR(100),
+	secao VARCHAR(50),
+	url_imagem VARCHAR(255),
+	descricao VARCHAR(500),
+	valor FLOAT,
+	CONSTRAINT pk_produto_id PRIMARY KEY(id)
+);
+
+CREATE TABLE integracao_precos.especificacoes (
+	id_produto INT,
+	modelo VARCHAR(50),
+	marca VARCHAR(50),
+	ficha_tecnica VARCHAR(500),
+	CONSTRAINT fk_especificacoes_id_produto FOREIGN KEY(id_produto)
+		REFERENCES integracao_precos.produto(id)
+);
+
+CREATE TABLE integracao_precos.avaliacao (
+	id_produto INT,
+	nome VARCHAR(50),
+	comentario VARCHAR(255),
+	data DATE,
+	qtd_estrelas INT,
+	CONSTRAINT fk_avaliacao_id_produto FOREIGN KEY(id_produto)
+		REFERENCES integracao_precos.produto(id)
+);
+
+CREATE TABLE integracao_precos.transportadora (
+	id_produto INT,
+	nome VARCHAR(50),
+	valor FLOAT,
+	CONSTRAINT fk_transportadora_id_produto FOREIGN KEY(id_produto)
+		REFERENCES integracao_precos.produto(id)
+);
+
+CREATE TABLE integracao_precos.pagamentos (
+	id SERIAL,
+	tipo_de_pagamento VARCHAR(50),
+	CONSTRAINT pk_pagamentos_id PRIMARY KEY(id)
+);
+
+CREATE TABLE integracao_precos.pagamentos_parcelas (
+	id_pagamento INT,
+	qtd_parcelas INT,
+	desconto VARCHAR(4),
+	CONSTRAINT fk_pagamentos_id_pagamento FOREIGN KEY(id_pagamento)
+		REFERENCES integracao_precos.pagamentos(id)
+);
+
+CREATE TABLE integracao_precos.usuario (
+	id SERIAL,
+	nome VARCHAR(50),
+	login VARCHAR(20),
+	senha VARCHAR(20),
+	CONSTRAINT pk_usuario_id PRIMARY KEY(id)
+);
