@@ -42,7 +42,7 @@ class KabumSpider(scrapy.Spider):
         
         #info_tec = response.css('#secaoInformacoesTecnicas').re(r'Marca.*') -- Não alcançavel pelo scrapy
         #pagamento e entrega -- não é possivel acessar pois é feita via ajax, o scrap nao captura
-        
+
         yield {
             'data_coleta': created_at,
             'secao': self.secao,
@@ -50,7 +50,6 @@ class KabumSpider(scrapy.Spider):
                 'nome': nome,
                 'valor': valor,
                 'descricao': descricao,
-                #'info': info_tec,
-                'url_img': url_img
-            },
+                'url_img': url_img,
+            }
         }

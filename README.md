@@ -6,7 +6,7 @@ Este sistema terá como objetivo capturar informações de produtos de diferente
 
 ## Sites e seções
 
-A princípio, para este projeto, este sistema será capaz de capturar dados dos sites **Kabum**, **Americanas** e **Pichau**, com foco em duas seções: *Mouse* e *Monitor*.
+A princípio, para este projeto, este sistema será capaz de capturar dados dos sites **Kabum**, **Americanas** e **Londritech**, com foco em duas seções: *Mouse* e *Monitor*.
 
 ## Informações a serem coletadas
 
