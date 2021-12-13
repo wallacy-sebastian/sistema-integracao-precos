@@ -1,0 +1,5 @@
+/crawling\ scripts/kabum/kabum/__pycache__
+/crawling\ scripts/kabum/kabum/spiders/__pycache__
+/crawling\ scripts/kabum/kabum/spiders/*.json
+/crawling\ scripts/kabum/kabum/spiders/*.jl
+/crawling\ scripts/kabum/kabum/spiders/*.html
