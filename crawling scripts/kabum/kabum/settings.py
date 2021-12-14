@@ -12,8 +12,7 @@ BOT_NAME = 'kabum'
 SPIDER_MODULES = ['kabum.spiders']
 NEWSPIDER_MODULE = 'kabum.spiders'
 
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36'
-
+USER_AGENT = 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'kabum (+http://www.yourdomain.com)'
