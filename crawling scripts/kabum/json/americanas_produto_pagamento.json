@@ -1,0 +1,78 @@
+{
+    "data_coleta": "2021-12-14 09:18:58",
+    "opcao_parcelamento": "cart\u00e3o de cr\u00e9dito",
+    "parcelamentos": [
+        {
+            "qtd": "1x",
+            "valor_parcela": "de R$ 26,39",
+            "juros": "sem juros",
+            "total": "total R$ 26,39"
+        },
+        {
+            "qtd": "2x",
+            "valor_parcela": "de R$ 14,99",
+            "juros": "sem juros",
+            "total": "total R$ 29,99"
+        },
+        {
+            "qtd": "3x",
+            "valor_parcela": "de R$ 9,99",
+            "juros": "sem juros",
+            "total": "total R$ 29,99"
+        },
+        {
+            "qtd": "4x",
+            "valor_parcela": "de R$ 7,93",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 31,72"
+        },
+        {
+            "qtd": "5x",
+            "valor_parcela": "de R$ 6,41",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 32,08"
+        },
+        {
+            "qtd": "6x",
+            "valor_parcela": "de R$ 5,40",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 32,43"
+        },
+        {
+            "qtd": "7x",
+            "valor_parcela": "de R$ 4,68",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 32,79"
+        },
+        {
+            "qtd": "8x",
+            "valor_parcela": "de R$ 4,14",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 33,16"
+        },
+        {
+            "qtd": "9x",
+            "valor_parcela": "de R$ 3,72",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 33,52"
+        },
+        {
+            "qtd": "10x",
+            "valor_parcela": "de R$ 3,38",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 33,89"
+        },
+        {
+            "qtd": "11x",
+            "valor_parcela": "de R$ 3,11",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 34,26"
+        },
+        {
+            "qtd": "12x",
+            "valor_parcela": "de R$ 2,88",
+            "juros": "com juros de 2,29 % a.m.",
+            "total": "total R$ 34,63"
+        }
+    ]
+}
