@@ -35,17 +35,12 @@ CREATE TABLE integracao_precos.produto (
 	secao VARCHAR(50),
 	url_imagem VARCHAR(255),
 	descricao VARCHAR(500),
-	valor FLOAT,
-	CONSTRAINT pk_produto_id PRIMARY KEY(id)
-);
-
-CREATE TABLE integracao_precos.especificacoes (
-	id_produto INT,
 	modelo VARCHAR(50),
 	marca VARCHAR(50),
 	ficha_tecnica VARCHAR(500),
-	CONSTRAINT fk_especificacoes_id_produto FOREIGN KEY(id_produto)
-		REFERENCES integracao_precos.produto(id)
+	valor FLOAT,
+	created_at DATE,
+	CONSTRAINT pk_produto_id PRIMARY KEY(id)
 );
 
 CREATE TABLE integracao_precos.avaliacao (
@@ -58,9 +53,9 @@ CREATE TABLE integracao_precos.avaliacao (
 		REFERENCES integracao_precos.produto(id)
 );
 
-CREATE TABLE integracao_precos.transportadora (
+CREATE TABLE integracao_precos.entrega (
 	id_produto INT,
-	nome VARCHAR(50),
+	nome_transportadora VARCHAR(50),
 	valor FLOAT,
 	CONSTRAINT fk_transportadora_id_produto FOREIGN KEY(id_produto)
 		REFERENCES integracao_precos.produto(id)
@@ -85,7 +80,9 @@ CREATE TABLE integracao_precos.usuario (
 	nome VARCHAR(50),
 	login VARCHAR(20),
 	senha VARCHAR(20),
+	CEP VARCHAR(10),
 	CONSTRAINT pk_usuario_id PRIMARY KEY(id)
 );
+
 
 ```
