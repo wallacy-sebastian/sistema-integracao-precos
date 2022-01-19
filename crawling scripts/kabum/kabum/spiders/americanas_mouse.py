@@ -3,6 +3,7 @@ import time
 from random import randrange
 from datetime import datetime
 from bs4 import BeautifulSoup
+# from selenium import webdriver
 import json
 
 class AmericanasMouseSpider(scrapy.Spider):
@@ -20,16 +21,15 @@ class AmericanasMouseSpider(scrapy.Spider):
             a = produto.css('div div a::attr(href)').get()
             if a is not None:
                 yield response.follow(a, callback=self.product_page)
-        #obtendo a proxima pagina
+        # obtendo a proxima pagina
         time.sleep(2)
-        if self.pn <= 1000:
+        if self.pn <= 144:
             self.pn += 24
             next_page = self.start_urls[0] + '?limit=24&offset=' + str(self.pn)
-            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-            print(next_page)
-            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+
             #chamado recursiva para proxima pagina
             yield response.follow(next_page, callback=self.parse)
+
 
     def product_page(self, response):
         created_at = datetime.now()

@@ -1,0 +1,9 @@
+dao/DAO.class
+controller/UserController.class
+dao/PgUserDAO.class
+jdbc/PgConnectionFactory.class
+dao/UserDAO.class
+model/User.class
+dao/PgDAOFactory.class
+jdbc/ConnectionFactory.class
+dao/DAOFactory.class

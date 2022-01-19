@@ -22,7 +22,7 @@ class AmericanasMonitorSpider(scrapy.Spider):
                 yield response.follow(a, callback=self.product_page)
         #obtendo a proxima pagina
         time.sleep(2)
-        if self.pn <= 1000:
+        if self.pn <= 144:
             self.pn += 24
             next_page = self.start_urls[0] + '?limit=24&offset=' + str(self.pn)
             print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
