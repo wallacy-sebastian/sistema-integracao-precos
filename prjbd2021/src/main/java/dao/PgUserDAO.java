@@ -29,8 +29,8 @@ public class PgUserDAO implements UserDAO {
                                 "WHERE login = ? AND senha = md5(?);";
     
     private static final String CREATE_QUERY =
-                                "INSERT INTO integracao_precos.usuario(login, senha, nome, nascimento, avatar) " +
-                                "VALUES(?, md5(?), ?, ?, ?);";
+                                "INSERT INTO integracao_precos.usuario(login, senha, nome, nascimento, cep, avatar) " +
+                                "VALUES(?, md5(?), ?, ?, ?, ?) RETURNING id;";
     
     private static final String READ_QUERY =
                                 "SELECT login, nome, nascimento, avatar, cep " +
@@ -128,16 +128,25 @@ public class PgUserDAO implements UserDAO {
     }
 
     @Override
-    public void create(User user) throws SQLException {
+    public int create(User user) throws SQLException {
+        PgDAOFactory df = new PgDAOFactory(this.connection);
+        int id = -1;
         try (PreparedStatement statement = connection.prepareStatement(CREATE_QUERY)) {
             statement.setString(1, user.getLogin());
             statement.setString(2, user.getSenha());
             statement.setString(3, user.getNome());
             statement.setDate(4, (Date) user.getNascimento());
             statement.setString(5, user.getCep());
-            statement.setString(5, user.getAvatar());
+            statement.setString(6, user.getAvatar());
 
-            statement.executeUpdate();
+            df.beginTransaction();
+            statement.execute();
+            ResultSet result = statement.getResultSet();
+            if(result.next()){
+                id = result.getInt(1);
+            }
+            df.commitTransaction();
+            df.endTransaction();
         } catch (SQLException ex) {
             Logger.getLogger(PgUserDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
 
@@ -149,6 +158,7 @@ public class PgUserDAO implements UserDAO {
                 throw new SQLException("Erro ao inserir usuário.");
             }
         }
+        return id;
     }
 
     @Override

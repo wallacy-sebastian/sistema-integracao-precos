@@ -33,7 +33,7 @@ class AmericanasMouseSpider(scrapy.Spider):
 
     def product_page(self, response):
         created_at = datetime.now()
-        secao = 'Mouse'
+        secao = 1
         #produto
         nome = response.css('.src__Container-dda50e-0 .product-info__Cell-sc-1u2zqg7-2 h1::text').get()
         valor = response.css('.src__Container-dda50e-0 .src__BestPrice-sc-1jvw02c-5').re(r'[0-9]+,[0-9]+')

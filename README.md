@@ -63,16 +63,13 @@ CREATE TABLE integracao_precos.entrega (
 
 CREATE TABLE integracao_precos.pagamentos (
 	id SERIAL,
-	tipo_de_pagamento VARCHAR(50),
-	CONSTRAINT pk_pagamentos_id PRIMARY KEY(id)
-);
-
-CREATE TABLE integracao_precos.pagamentos_parcelas (
-	id_pagamento INT,
-	qtd_parcelas INT,
-	desconto VARCHAR(4),
-	CONSTRAINT fk_pagamentos_id_pagamento FOREIGN KEY(id_pagamento)
-		REFERENCES integracao_precos.pagamentos(id)
+	tipo INT,
+	vezes INT,
+	valor FLOAT,
+	id_produto INT,
+	CONSTRAINT pk_pagamentos_id PRIMARY KEY(id),
+	CONSTRAINT fk_pagamentos_produtos FOREIGN KEY(id_produto)
+		REFERENCES integracao_precos.produto(id)
 );
 
 CREATE TABLE integracao_precos.usuario (

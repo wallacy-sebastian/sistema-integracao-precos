@@ -19,11 +19,15 @@
             <div class="jumbotron">
                 <h1>Bem-vindo,
                 <c:out value="${usuario.nome}"/>!</h1>
-                <p>Este é um exemplo de cadastro de usuários para o trabalho da disciplina Bancos de Dados A.</p>
+                
                 <p>
+                    <h3>Opções:</h3>
                     <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/user">
                         Cadastro de usuários
-                    </a>                 
+                    </a>    
+                    <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/product">
+                        Cadastro de Produtos
+                    </a>
                     <a class="btn btn-default"
                        href="${pageContext.servletContext.contextPath}/logout"
                        data-toggle="tooltip"

@@ -21,4 +21,24 @@ public class PgDAOFactory extends DAOFactory {
         return new PgUserDAO(this.connection);
     }
     
+    @Override
+    public ProductDAO getProductDAO(){
+        return new PgProductDAO(this.connection);
+    }
+    
+    @Override
+    public AvaliacaoDAO getAvaliacaoDAO(){
+        return new PgAvaliacaoDAO(this.connection);
+    }
+    
+    @Override
+    public EntregaDAO getEntregaDAO(){
+        return new PgEntregaDAO(this.connection);
+    }
+    
+    @Override
+    public PagamentoDAO getPagamentoDAO(){
+        return new PgPagamentoDAO(this.connection);
+    }
+    
 }
