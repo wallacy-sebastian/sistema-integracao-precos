@@ -38,7 +38,7 @@ public class PgAvaliacaoDAO implements AvaliacaoDAO{
     
     private static final String UPDATE_QUERY =
                                 "UPDATE integracao_precos.avaliacao " +
-                                "SET nome = ?, comentario = ?, data = ?, qtd_estrelas = ? " +
+                                "SET nome = ?, comentario = ?, qtd_estrelas = ? " +
                                 "WHERE id = ?;";
 
     private static final String DELETE_QUERY =
@@ -99,6 +99,7 @@ public class PgAvaliacaoDAO implements AvaliacaoDAO{
             df.endTransaction();
         } catch (SQLException ex) {
             Logger.getLogger(PgAvaliacaoDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+            df.rollbackTransaction();
             if (ex.getMessage().contains("not-null")) {
                 throw new SQLException("Erro ao inserir avaliacao: pelo menos um campo está em branco.");
             } else {
@@ -141,11 +142,10 @@ public class PgAvaliacaoDAO implements AvaliacaoDAO{
     @Override
     public void update(Avaliacao t) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(UPDATE_QUERY)) {
-            statement.setInt(1, t.getProductId());
-            statement.setString(2, t.getNome());
-            statement.setString(3, t.getComentario());
-            statement.setDate(4, t.getData());
-            statement.setInt(5, t.getEstrelas());
+            statement.setString(1, t.getNome());
+            statement.setString(2, t.getComentario());
+            statement.setInt(3, t.getEstrelas());
+            statement.setInt(4, t.getId());
             
             if (statement.executeUpdate() < 1) {
                 throw new SQLException("Erro ao editar: avaliacao não encontrada.");

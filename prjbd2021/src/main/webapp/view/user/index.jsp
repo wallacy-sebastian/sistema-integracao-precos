@@ -17,12 +17,17 @@
     <body>
         <div class="container">
             <div class="text-center div_inserir_excluir">
+                <a href="${pageContext.servletContext.contextPath}" class="btn btn-lg btn-success">Voltar</a>
                 <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/user/create">
                     Inserir novo usuário
                 </a>
 
                 <button class="btn btn-lg btn-warning" data-toggle="modal" data-target=".modal_excluir_usuarios">
                     Excluir múltiplos usuários
+                </button>
+                    
+                <button class="btn btn-lg btn-warning selecionar_todos" data-toggle="modal" selec="false">
+                    Selecionar tudos produtos
                 </button>
                 <a class="btn btn-default"
                    href="${pageContext.servletContext.contextPath}/logout"

@@ -117,7 +117,7 @@ public class Product {
         return createdAt;
     }
 
-    public void setCreatedAt(Date created_at) {
+    public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
     

@@ -34,7 +34,7 @@ public class PgProductDAO implements ProductDAO{
     
     private static final String UPDATE_QUERY =
                                 "UPDATE integracao_precos.produto " +
-                                "SET nome = ?, secao = ?, url_imagem = ?, descricao = ?, modelo = ?, marca = ?, ficha_tecnica = ?, valor = ?, created_at  = ? " +
+                                "SET nome = ?, url_imagem = ?, descricao = ?, modelo = ?, marca = ?, ficha_tecnica = ?, valor = ? " +
                                 "WHERE id = ?;";
 
     private static final String DELETE_QUERY =
@@ -75,6 +75,7 @@ public class PgProductDAO implements ProductDAO{
             df.endTransaction();
         } catch (SQLException ex) {
             Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+            df.rollbackTransaction();
 
             if (ex.getMessage().contains("not-null")) {
                 throw new SQLException("Erro ao inserir produto: pelo menos um campo está em branco.");
@@ -125,15 +126,13 @@ public class PgProductDAO implements ProductDAO{
 
         try (PreparedStatement statement = connection.prepareStatement(UPDATE_QUERY)) {
             statement.setString(1, prod.getNome());
-            statement.setInt(2, prod.getSecao());
-            statement.setString(3, prod.getUrlImg());
-            statement.setString(4, prod.getDescricao());
-            statement.setString(5, prod.getModelo());
-            statement.setString(6, prod.getMarca());
-            statement.setString(7, prod.getFichaTecnica());
-            statement.setDouble(8, prod.getValor());
-            statement.setDate(9, prod.getCreatedAt());
-            statement.setInt(10, prod.getId());
+            statement.setString(2, prod.getUrlImg());
+            statement.setString(3, prod.getDescricao());
+            statement.setString(4, prod.getModelo());
+            statement.setString(5, prod.getMarca());
+            statement.setString(6, prod.getFichaTecnica());
+            statement.setDouble(7, prod.getValor());
+            statement.setInt(8, prod.getId());
 
             if (statement.executeUpdate() < 1) {
                 throw new SQLException("Erro ao editar: produto não encontrado.");

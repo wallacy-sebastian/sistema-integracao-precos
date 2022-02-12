@@ -37,7 +37,7 @@ public class PgEntregaDAO implements EntregaDAO{
     
     private static final String UPDATE_QUERY =
                                 "UPDATE integracao_precos.entrega " +
-                                "SET id_produto = ?, nome_transportadora = ?, valor = ? " +
+                                "SET nome_transportadora = ?, valor = ? " +
                                 "WHERE id = ?;";
 
     private static final String DELETE_QUERY =
@@ -96,6 +96,7 @@ public class PgEntregaDAO implements EntregaDAO{
             df.endTransaction();
         } catch (SQLException ex) {
             Logger.getLogger(PgEntregaDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+            df.rollbackTransaction();
             if (ex.getMessage().contains("not-null")) {
                 throw new SQLException("Erro ao inserir entrega: pelo menos um campo está em branco.");
             } else {
@@ -136,9 +137,9 @@ public class PgEntregaDAO implements EntregaDAO{
     @Override
     public void update(Entrega t) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(UPDATE_QUERY)) {
-            statement.setInt(1, t.getProductId());
-            statement.setString(2, t.getNome());
-            statement.setDouble(3, t.getValor());
+            statement.setString(1, t.getNome());
+            statement.setDouble(2, t.getValor());
+            statement.setInt(3, t.getId());
             
             if (statement.executeUpdate() < 1) {
                 throw new SQLException("Erro ao editar: entrega não encontrada.");

@@ -37,7 +37,7 @@ public class PgPagamentoDAO implements PagamentoDAO {
     
     private static final String UPDATE_QUERY =
                                 "UPDATE integracao_precos.pagamento " +
-                                "SET id_produto = ?, tipo = ?, vezes = ?, valor = ? " +
+                                "SET vezes = ?, valor = ? " +
                                 "WHERE id = ?;";
 
     private static final String DELETE_QUERY =
@@ -98,6 +98,7 @@ public class PgPagamentoDAO implements PagamentoDAO {
             df.endTransaction();
         } catch (SQLException ex) {
             Logger.getLogger(PgPagamentoDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+            df.rollbackTransaction();
             if (ex.getMessage().contains("not-null")) {
                 throw new SQLException("Erro ao inserir pagamento: pelo menos um campo está em branco.");
             } else {
@@ -138,10 +139,9 @@ public class PgPagamentoDAO implements PagamentoDAO {
     @Override
     public void update(Pagamento t) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(UPDATE_QUERY)) {
-            statement.setInt(1, t.getProductId());
-            statement.setInt(2, t.getTipo());
-            statement.setInt(3, t.getVezes());
-            statement.setDouble(4, t.getValor());
+            statement.setInt(1, t.getVezes());
+            statement.setDouble(2, t.getValor());
+            statement.setInt(3, t.getId());
             
             if (statement.executeUpdate() < 1) {
                 throw new SQLException("Erro ao editar: pagamento não encontrada.");

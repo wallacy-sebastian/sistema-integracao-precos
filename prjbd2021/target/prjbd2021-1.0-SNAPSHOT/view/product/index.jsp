@@ -16,13 +16,34 @@
     <body>
         <div class="container">
             <div class="text-center div_inserir_excluir">
+                <div class = "col-md-12">
+                    <div class="form-group col-md-4">
+                        <label class="control-label">String 1</label>
+                        <input id="string1" class="form-control" type="text" name="string1"/>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">String 2</label>
+                        <input id="string2" class="form-control" type="text" name="string2"/>
+                    </div>
+
+                    <button class="btn btn-lg btn-warning" id = "btn-ver-str" data-href="${pageContext.servletContext.contextPath}/product/checkString">
+                        verifica similar
+                    </button>
+                    <h3 id = "resultado-string">121</h3>
+                </div>
+                <a href="${pageContext.servletContext.contextPath}" class="btn btn-lg btn-success">Voltar</a>
                 <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/product/create">
                     Inserir novo produto
                 </a>
 
-<!--                <button class="btn btn-lg btn-warning" data-toggle="modal" data-target=".modal_excluir_usuarios">
-                    Excluir múltiplos usuários
-                </button>-->
+                <button class="btn btn-lg btn-warning" data-toggle="modal" data-target=".modal_excluir_usuarios">
+                    Excluir múltiplos produtos
+                </button>
+                    
+                <button class="btn btn-lg btn-warning selecionar_todos" data-toggle="modal" selec="false">
+                    Selecionar tudos produtos
+                </button>
                 <a class="btn btn-default"
                    href="${pageContext.servletContext.contextPath}/logout"
                    data-toggle="tooltip"
@@ -49,7 +70,7 @@
                                     <span class="h4"><c:out value="${produto.id}"/></span>
                                 </td>
                                 <td>
-                                    <a class="link_visualizar_usuario" href="#" data-href="${pageContext.servletContext.contextPath}/produto/read?id=${produto.id}">
+                                    <a class="link_visualizar_produto" href="#" data-href="${pageContext.servletContext.contextPath}/product/read?id=${produto.id}">
                                         <span class="h4"><c:out value="${produto.nome}"/></span>
                                     </a>
                                 </td>
@@ -65,15 +86,15 @@
                                     </a>
                                     <a class="btn btn-default link_excluir_usuario"
                                        href="#"
-                                       data-href="${pageContext.servletContext.contextPath}/produto/delete?id=${produto.id}"
+                                       data-href="${pageContext.servletContext.contextPath}/product/delete?id=${produto.id}"
                                        data-toggle="tooltip"
                                        data-original-title="Excluir">
                                         <i class="fa fa-trash"></i>
                                     </a>
                                 </td>
-<!--                                <td class="text-center">
+                                <td class="text-center">
                                     <input class="checkbox-inline" type="checkbox" name="delete" value="${produto.id}" />
-                                </td>-->
+                                </td>
                             </tr>
                         </c:forEach>
                     </tbody>
@@ -98,7 +119,7 @@
                 </div>
             </div>                
 
-            <div class="modal modal-visualizar-usuario">
+            <div class="modal modal-visualizar-produto">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -109,14 +130,32 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <p class="p_id"></p>
-                                        <p class="p_login"></p>
-                                        <p class="p_nome"></p>
-                                        <p class="p_nascimento"></p>
+                                        <div class = "col-md-12">
+                                            <h3>Produto</h3>
+                                            <p class="p_id"></p>
+                                            <p class="p_nome"></p>
+                                            <p class="p_secao"></p>
+                                            <p class="p_descricao"></p>
+                                            <p class="p_modelo"></p>
+                                            <p class="p_marca"></p>
+                                            <p class="p_fichaTecnica"></p>
+                                            <p class="p_valor"></p>
+                                            <p class="p_createdAt datepicker"></p>
+                                            <p class="p_loja"></p>
+                                        </div>
+                                        <div class="produto-avaliacao">
+                                            <h3>Avaliações</h3>
+                                        </div>
+                                        <div class="produto-entrega">
+                                            <h3>Formas de entregas</h3>
+                                        </div>
+                                        <div class="produto-pagamento">
+                                            <h3>Formas de pagamento</h3>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
                                         <a href="#" class="thumbnail">
-                                            <img class="usuario-img"
+                                            <img class="produto-img"
                                                  src="${pageContext.request.contextPath}/img/default_avatar.png"
                                                  height="160" width="120"/>
                                         </a>
@@ -152,6 +191,6 @@
         </div>
 
         <%@include file="/view/include/scripts.jsp"%>
-        <!--<script src="${pageContext.servletContext.contextPath}/assets/js/user.js"></script>-->        
+        <script src="${pageContext.servletContext.contextPath}/assets/js/user.js"></script>        
     </body>
 </html>
