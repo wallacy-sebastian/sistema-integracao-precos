@@ -32,6 +32,15 @@ public class Product {
     private double valor;
     private Date createdAt;
     private Integer loja;
+    private Integer integracaoNumero;
+
+    public Integer getIntegracaoNumero() {
+        return integracaoNumero;
+    }
+
+    public void setIntegracaoNumero(Integer integracaoNumero) {
+        this.integracaoNumero = integracaoNumero;
+    }
 
     public Integer getLoja() {
         return loja;

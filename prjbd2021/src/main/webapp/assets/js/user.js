@@ -30,86 +30,126 @@ function readUser(e) {
 }
 
 function readProduct(e){
+    $('.modal-visualizar-produto').modal('hide');
     e.preventDefault();
-    $.get($(this).data('href'), function(data){
-        console.log(data);
-        
-        var productJson = JSON.parse(data);
-        var product = productJson.produto;
-        var al = productJson.avaliacoas;
-        var el = productJson.entregas;
-        var pl = productJson.pagamentos;
-        var p_img = 'default_avatar.png';
-        var modal = $('.modal-visualizar-produto');
-        var secao = null;
-        var loja = null;
-        if(product.secao == '1'){
-            secao = "Mouse";
-        } else {
-            secao = "Teclado";
-        }
-        
-        if(product.loja == '1'){
-            loja = "Americanas";
-        } else if(product.loja == '2'){
-            loja = "Kabum";
-        } else {
-            loja = "Londritech";
-        }
-        
-        modal.find('.p_id').html('<strong>ID: </strong> '+product.id);
-        modal.find('.p_nome').html('<strong>Nome: </strong> ' + product.nome);
-        modal.find('.p_secao').html('<strong>Seção: </strong> ' + secao);
-        modal.find('.p_descricao').html('<strong>Descrição: </strong> ' + product.descricao);
-        modal.find('.p_modelo').html('<strong>Modelo: </strong> ' + product.modelo);
-        modal.find('.p_marca').html('<strong>Marca: </strong> ' + product.marca);
-        modal.find('.p_fichaTecnica').html('<strong>Ficha técnica: </strong> ' + product.fichaTecnica);
-        modal.find('.p_valor').html('<strong>Valor: </strong> R$' + product.valor);
-        modal.find('.p_createdAt').html('<strong>Data de criação: </strong> '+product.createdAt);
-        modal.find('.p_loja').html('<strong>Loja: </strong> ' + loja);
-        
-        if(product.urlImg){
-            p_img = product.urlImg;
-        }
-        
-        modal.find('.produto-img').prop('src', p_img);
-        
-        var i = 0, amodal;
-        console.log(al[0]);
-        al.forEach(function(){
-            amodal = modal.find('.produto-avaliacao').append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
-            amodal.find('.ava-'+i).append('<p><strong>Nome: </strong> '+al[i].nome+' </p>');
-            amodal.find('.ava-'+i).append('<p><strong>Comentário: </strong> '+al[i].comentario+'</p>');
-            amodal.find('.ava-'+i).append('<p><strong>Estrelas: </strong> '+al[i].estrelas+'</p>');
-            i++;
-        });
-        
-        i = 0;
-        console.log(el);    
-        el.forEach(function(){
-            amodal = modal.find('.produto-entrega').append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
-            amodal.find('.ava-'+i).append('<p><strong>Nome Transportadora: </strong> '+el[i].nome+' </p>');
-            amodal.find('.ava-'+i).append('<p><strong>Valor: R$ </strong> '+el[i].valor+'</p>');
-            i++;
-        });
-        
-        i = 0;
-        var tipo;
-        pl.forEach(function(){
-            amodal = modal.find('.produto-pagamento').append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
-            if(pl[i].tipo == '1'){
-                tipo = "Cartão";
+//    $.get($(this).data('href'), function(data){
+//        console.log(data);
+    $.ajax({
+        type: "GET",
+        url: $(this).data('href'),
+        dataType: 'text',
+        success: function(data){
+//            console.log(data);;
+            var productJson = JSON.parse(data);
+//            console.log(productJson);
+            var product = productJson.produto;
+            var al = productJson.avaliacoas;
+            var el = productJson.entregas;
+            var pl = productJson.pagamentos;
+            var pil = productJson.produtosIntegrados;
+            var p_img = 'default_avatar.png';
+            var modal = $('.modal-visualizar-produto');
+            var secao = null;
+            var loja = null;
+            if(product.secao == '1'){
+                secao = "Mouse";
             } else {
-                tipo = "Boleto";
+                secao = "Monitor";
             }
-            amodal.find('.ava-'+i).append('<p><strong>Tipo de pagamento: </strong> '+tipo+' </p>');
-            amodal.find('.ava-'+i).append('<p><strong>Vezes: </strong> '+pl[i].vezes+' </p>');
-            amodal.find('.ava-'+i).append('<p><strong>Valor: R$ </strong> '+pl[i].valor+'</p>');
-            i++;
-        });
-        
-        modal.modal();
-        
+
+            if(product.loja == '1'){
+                loja = "Americanas";
+            } else if(product.loja == '2'){
+                loja = "Kabum";
+            } else {
+                loja = "Londritech";
+            }
+
+            modal.find('.p_id').html('<strong>ID: </strong> '+product.id);
+            modal.find('.p_nome').html('<strong>Nome: </strong> ' + product.nome);
+            modal.find('.p_secao').html('<strong>Seção: </strong> ' + secao);
+            modal.find('.p_descricao').html('<strong>Descrição: </strong> ' + product.descricao);
+            modal.find('.p_modelo').html('<strong>Modelo: </strong> ' + product.modelo);
+            modal.find('.p_marca').html('<strong>Marca: </strong> ' + product.marca);
+            modal.find('.p_fichaTecnica').html('<strong>Ficha técnica: </strong> ' + product.fichaTecnica);
+            modal.find('.p_valor').html('<strong>Valor: </strong> R$' + product.valor);
+            modal.find('.p_createdAt').html('<strong>Data de criação: </strong> '+product.createdAt);
+            modal.find('.p_loja').html('<strong>Loja: </strong> ' + loja);
+
+            if(product.urlImg){
+                p_img = product.urlImg;
+            }
+
+            modal.find('.produto-img').prop('src', p_img);
+
+            var i = 0, amodal;
+            var a1 = modal.find('.produto-avaliacao');
+            a1.empty();
+            a1.append('<h3>Avaliações</h3>');
+
+            al.forEach(function(){
+                amodal = a1.find('.produto-avaliacao').append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
+                amodal.find('.ava-'+i).append('<p><strong>Nome: </strong> '+al[i].nome+' </p>');
+                amodal.find('.ava-'+i).append('<p><strong>Comentário: </strong> '+al[i].comentario+'</p>');
+                amodal.find('.ava-'+i).append('<p><strong>Estrelas: </strong> '+al[i].estrelas+'</p>');
+                i++;
+            });
+
+            i = 0;  
+            a1 = modal.find('.produto-entrega');
+            a1.empty();
+            a1.append('<h3>Formas de entregas</h3>');
+
+            el.forEach(function(){
+                amodal = a1.append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
+                amodal.find('.ava-'+i).append('<p><strong>Nome Transportadora: </strong> '+el[i].nome+' </p>');
+                amodal.find('.ava-'+i).append('<p><strong>Valor: R$ </strong> '+el[i].valor+'</p>');
+                i++;
+            });
+
+            i = 0;
+            a1 = modal.find('.produto-pagamento');
+            a1.empty();
+            a1.append('<h3>Formas de pagamento</h3>');
+            var tipo;
+            pl.forEach(function(){
+                amodal = a1.append('<div class="col-md-12 ava-'+i+'" style="border: 1px solid #000"></div>');
+                if(pl[i].tipo == '1'){
+                    tipo = "Cartão";
+                } else {
+                    tipo = "Boleto";
+                }
+                amodal.find('.ava-'+i).append('<p><strong>Tipo de pagamento: </strong> '+tipo+' </p>');
+                amodal.find('.ava-'+i).append('<p><strong>Vezes: </strong> '+pl[i].vezes+' </p>');
+                amodal.find('.ava-'+i).append('<p><strong>Valor: R$ </strong> '+pl[i].valor+'</p>');
+                i++;
+            });
+            i = 0;
+            amodal = modal.find('.produto-integrados');
+            amodal.empty();
+            amodal.append('<h3>Produtos Integrados</h3>');
+            var context = $(document).find('#a-prod-i').val();
+            pil.forEach(function(){
+//                console.log(pil[i]+" "+product.id);
+                if(pil[i] != product.id){
+                    amodal.append('<a href="#" data-href="'+context+'/product/read?id='+pil[i]+'" class="link_visualizar_produto col-md-2">'+pil[i]+'</a>');
+                }
+                i++;
+            });
+
+            modal.modal();
+
+        },
+        error: function(jqXhr, textStatus, errorMessage, json){
+            console.log("@@@"+errorMessage);
+//            console.log(textStatus);
+//            console.log(jqXhr);
+//            console.log(json);
+//            $('error-msg').removeClass('d-none');
+//            $('error-msg').addClass('d-flex');
+            alert('Erro ao carregar produto');
+
+        }
     });
 }
 
@@ -117,7 +157,7 @@ function stringSimilares(e){
     e.preventDefault();
     var str1 = $('#string1').val();
     var str2 = $('#string2').val();
-    console.log(str1, str2);
+//    console.log(str1, str2);
     $.get($(this).data('href'),{string1: str1, string2: str2}, function(data){
         
         var json = JSON.parse(data);
@@ -187,6 +227,10 @@ $(document).ready(function () {
     $(document).on('click', '.link_excluir_usuario', deleteUser);
     $(document).on('click', '.link_visualizar_usuario', readUser);
     $(document).on('click', '.link_visualizar_produto', readProduct);
+//    $(document).on('click', '.exibir-prod-integ', function(){
+//        
+//        $(this).re
+//    });
     $(document).on('click', '.button_confirmacao_excluir_usuarios', deleteUsers);
     $(document).on('click', '#btn-ver-str', stringSimilares);
     $(document).on('click', '.selecionar_todos', function(){

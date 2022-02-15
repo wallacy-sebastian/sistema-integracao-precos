@@ -14,15 +14,17 @@ public class StringParecida {
 /** @return an array of adjacent letter pairs contained in the input string */
 
    private static String[] letterPairs(String str) {
-
        int numPairs = str.length()-1;
+       String[] pairs = null;
+       if(numPairs >= 0){
 
-       String[] pairs = new String[numPairs];
+            pairs = new String[numPairs];
 
-       for (int i=0; i<numPairs; i++) {
+            for (int i=0; i<numPairs; i++) {
 
-           pairs[i] = str.substring(i,i+2);
+                pairs[i] = str.substring(i,i+2);
 
+            }
        }
 
        return pairs;
@@ -45,12 +47,13 @@ public class StringParecida {
            // Find the pairs of characters
 
            String[] pairsInWord = letterPairs(words[w]);
+            if(pairsInWord != null){
+                for (int p=0; p < pairsInWord.length; p++) {
 
-           for (int p=0; p < pairsInWord.length; p++) {
+                    allPairs.add(pairsInWord[p]);
 
-               allPairs.add(pairsInWord[p]);
-
-           }
+                }
+            }
 
        }
 

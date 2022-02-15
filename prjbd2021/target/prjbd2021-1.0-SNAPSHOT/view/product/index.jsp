@@ -129,8 +129,8 @@
                         <div class="modal-body">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-md-8">
-                                        <div class = "col-md-12">
+                                    <div class="col-md-12 d-flex flex-wrap">
+                                        <div class = "col-md-8">
                                             <h3>Produto</h3>
                                             <p class="p_id"></p>
                                             <p class="p_nome"></p>
@@ -143,22 +143,27 @@
                                             <p class="p_createdAt datepicker"></p>
                                             <p class="p_loja"></p>
                                         </div>
-                                        <div class="produto-avaliacao">
-                                            <h3>Avaliações</h3>
+                                        <div class="col-md-4">
+                                            <a href="#" class="thumbnail">
+                                                <img class="produto-img"
+                                                     src="${pageContext.request.contextPath}/img/default_avatar.png"
+                                                     height="160" width="120"/>
+                                            </a>
                                         </div>
-                                        <div class="produto-entrega">
-                                            <h3>Formas de entregas</h3>
+                                        <div class="col-md-12 produto-avaliacao">
+                                            
                                         </div>
-                                        <div class="produto-pagamento">
-                                            <h3>Formas de pagamento</h3>
+                                        <div class="col-md-12 produto-entrega">
+                                            
                                         </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="#" class="thumbnail">
-                                            <img class="produto-img"
-                                                 src="${pageContext.request.contextPath}/img/default_avatar.png"
-                                                 height="160" width="120"/>
-                                        </a>
+                                        <div class="col-md-12 produto-pagamento">
+                                            
+                                        </div>
+                                        <div class="col-md-12 produto-integrados d-flex flex-wrap">
+                                            
+                                        </div>
+                                        <input type="hidden" id="a-prod-i" value="${pageContext.servletContext.contextPath}">
+                                        <h3 class="d-none"id="error-msg">Error ao carregar produto</h3>
                                     </div>
                                 </div>
                             </div>

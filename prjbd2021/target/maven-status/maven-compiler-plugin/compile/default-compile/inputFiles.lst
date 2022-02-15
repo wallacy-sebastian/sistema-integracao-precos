@@ -15,11 +15,11 @@
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/DAOFactory.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/EntregaDAO.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/jdbc/PgConnectionFactory.java
-/home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/model/ProductsJson.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/PgProductDAO.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/model/Avaliacao.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/model/Pagamento.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/AvaliacaoDAO.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/PgPagamentoDAO.java
+/home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/model/StringParecida.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/model/User.java
 /home/joao/Documentos/computacao/bd/prjbd2021/src/main/java/dao/PgAvaliacaoDAO.java

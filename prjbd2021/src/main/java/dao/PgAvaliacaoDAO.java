@@ -22,6 +22,8 @@ import model.Avaliacao;
 public class PgAvaliacaoDAO implements AvaliacaoDAO{
     
     private final Connection connection;
+    
+    private final int MAX_STR = 450;
         
     private static final String CREATE_QUERY =
                                 "INSERT INTO integracao_precos.avaliacao(id_produto, nome, comentario, data, qtd_estrelas) " +
@@ -82,10 +84,12 @@ public class PgAvaliacaoDAO implements AvaliacaoDAO{
     public int create(Avaliacao t) throws SQLException {
         PgDAOFactory df = new PgDAOFactory(this.connection);
         int id = -1;
+        String s;
         try (PreparedStatement statement = connection.prepareStatement(CREATE_QUERY)) {
             statement.setInt(1, t.getProductId());
             statement.setString(2, t.getNome());
-            statement.setString(3, t.getComentario());
+            s = t.getComentario();
+            statement.setString(3, s.substring(0, Math.min(s.length(), MAX_STR)));
             statement.setDate(4, t.getData());
             statement.setInt(5, t.getEstrelas());
             
@@ -166,10 +170,10 @@ public class PgAvaliacaoDAO implements AvaliacaoDAO{
     public void delete(Integer id) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(DELETE_QUERY)) {
             statement.setInt(1, id);
-
-            if (statement.executeUpdate() < 1) {
-                throw new SQLException("Erro ao excluir: avaliacao não encontrada.");
-            }
+            statement.executeUpdate();
+//            if (statement.executeUpdate() < 1) {
+//                throw new SQLException("Erro ao excluir: avaliacao não encontrada.");
+//            }
         } catch (SQLException ex) {
             Logger.getLogger(PgAvaliacaoDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
             if (ex.getMessage().contains("not-null")) {

@@ -22,6 +22,8 @@ public class PgEntregaDAO implements EntregaDAO{
     
     private final Connection connection;
     
+    private final int MAX_STR = 45;
+    
     private static final String CREATE_QUERY =
                                 "INSERT INTO integracao_precos.entrega(id_produto, nome_transportadora, valor) " +
                                 "VALUES(?, ?, ?) RETURNING id;";
@@ -81,9 +83,11 @@ public class PgEntregaDAO implements EntregaDAO{
     public int create(Entrega t) throws SQLException {
         int id = -1;
         PgDAOFactory df = new PgDAOFactory(this.connection);
+        String s;
         try (PreparedStatement statement = connection.prepareStatement(CREATE_QUERY)) {
             statement.setInt(1, t.getProductId());
-            statement.setString(2, t.getNome());
+            s = t.getNome();
+            statement.setString(2, s.substring(0, Math.min(s.length(), MAX_STR)));
             statement.setDouble(3, t.getValor());
             
             df.beginTransaction();
@@ -160,10 +164,10 @@ public class PgEntregaDAO implements EntregaDAO{
     public void delete(Integer id) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(DELETE_QUERY)) {
             statement.setInt(1, id);
-
-            if (statement.executeUpdate() < 1) {
-                throw new SQLException("Erro ao excluir: entrega não encontrada.");
-            }
+            statement.executeUpdate();
+//            if (statement.executeUpdate() < 1) {
+//                throw new SQLException("Erro ao excluir: entrega não encontrada.");
+//            }
         } catch (SQLException ex) {
             Logger.getLogger(PgEntregaDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
             if (ex.getMessage().contains("not-null")) {

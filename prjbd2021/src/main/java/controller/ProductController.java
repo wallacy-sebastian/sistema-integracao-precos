@@ -6,12 +6,14 @@ package controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
 import com.google.gson.stream.JsonReader;
 import dao.AvaliacaoDAO;
 import dao.DAO;
 import dao.DAOFactory;
 import dao.EntregaDAO;
 import dao.PagamentoDAO;
+import dao.ProductDAO;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.util.List;
@@ -85,7 +87,7 @@ public class ProductController extends HttpServlet {
         reader.beginObject();
         while(reader.hasNext()){
             String name = reader.nextName();
-            if(name.equals("product")){
+            if(name.equals("produto")){
                 pj.setProduto(readProduct(reader));
             } else if(name.equals("avaliacao")){
                 pj.setAvaliacoas(readAvaliacaoArray(reader));
@@ -108,7 +110,7 @@ public class ProductController extends HttpServlet {
         while(reader.hasNext()){
             String name = reader.nextName();
             if(name.equals("nome")){
-                prod.setNome(reader.nextString());
+                prod.setNome(reader.nextString().trim());
             } else if (name.equals("secao")){
                 prod.setSecao(reader.nextInt());
             } else if (name.equals("urlImg")){
@@ -116,9 +118,9 @@ public class ProductController extends HttpServlet {
             } else if (name.equals("descricao")){
                 prod.setDescricao(reader.nextString());
             } else if (name.equals("modelo")){
-                prod.setModelo(reader.nextString());
+                prod.setModelo(reader.nextString().trim());
             } else if (name.equals("marca")){
-                prod.setMarca(reader.nextString());
+                prod.setMarca(reader.nextString().trim());
             } else if (name.equals("fichaTecnica")){
                 prod.setFichaTecnica(reader.nextString());
             } else if (name.equals("valor")){
@@ -234,7 +236,53 @@ public class ProductController extends HttpServlet {
         return pag;
     }
    
-
+//    FUNÇÃO VERIFICA SE O PRODUTO JÁ ESTÁ PRESENTE NO BANCO, SE SIM INTEGRAM OS PRODUTOS 
+    public int integracaoProduto(Product prod) throws ClassNotFoundException, IOException, SQLException{
+        ProductDAO dao;
+        List<Product> pList;
+        double med = 0, s1 = 0, s2 = 0, s3 = 0;
+        final double PORCENTAGEM_SIMILARIDADE = 0.60000;
+        
+        if(prod.getNome().isEmpty())
+            prod.setNome("@@@@@@@");
+        if (prod.getMarca().isEmpty())
+            prod.setMarca("@@@@@@@");
+        if(prod.getModelo().isEmpty())
+            prod.setModelo("@@@@@@@@@");
+        
+        try(DAOFactory daoFactory = DAOFactory.getInstance()){
+            dao = daoFactory.getProductDAO();
+            pList = dao.all();
+            for(Product prodDAO : pList){
+                med = 0;
+                s1 = 0;
+                s2 = 0;
+                s3 = 0;
+                if(!prodDAO.getNome().isEmpty()){
+                    s1 = StringParecida.compareStrings(prod.getNome(), prodDAO.getNome());
+                }
+                if(!prodDAO.getMarca().isEmpty()){
+//                    System.out.println(prodDAO.getMarca()+" "+prod.getMarca());
+                    s2 = StringParecida.compareStrings(prod.getMarca(), prodDAO.getMarca());
+                }
+                
+                if(!prodDAO.getModelo().isEmpty()){
+                    s3 = StringParecida.compareStrings(prod.getModelo(), prodDAO.getModelo());
+                }
+                
+//                System.out.println("s1: "+s1+" s2: "+s2+" s3: "+s3);
+                
+                if(s1 > PORCENTAGEM_SIMILARIDADE || (s2 > PORCENTAGEM_SIMILARIDADE && s3 > PORCENTAGEM_SIMILARIDADE)){
+                    return prodDAO.getId();
+                }
+            }
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(ProductController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return -1;
+    }
+    
     /**
      * Handles the HTTP <code>GET</code> method.
      *
@@ -305,8 +353,9 @@ public class ProductController extends HttpServlet {
                 break;
             }     
             case "/product/delete": {
+                ProductDAO prodDAO;
                 try(DAOFactory daoFactory = DAOFactory.getInstance()) {
-                    dao = daoFactory.getProductDAO();
+                    prodDAO = daoFactory.getProductDAO();
                     daoFactory.beginTransaction();
                     AvaliacaoDAO adDao = daoFactory.getAvaliacaoDAO();
                     EntregaDAO edDao = daoFactory.getEntregaDAO();
@@ -326,7 +375,8 @@ public class ProductController extends HttpServlet {
                         for(Pagamento l: gList){
                             pdDao.delete(l.getId());
                         }
-                        dao.delete(id);
+                        prodDAO.deleteIntegracaoprodutoId(id);
+                        prodDAO.delete(id);
                         daoFactory.commitTransaction();
                         daoFactory.endTransaction();
                     } catch (SQLException ex) {
@@ -344,12 +394,12 @@ public class ProductController extends HttpServlet {
             }            
             case "/product/read": {
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
-                    dao = daoFactory.getProductDAO();
+                    ProductDAO prDao = daoFactory.getProductDAO();
                     AvaliacaoDAO aDao = daoFactory.getAvaliacaoDAO();
                     EntregaDAO eDao = daoFactory.getEntregaDAO();
                     PagamentoDAO gDao = daoFactory.getPagamentoDAO();
                     int id = Integer.parseInt(request.getParameter("id"));
-                    prod = dao.read(id);
+                    prod = prDao.read(id);
                     List<Avaliacao> aList = aDao.readByProductId(id);
                     List<Entrega> eList = eDao.readByProductId(id);
                     List<Pagamento> gList = gDao.readByProductId(id);
@@ -359,13 +409,23 @@ public class ProductController extends HttpServlet {
                     pj.setEntregas(eList);
                     pj.setPagamentos(gList);
 
-                    Gson gson = new GsonBuilder().setDateFormat("dd/MM/yyyy").create();
+                    Gson gson = new GsonBuilder().create();
                     String json = gson.toJson(pj);
+                    if(prod.getIntegracaoNumero() != null){
+                        List<Integer> idList = prDao.getIntegracaoProdutoAll(prod.getIntegracaoNumero());
+                        JsonElement je = gson.toJsonTree(pj);
+                        JsonElement je2 = gson.toJsonTree(idList);
+                        je.getAsJsonObject().add("produtosIntegrados", je2);
+                        json = gson.toJson(je);
+                    }
+//                    System.out.println(json);
+//                    response.getOutputStream().print(json);
+                    response.getWriter().print(json);
 
-                    response.getOutputStream().print(json);
-                } catch (ClassNotFoundException | IOException | SQLException ex) {
+                } catch (Exception ex) {
+                    System.out.println("id:"+Integer.parseInt(request.getParameter("id")));
                     request.getSession().setAttribute("error", ex.getMessage());
-                    response.sendRedirect(request.getContextPath() + "/product");
+//                    response.sendRedirect(request.getContextPath() + "/product");
                 }
                 break;
             }
@@ -387,6 +447,7 @@ public class ProductController extends HttpServlet {
         }
         
     }
+
 
 
     /**
@@ -414,9 +475,11 @@ public class ProductController extends HttpServlet {
                 String param = request.getParameter("loja");
                 Product p = new Product();
                 InputStream in = null;
+                InputStream in2 = null;
 //                Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
 //                java.lang.reflect.Type type = new TypeToken<List<ProductJson>>() {}.getType();
 //                BufferedReader monitor = new BufferedReader( new FileReader("../../assets/json/americanas_monitor.jl"));
+//                System.out.println(param);
                 String appPath = request.getServletContext().getRealPath("");
                 if(Integer.parseInt(param) == p.AMERICANAS){
                     in = new FileInputStream(appPath+"/assets/json/americanas_mouse.jl");
@@ -424,9 +487,11 @@ public class ProductController extends HttpServlet {
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_monitor.jl");
                 }else if(Integer.parseInt(param) == p.KABUM){
                     in = new FileInputStream(appPath+"/assets/json/kabum_mouse.jl");
+                    in2 = new FileInputStream(appPath+"/assets/json/kabum_monitor.jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/kabum_monitor.jl");
                 }else if(Integer.parseInt(param) == p.LONDRITECH){
                     in = new FileInputStream(appPath+"/assets/json/londritech_mouse.jl");
+                    in2 = new FileInputStream(appPath+"/assets/json/londritech_monitor.jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/londritech_monitor.jl");
                 }
 //                FileReader fr = new FileReader("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_mouse.jl");
@@ -434,9 +499,13 @@ public class ProductController extends HttpServlet {
 
                 
                 try(DAOFactory daoFactory = DAOFactory.getInstance()){
-//                    List<ProductJson> p2List = readJsonStream(in2);
-                        List<ProductJson> pList = readJsonStream(in);
-//                        pList.addAll(p2List);
+                    List<ProductJson> pList = readJsonStream(in);
+                    if(in2 != null){
+                        List<ProductJson> p2List = readJsonStream(in2);
+                        pList.addAll(p2List);
+                    }
+                    
+                    
 //                        r.setLenient(true);
 //                        List<ProductJson> pList = gson.fromJson(fr, type);
 
@@ -446,17 +515,48 @@ public class ProductController extends HttpServlet {
                     eDao = daoFactory.getEntregaDAO();
                     gDao = daoFactory.getPagamentoDAO();
 
-                    Product prod;
+                    Product prod, prod2;
                     Avaliacao ava;
                     Entrega etg;
                     Pagamento pag;
-                    int pId;
+                    Integer integPid, integNum, pId;
 
                     Iterator<ProductJson> itJ = pList.iterator();
                     while(itJ.hasNext()){
+                        
                         ProductJson pr = itJ.next();
                         prod = pr.getProduto();
-                        pId = pDao.create(prod);
+                        integPid = integracaoProduto(prod);
+//                        System.out.println("Inpid: "+integPid);
+                    //  EXISTE PRODUTO SIMILAR A SER INTEGRADO
+                        if(integPid > 0){
+                            ProductDAO prodDAO = daoFactory.getProductDAO();
+                            integNum = prodDAO.getIntegracaoProduto(integPid);
+//                            System.out.println("In: "+integNum);
+                        //  PRODUTO SIMILAR JA FOI INTEGRADO ALGUMA VEZ, LOGO JA POSSUI INTEGRACAO_ID
+                            if(integNum > 0){
+                                prod.setIntegracaoNumero(integNum);
+                                pId = pDao.create(prod);
+                                prodDAO.createIntegracaoProduto(integNum, pId);
+                        //  PRODUTO SIMILAR NÃO FOI INTEGRADO NENHUMA VEZ, LOGO CRIA-SE INTEGRAÇÃO ENTRE OS PRODUTOS
+                            } else {
+                                integNum = prodDAO.getLastIntegracaoProdutoId();
+                                integNum++;
+//                                System.out.println("Last in: "+integNum);
+                                prod.setIntegracaoNumero(integNum);
+                                pId = pDao.create(prod);
+                                prodDAO.createIntegracaoProduto(integNum, pId);
+                                
+                                prod2 = prodDAO.read(integPid);
+                                prod2.setIntegracaoNumero(integNum);
+                                prodDAO.updateIntegracaoprodutoId(prod2);
+                                prodDAO.createIntegracaoProduto(integNum, prod2.getId());
+                            }
+                    //  NÃO EXISTE PRODUTO SIMILAR A SER INTEGRADO
+                        } else {
+                            prod.setIntegracaoNumero(-1);
+                            pId = pDao.create(prod);
+                        }
 
                         List<Avaliacao> aList = pr.getAvaliacoas();
                         Iterator<Avaliacao> itA = aList.iterator();
@@ -489,7 +589,6 @@ public class ProductController extends HttpServlet {
                 } catch (ClassNotFoundException | SQLException ex) {
                     Logger.getLogger(ProductController.class.getName()).log(Level.SEVERE, null, ex);
                 }
-
                 response.sendRedirect(request.getContextPath() + "/product");
                 break;
             }
@@ -599,6 +698,7 @@ public class ProductController extends HttpServlet {
 
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
                     pDao = daoFactory.getProductDAO();
+                    ProductDAO prDao = daoFactory.getProductDAO();
 
                     try {
                         daoFactory.beginTransaction();
@@ -620,6 +720,7 @@ public class ProductController extends HttpServlet {
                             for(Pagamento l: gList){
                                 pdDao.delete(l.getId());
                             }
+                            prDao.deleteIntegracaoprodutoId(id);
                             pDao.delete(id);
                         }
 

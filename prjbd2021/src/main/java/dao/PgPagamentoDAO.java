@@ -22,6 +22,7 @@ public class PgPagamentoDAO implements PagamentoDAO {
     
     private final Connection connection;
     
+    
     private static final String CREATE_QUERY =
                                 "INSERT INTO integracao_precos.pagamento(id_produto, tipo, vezes, valor) " +
                                 "VALUES(?, ?, ?, ?) RETURNING id;";
@@ -162,10 +163,10 @@ public class PgPagamentoDAO implements PagamentoDAO {
     public void delete(Integer id) throws SQLException {
         try (PreparedStatement statement = connection.prepareStatement(DELETE_QUERY)) {
             statement.setInt(1, id);
-
-            if (statement.executeUpdate() < 1) {
-                throw new SQLException("Erro ao excluir: pagamento não encontrada.");
-            }
+            statement.executeUpdate();
+//            if (statement.executeUpdate() < 1) {
+//                throw new SQLException("Erro ao excluir: pagamento não encontrada.");
+//            }
         } catch (SQLException ex) {
             Logger.getLogger(PgPagamentoDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
             if (ex.getMessage().contains("not-null")) {

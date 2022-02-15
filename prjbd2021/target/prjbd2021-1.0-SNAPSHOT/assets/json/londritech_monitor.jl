@@ -1,113 +1,1042 @@
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 27\" Philips Multim\u00eddia 4k UHD 3840x2160 - DP HDMI - 276E8VJSB  ", "valor": " 2.812,84  ", "descricao": " Monitor LCD Ultra HD 4K \r\nE-Line, 68, 6 cm (27), UHD de 4K (3840 x 2160)\r\n\r\nResolu\u00e7\u00e3o UltraClear UHD 4K (3840x2160) para maior precis\u00e3o \r\nOs mais recentes monitores Philips utili... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/qy2tpKiPkLbjnduitshyC1TTBY0=/0x0/loja/londritech.com.br/prodimg/62/0580221001620754373.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Redragon 24\" 144Hz 1ms Freesync Full HD Tela Curva - GM3CS24  ", "valor": " 1.514,90  ", "descricao": " Especifica\u00e7\u00f5es:\r\nMarca: Redragon\r\nModelo: GM3CS24\r\n\u00a0\r\nPainel:\r\nTamanho do Display: 24\"\u00a0 WLED Curvo\r\nTipo do painel: VA\r\nBrilho (T\u00edpico): 250cd/m2 (T\u00edpico)\r\n... ", "modelo": ["Modelo: GM3CS24\r"], "url_img": "https://awstatic-5754.kxcdn.com/v4Ipdio4yEsicYZlrbYq6RJbJJE=/0x0/loja/londritech.com.br/prodimg/11/0358618001614002877.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Acer LED 23.6\" 144Hz 1ms Widescreen Full HD HDMI/Display Port - KG241Q  ", "valor": " 1.299,90  ", "descricao": " Marca: Acer\r\nModelo: KG241Q\r\n\r\nMonitor Gamer Acer 23.6\u201d Full HD e resolu\u00e7\u00e3o de 1920x1080, taxa de atualiza\u00e7\u00e3o de 144Hz e tempo de resposta de 1ms. Tecnologia AMD Rad... ", "modelo": ["Modelo: KG241Q\r"], "url_img": "https://awstatic-5754.kxcdn.com/R-deZnL2Ht88PlQ3H6W-Uncn1FI=/0x0/loja/londritech.com.br/prodimg/63/0311024001566997248.png"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Samsung LED 27\" Curvo, Full HD, IPS, HDMI/VGA, FreeSync - LC27F390FHLMZD  ", "valor": " 1.369,90  ", "descricao": " Tela curva para uma experi\u00eancia\u00a0mais envolvente\r\nEnglobando todo o seu campo de vis\u00e3o como sua tela de cinema iMax local, a tela 1800 R - com seu raio de 1800 mm de arco para maior ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/7M7B8lWiGU-EKSrk97e1EesaWgw=/0x0/loja/londritech.com.br/prodimg/63/0788619001570649973.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Samsung LED 21.5\u00b4Full HD HDMI - LS22F350FHLMZD  ", "valor": " 812,50  ", "descricao": " Marca: Samsung\r\n\r\nModelo: LS22F350FHLMZD\u00a0\r\n\r\n\u00a0\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\n\u00a0\r\n\r\nTela:\r\n\r\nTamanho da tela: 21.5\"\r\n\r\nTipo de painel: TN\r\n\r\nCurvatura da tela: Flat\r\n\r\nBrilho:... ", "modelo": ["Modelo: LS22F350FHLMZD\u00a0\r"], "url_img": "https://awstatic-5754.kxcdn.com/WAPOq0b4YsRA1rotfFJvWzi10KE=/0x0/loja/londritech.com.br/prodimg/79/0877862001592842405.gif"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG LED 21.5\u00b4 Full HD Widescreen HDMI - 22MK400H  ", "valor": " 839,90  ", "descricao": " Marca: LG\r\nModelo: 22MK400H\r\n\r\nCONFORTO PARA VOC\u00ca LER \u00c0 VONTADE\r\nO Reader Mode reduz a cor azul das imagens e protege sua vis\u00e3o, oferecendo uma visualiza\u00e7\u00e3o mais agr... ", "modelo": ["Modelo: 22MK400H\r"], "url_img": "https://awstatic-5754.kxcdn.com/WewW4TByhR_XCSXm7m_wovPbGms=/0x0/loja/londritech.com.br/prodimg/56/0893024001554214031.png"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 18.5\" LG Widescreen Preto - 19M37AA  ", "valor": " 349,90  ", "descricao": " Marca: LG\r\nModelo: 19M37AA\r\n\r\nO Monitor LG 19M37AA apresenta uma tela de 18,5, em um painel LED LCD em uma resolu\u00e7\u00e3o de 1600 x 900. Ele conta tamb\u00e9m com a fun\u00e7\u00e3o Su... ", "modelo": ["Modelo: 19M37AA\r"], "url_img": "https://awstatic-5754.kxcdn.com/VPvoMegI92ECsLaBwroVPfwvlLw=/0x0/loja/londritech.com.br/prodimg/62/0167332001565124491.png"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23,6\" AOC FullHD Widescreen VGA/DVI - M2470SWD2  ", "valor": " 649,89  ", "descricao": " Caracter\u00edsticas:\r\n\r\n- Marca: AOC\r\n- Modelo: M2470SWD2\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\nTela:\r\n\r\n- \u00c2ngulo de vis\u00e3o horizontal: 178\u00ba\r\n- \u00c2ngulo de vis\u00e3o vertical... ", "modelo": ["Modelo: M2470SWD2\r"], "url_img": "https://awstatic-5754.kxcdn.com/zfoghUzI0wDejZQI92mPvdEOF8E=/0x0/loja/londritech.com.br/prodimg/67/0664607001576600115.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 27\" Philips Multimidia 1920x1080 Widescreen VGA DVI Hdmi Vesa - 273V5LHAB  ", "valor": " 954,68  ", "descricao": " Caixas ac\u00fasticas est\u00e9reo integradas para conte\u00fados multim\u00eddia \r\nUm par de caixas ac\u00fasticas est\u00e9reo de alta qualidade integrado a um aparelho de exibi\u00e7... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/ZpQqTy1-yALwR9L7XlQ3aWINT2A=/0x0/loja/londritech.com.br/prodimg/30/0740773001526369863.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG 23,8\u201d Full HD IPS LED Ajust\u00e1vel VGA/HDMI/DisplayPort - 24BL550J  ", "valor": " 931,79  ", "descricao": " Marca: LG\r\nModelo: 24BL550J\r\n\r\nExcelente Monitor LG LCD com retroilumina\u00e7\u00e3o LED de 23,8\u201d polegadas. Monitor LG IPS Full HD que exibe cores n\u00edtidas e precisas de todos os &a... ", "modelo": ["Modelo: 24BL550J\r"], "url_img": "https://awstatic-5754.kxcdn.com/W_PSuxOFAqj-Ja5S5c_6eBICOWM=/0x0/loja/londritech.com.br/prodimg/58/0335673001558637302.png"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21.5\" LG FullHD IPS HDMI Pivot - 22MP55PQ  ", "valor": " 681,97  ", "descricao": " - Marca: LG\r\n- Modelo: 22MP55PQ\r\n\r\n- Caracteristicas da Tela:\r\n- Tamanho da tela (Polegadas): 21,5\"\r\n- Contraste: 5.000.000:1\r\n- Tempo de Resposta: 5ms (GTG)\r\n- Brilho: 250 cd/m\u00b2\r\n- Resolu&... ", "modelo": ["Modelo: 22MP55PQ\r"], "url_img": "https://awstatic-5754.kxcdn.com/sDdxzIOfgIJpRXJhos2-C92O4rM=/0x0/loja/londritech.com.br/prodimg/14/0399119001499258880.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Touch Screen Multim\u00eddia LED 21,5\" AOC FullHD 1920x1080 Widescreen VGA HDMI - E2272PWUT  ", "valor": " 1.632,36  ", "descricao": " Marca: AOC\r\nModelo:\u00a0E2272PWUT\r\n\r\nMonitor touch screen 10 pontos certificado para Microsoft, design diferenciado, webcam e microfone integrados, tecnologia de painel IPS Full HD para maior durabi... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/kU4tLqaVa4b9ttkdTXK9BUlXd9E=/0x0/loja/londritech.com.br/prodimg/25/0369109001507276458.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 15.6\" AOC 1366x768 Widescreen VGA Vesa - E1670SWU/WM  ", "valor": " 741,54  ", "descricao": " Marca: AOC\r\nModelo:\u00a0E1670SWU/WM\r\n\r\nDesign diferenciado, alimenta\u00e7\u00e3o de energia por cabo USB, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/eoWLrU2sKvEQr8bZJGSFDMXfuBU=/0x0/loja/londritech.com.br/prodimg/16/0051472001620391321.jpg"}}
-{"data_coleta": "2021-12-13 17:24:21", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 31.5\" AOC Gamer Agon 1920x1080 144Hz Wide VGA DVI Hdmi DP - AG322FCX/75  ", "valor": " 2.880,84  ", "descricao": " Marca: AOC\r\nModelo:\u00a0\u00a0AG322FCX/75\r\n\r\nAMPLA VIS\u00c3O. ALTA PERFORMANCE. \r\nTela curva de 32 para voc\u00ea n\u00e3o perder nenhum detalhe.\r\n\r\nSAIA DAS SOMBRAS E MARQUE SEU TERRIT&Oacute... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/b27ubxnG0-bZ0v-NzuyXmawbGjI=/0x0/loja/londritech.com.br/prodimg/16/0099029001502825420.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 15.6\" AOC WideScreen Slim - E1670SWU  ", "valor": " 339,90  ", "descricao": " Fabricante: Samsung\r\nModelo: E1670SWU\r\n\r\nTela:\r\n\r\nTamanho do painel: 15,6\" Widescreen (painel LED)\r\nResolu\u00e7\u00e3o m\u00e1xima / recomendada 1366 x 768 @ 60 Hz (HD)\r\nTamanho da imagem... ", "modelo": ["Modelo: E1670SWU\r"], "url_img": "https://awstatic-5754.kxcdn.com/4o5fIllIlvYGIL_WzlPjGVnDLtw=/0x0/loja/londritech.com.br/prodimg/72/0186842001502546684.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 18,5\" AOC 1366X768 HD Widescreen VGA Hdmi Vesa Com Ajuste de Altura - E970PWHEN  ", "valor": " 549,32  ", "descricao": " Design diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade, produto ecol\u00f3gico), Ultra High DCR (alt&iacute... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/QZmJQx7WkeU8CJPg2ILSFDdnAC8=/0x0/loja/londritech.com.br/prodimg/13/0161149001502711669.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21.5\" AOC FullHD 1920x1080 Widescreen VGA HDMI Com Ajuste de Altura - E2270PWHE  ", "valor": " 651,76  ", "descricao": " Marca: AOC\r\nModelo:\u00a0E2270PWHE\r\n\r\nDesign diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade, produto ecol&oa... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/_wnLRIKBqe4XimUT2NeR1bCV1bo=/0x0/loja/londritech.com.br/prodimg/13/0935173001541860849.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23,6\" AOC FullHD Widescreen VGA HDMI Vesa Com Ajuste de Altura - M2470PWH  ", "valor": " 823,72  ", "descricao": " Marca: AOC\r\nModelo:\u00a0M2470PWH\r\n\r\nSlim Design, tecnologia de painel WVA (Wide View Angle) para perfeito angulo de vis\u00e3o, painel mais r\u00e1pido com 75Hz, LED backlight (at\u00e9 50% de... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/zWVDWhUevRURiFkHwTICGe8TY94=/0x0/loja/londritech.com.br/prodimg/13/0857352001502813185.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Samsung 28\" 4K IPS UHD HDR 10 HDMI/DisplayPort - LU28R550UQLMZD  ", "valor": " 2.299,90  ", "descricao": " Marca: Samsung\r\nModelo: LU28R550UQLMZD\r\n\r\nSente-se em qualquer lugar e tenha uma experi\u00eancia colorida e completa. O painel IPS preserva a vivacidade e a nitidez das cores em cada cent\u00edme... ", "modelo": ["Modelo: LU28R550UQLMZD\r"], "url_img": "https://awstatic-5754.kxcdn.com/8lw9s8A8FhDDyOfIJkNOSuuZ5QE=/0x0/loja/londritech.com.br/prodimg/16/0711254001639164940.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23\" LG FullHD 5ms IPS DVI Hdmi VGA - 23MB35VQ-H  ", "valor": " 769,90  ", "descricao": " - Fabricante: LG\r\n- Modelo: 23MB35VQ\r\n\r\n- Especifica\u00e7\u00f5es:\r\n\r\n- LED IPS FHD\r\n- Cor: Preto\r\n- Consumo de Energia: 26W (T\u00edpico)\r\n- Fonte de Alimenta\u00e7\u00e3o: Interna\r\n- Dim... ", "modelo": ["Modelo: 23MB35VQ\r"], "url_img": "https://awstatic-5754.kxcdn.com/D5d6NSXT5NJq3-QrA-zrFazqNOg=/0x0/loja/londritech.com.br/prodimg/12/0178334001501350552.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Samsung 24\" 75Hz FullHD IPS FreeSync - LF24T350FHLMZD  ", "valor": " 1.199,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: Samsung\r\n- Modelo: LF24T350FHLMZD\r\n\r\nMonitor Gamer Samsung LED 24 IPS Full HD Vesa Free Sync Modo Gaming\u00a0\r\n\r\nVIS\u00c3O TOTALMENTE EXPANSIVA\u00a0\r\nDesign min... ", "modelo": ["Modelo: LF24T350FHLMZD\r"], "url_img": "https://awstatic-5754.kxcdn.com/6HSWzvU258S3nPa5BBto6rhukew=/0x0/loja/londritech.com.br/prodimg/16/0930822001639068205.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Bluecase 24\" 144Hz 1MS FullHD Freesync - BM242GW  ", "valor": " 1.199,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: Bluecase\r\n- Modelo: BM242GW\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\nTela:\r\n- Tamanho: 24\"\r\n- Formato: 16:9\r\n- Resolu\u00e7\u00e3o: 1920 x 1080 (Full HD)\r\n- Taxa... ", "modelo": ["Modelo: BM242GW\r"], "url_img": "https://awstatic-5754.kxcdn.com/mAzLLDTsDEwmapXkjLglffApDzk=/0x0/loja/londritech.com.br/prodimg/16/0425725001638297166.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer AOC Agon 32\" Curvo 165Hz 1 MS FullHD Freesync - AG323FCXE  ", "valor": " 2.049,90  ", "descricao": " Marca: AOC\r\n\r\nModelo: AG323FCXE\r\n\r\n\u00a0\r\n\r\nMUITO MAIS IMERS\u00c3O Monitor AG323FCXE 31,5\"\r\n\r\nCom tela de alta qualidade, amplo \u00e2ngulo de vis\u00e3o e comando em tempo real, prepare-... ", "modelo": ["Modelo: AG323FCXE\r"], "url_img": "https://awstatic-5754.kxcdn.com/LqW16NAeb5B_B_64ifKRZnZxDQE=/0x0/loja/londritech.com.br/prodimg/16/0861831001638295378.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG LED 21.5\u00b4 Full HD Widescreen HDMI - 22MK400H  ", "valor": " 1.177,35  ", "descricao": " O novo Monitor LG 21,5\" conta com resolu\u00e7\u00e3o Full HD (1920x1080) para melhor defini\u00e7\u00e3o e mais clareza nas imagens reproduzidas.\r\n\r\nF\u00c1CIL CONFIGURA\u00c7&Atild... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/MXu54PR6vK4FzzTJ2-xCLgKaInE=/0x0/loja/londritech.com.br/prodimg/12/0661416001619773320.jpg"}}
-{"data_coleta": "2021-12-13 17:24:22", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Samsung Led, 27'' 75Hz 1MS FullHD, LS27E332HZXMZD  ", "valor": " 1.299,90  ", "descricao": " Marca:Samsung\r\n\r\nModelo:LS27E332HZXMZD\r\n\r\n\u00a0\r\n\r\nSeu monitor Samsung pode suportar toda emo\u00e7\u00e3o de filmes de a\u00e7\u00e3o, jogos e esportes facilmente gra\u00e7as ao tempo de ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/EmVO4wPhBPOmrYjI9aFvlefjcmc=/0x0/loja/londritech.com.br/prodimg/75/0529943001587996478.webp"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta AOC 27G2/BK 27 Full HD Wide IPS 1ms 144hz Com Nvidia G-Sync  ", "valor": " 2.124,90  ", "descricao": " NVIDIA G-Sync\r\nO monitor AOC Hero 27 \u00e9 compat\u00edvel com a tecnologia G-Sync e entrega aos gamers uma experi\u00eancia lisa, r\u00e1pida e responsiva em todos os jogos. Experimente uma ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/w4de-OBpP4d4Ea_PMjuceekZo7M=/0x0/loja/londritech.com.br/prodimg/12/0085289001620243732.jpg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG LED 21.5\u00b4Full HD, IPS, HDMI, DisplayPort, Altura Ajust\u00e1vel - 22MP55PJ  ", "valor": " 664,90  ", "descricao": " Marca: LG\r\n\r\nModelo: 22MP55PJ\r\n\r\n\u00a0\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\nO monitor LG IPS, proporciona imagens n\u00edtidas com altera\u00e7\u00f5es de cores suaves e livres do efeito fantas... ", "modelo": ["Modelo: 22MP55PJ\r"], "url_img": "https://awstatic-5754.kxcdn.com/Me2u6xizHQDWswqv2K2bzkfHdyA=/0x0/loja/londritech.com.br/prodimg/75/0697194001587569086.jpg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Pctop 23\" HDMI Led Preto - MLP230HDMI  ", "valor": " 739,90  ", "descricao": " Caracter\u00edsticas:\r\nMarca: PCTop\u00a0\r\nModelo: MLP230HDMI\u00a0 \u00a0\r\n\r\nCom designs muito fino, visualiza\u00e7\u00f5es em grande angular e cores vivas, os monitores LED de mesa TDD inclu... ", "modelo": ["Modelo: MLP230HDMI\u00a0 \u00a0\r"], "url_img": "https://awstatic-5754.kxcdn.com/AixGXqmtKrxAZUgrLnykxRRY6iI=/0x0/loja/londritech.com.br/prodimg/11/0023601001611082886.jpg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 23,8\" Philips Widescreen Preto - 242V8A  ", "valor": " 1.189,10  ", "descricao": " Tecnologia com vis\u00e3o ampla LED IPS para imagens e cores precisas \r\nOs monitores IPS utilizam uma tecnologia avan\u00e7ada que oferece \u00e2ngulos de vis\u00e3o extralargos de 178/178 gra... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/Sqo3kj6t81nvqsRwbWRFmFm4jTg=/0x0/loja/londritech.com.br/prodimg/78/0960728001617221608.jpg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Touch 23,8'' Widescreen Philips 242B9T  ", "valor": " 3.351,39  ", "descricao": " Monitor touch screen 10 pontos certificado para Microsoft, design diferenciado, webcam e microfone integrados, tecnologia de painel IPS Full HD para maior durabilidade com touch screen e maior angulo... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/vs6YDVllo_obAIRJHxUF0aOWgoE=/0x0/loja/londritech.com.br/prodimg/78/0518874001591965181.gif"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 27\" Acer 1920x1080 Widescreen Hdmi DVI VGA - VA270H  ", "valor": " 1.125,17  ", "descricao": " Marca:\u00a0ACER\r\nModelo: VA270H\r\n\r\nEspecifica\u00e7\u00f5es:\r\n27\u00b4\u00b4 full HD com designe ZeroFrame\r\nContraste: 100 million:1\r\n178\u00b0 wide viewing angle\r\nProtective comfort: Flicker-l... ", "modelo": ["Modelo: VA270H\r"], "url_img": "https://awstatic-5754.kxcdn.com/AMzY3DwJ9MpKQzPYgo3Bm66GfDQ=/0x0/loja/londritech.com.br/prodimg/34/0637495001537342356.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 21.5\" Acer 1920x1080 Widescreen Full HD Hdmi Vga vesa - V226HQL  ", "valor": " 599,15  ", "descricao": " Monitor LED\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Acer EcoDisplay\r\nTela de 21.5 Full HD A... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/lXa48-4EFv93A6TNr2EglkP98CA=/0x0/loja/londritech.com.br/prodimg/17/0879635001545377416.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta LED 27\" AOC Widescreen Quad 2560x1440 165hz G-Sync HDMI/DP - AG271QG  ", "valor": " 4.768,89  ", "descricao": " Marca: AOC\r\nModelo:\u00a0AG271QG\r\n\r\nO AOC Agon AG271QG \u00e9 o primeiro monitor de jogo AOC com resolu\u00e7\u00e3o QHD, que oferece uma experi\u00eancia de jogo completa. O ecr\u00e3 16:9 ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/QPHMt0MbEPkAZmEjTpLXtjsRhcg=/0x0/loja/londritech.com.br/prodimg/26/0196380001510037748.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta LED 21,5\" AOC FullHD 1920X1080 1MS 75Hz - G2260VWQ6  ", "valor": " 734,91  ", "descricao": " Marca:\u00a0AOC\r\nModelo:\u00a0G2260VWQ6\r\n\r\nDisplay especial que redesenha imagens 75 vezes por segundo proporcionando imagens ultra suaves, e tempo de resposta de 1ms para n\u00e3o ter atrasos com ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/EiL4RzE9HF6LLJOduVYQacAMje0=/0x0/loja/londritech.com.br/prodimg/27/0596182001512040233.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 27\" Philips Multimidia 1920x1080 Widescreen VGA/HDMI/DP - 278E8QJAW  ", "valor": " 1.339,75  ", "descricao": " Marca: Philips\r\nModelo:\u00a0278E8QJAW\r\n\r\nMonitor LCD curvo com Ultra Wide-Color \r\nformato de tela proporciona um efeito de imers\u00e3o sutil e prazeroso e \u00e9 voltado para voc\u00ea, no cen... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/YuZX6csWQGsS5tEwHW-NTcNkjKI=/0x0/loja/londritech.com.br/prodimg/26/0207673001515221489.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24\" AOC FullHD 1920x1080 1MS 75Hz VGA HDMI DP - G2460VQ6  ", "valor": " 936,33  ", "descricao": " Marca:\u00a0AOC\r\nModelo:\u00a0G2460VQ6\r\n\r\nDisplay especial que redesenha imagens 75 vezes por segundo proporcionando imagens ultra suaves, e tempo de resposta de 1ms para n\u00e3o ter atrasos com o... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/JkXyJBGK8I6HyUTssIplR3MD6hM=/0x0/loja/londritech.com.br/prodimg/15/0051338001502610292.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21,5\" Acer FullHD 1920x1080 Widescreen VGA DVI VESA Preto - K222HQL  ", "valor": " 540,28  ", "descricao": " Marca: ACER\r\nModelo:\u00a0K222HQL\r\n\r\nCores deslumbrantes\r\nMais ergonomia com ajuste de inclina\u00e7\u00e3o de -5 a 25 graus\r\nEcologicamente correto\r\nTamanho da tela: 21.5 (16:9)\r\nResolu\u00e7&... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/vblIy0PMaCgNScM2e07bVte59OI=/0x0/loja/londritech.com.br/prodimg/24/0952018001502552807.jpg"}}
-{"data_coleta": "2021-12-13 17:24:23", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 18.5\" AOC Widescreen Preto - E970SWNL  ", "valor": " 749,90  ", "descricao": " Marca: AOC\r\nModelo: E970SWNL\r\n\r\nCaracter\u00edsticas Especiais:\r\n\r\nDesign diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maio... ", "modelo": ["Modelo: E970SWNL\r"], "url_img": "https://awstatic-5754.kxcdn.com/1Qq3zjbPZ4SspVA4BqG4N6VG0II=/0x0/loja/londritech.com.br/prodimg/12/0243269001502548757.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23,6\" AOC FullHD 1920x1080 Widescreen HDMI Com Ajuste de Altura - M2470PWH  ", "valor": " 749,90  ", "descricao": " \u00a0- Marca: AOC\r\n\u00a0- Modelo: M2470PWH\r\n\u00a0\r\n\u00a0Especifica\u00e7\u00f5es:\r\n\r\n\u00a0- Fonte: Interna - 90~240V - 50/60 Hz\r\n\u00a0- Controles manuais: Power On/Off, Menu/Enter, Direita/... ", "modelo": ["Modelo: M2470PWH\r"], "url_img": "https://awstatic-5754.kxcdn.com/v6NpthJ5msAZnIS623hezFc3T-0=/0x0/loja/londritech.com.br/prodimg/15/0633973001499259432.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23,6\" AOC Widescreen FullHD VGA DVI - M2470SWD  ", "valor": " 790,12  ", "descricao": " Marca: AOC\r\nModelo: M2470SWD\r\n\r\nSlim Design, tecnologia de painel WVA (Wide View Angle) para perfeito angulo de vis\u00e3o, LED backlight (at\u00e9 50% de economia de energia em rela\u00e7&atil... ", "modelo": ["Modelo: M2470SWD\r"], "url_img": "https://awstatic-5754.kxcdn.com/JB8yBYeqFlp6fVW6RJS20XUI4EU=/0x0/loja/londritech.com.br/prodimg/13/0174105001502714381.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor AOC LED 23.8 Widescreen Full HD VA HDMI - 24B1XHM  ", "valor": " 949,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: AOC\r\n- Modelo: 24B1XHM\r\n\r\nCom o Monitor AOC S\u00e9rie B1 24B1XHM voc\u00ea poder\u00e1 desfrutar de conte\u00fados multim\u00eddia com mais imers\u00e3o ... ", "modelo": ["Modelo: 24B1XHM\r"], "url_img": "https://awstatic-5754.kxcdn.com/TmCLehoUDuSYPTT0Ikl2z21hm44=/0x0/loja/londritech.com.br/prodimg/16/0207065001636552787.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG LED 23.8\u00b4 Widescreen Full HD IPS HDMI - 24MK430H  ", "valor": " 999,90  ", "descricao": " Marca: LG\r\nModelo: 24MK430H\r\n\r\nCONFORTO PARA VOC\u00ca LER \u00c0 VONTADE\r\nO Reader Mode reduz a cor azul das imagens e protege sua vis\u00e3o, oferecendo uma visualiza\u00e7\u00e3o mais agr... ", "modelo": ["Modelo: 24MK430H\r"], "url_img": "https://awstatic-5754.kxcdn.com/7gej-wSvQIX4YWaXavtR2EMkrYo=/0x0/loja/londritech.com.br/prodimg/56/0257391001554211770.png"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer AOC Sniper 27\" IPS Full HD 75Hz 1Ms 27G2HE5  ", "valor": " 1.289,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: AOC\r\n- Modelo: 27G2HE5\r\n\r\nMonitor Gamer AOC. Desenvolvidos para suportar todas as emo\u00e7\u00f5es dos jogos, o tempo de resposta de 1ms oferece alta velocidade... ", "modelo": ["Modelo: 27G2HE5\r"], "url_img": "https://awstatic-5754.kxcdn.com/_6muempH7_LlCEHi9gGfjMzAowg=/0x0/loja/londritech.com.br/prodimg/14/0682324001625083249.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta AOC 24G2/BK 23.8 Led Full HD IPS 144hz 1ms Com Amd Freesync  ", "valor": " 1.592,14  ", "descricao": " MONITOR GAMER AOC HERO 24 144HZ 1MS IPS AMD FREESYNC PREMIUM \r\nCom tela de 24, ultrarr\u00e1pido e cheio de \u00f3timos recursos para todos os tipos de jogos, a partir de agora seus momentos ser&... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/_DENem_OTOBgK5JXj4pWeawK6mg=/0x0/loja/londritech.com.br/prodimg/12/0635781001620236780.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Touch 15,6'' Philips Widescreen - 162B9T    ", "valor": " 2.546,72  ", "descricao": " Monitor touch screen 10 pontos certificado para Microsoft, design diferenciado, webcam e microfone integrados, tecnologia de painel IPS Full HD para maior durabilidade com touch screen e maior angulo... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/ZMzIILjkfzurhMKE1m-nOXqBFV4=/0x0/loja/londritech.com.br/prodimg/78/0389476001591964336.gif"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG 21,5\" IPS Full Hd 22BN550Y-B.AWZ Com Ajuste de Altura e Inclina\u00e7\u00e3o  ", "valor": " 1.063,50  ", "descricao": " CARACTER\u00cdSTICAS DO PRODUTO:\r\n\r\nMODELO: 22BN550Y\r\nTela:21,5\" Full HD IPS\r\nCor:Preto\r\nC\u00f3digo para Vendas: 22BN550Y-B.AWZ\r\nBrilho:250 cd/m\u00b2\r\n\r\nTELA:\r\nTamanho:21,5\"\r\nTipo de ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/lBvNIlokLoIradYnxdUS-7Hm4pw=/0x0/loja/londritech.com.br/prodimg/90/0956978001617828328.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21.5\" AOC FullHD Widescreen Preto - E2270SWHEN  ", "valor": " 799,90  ", "descricao": " \u00a0\r\n\r\nMARCA: AOC\r\nMODELO: E2270SWHEN\r\n\r\nTamanho do painel: 21,5\u201d\r\nTamanho da imagem vis\u00edvel (diagonal): 54,7 cm\r\nPropor\u00e7\u00e3o de tela: 16:9\r\nBordas: Bordas Convencionais\r\n... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/-HYzPt_iuKEm5eDKIF-hmD-SVqM=/0x0/loja/londritech.com.br/prodimg/24/0183667001565789678.png"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer AOC 27\" Curvo 240Hz 0.5ms FullHD Freesync - C27G2ZE  ", "valor": " 2.349,99  ", "descricao": " - Fabricante: AOC\r\n- Modelo: C27G2ZE\r\n\r\nGerais:\r\n- Tamanho: 27\" Widescreen VA\r\n- Bordas: Bordas Ultrafinas\r\n- Resolu\u00e7\u00e3o: 1920 x 1080 FHD\r\n- Brilho: 300 cd/m\u00b2\r\n- Contraste din&... ", "modelo": ["Modelo: C27G2ZE\r"], "url_img": "https://awstatic-5754.kxcdn.com/_cd9WM5bJryMRg2uGq7LqIJYSfw=/0x0/loja/londritech.com.br/prodimg/16/0904465001637679875.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer AOC Speed 24\" IPS Full HD 75Hz 24G2HE5  ", "valor": " 1.029,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: AOC\r\n- Modelo: 24G2HE5\r\n\r\nMonitor Gamer AOC. Desenvolvidos para suportar todas as emo\u00e7\u00f5es dos jogos, o tempo de resposta de 1ms oferece alta velocidade... ", "modelo": ["Modelo: 24G2HE5\r"], "url_img": "https://awstatic-5754.kxcdn.com/3nvcksSJOzDYYVPtwYDDD9_IHcw=/0x0/loja/londritech.com.br/prodimg/14/0944147001624982174.jpg"}}
-{"data_coleta": "2021-12-13 17:24:24", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Acer LED 23.8\" 165Hz 0,5MS Widescreen Full HD FreeSync ZeroFrame - VG240Y  ", "valor": " 1.599,90  ", "descricao": " Caracter\u00edsticas:\r\nMarca: Acer\r\nModelo: VG240Y\r\n\r\nACABE COM OS \u201cRASGOS\u201d\r\nA tecnologia AMD\u00ae FreeSync\u2122 Premium elimina a tela \u201crasgada\u201d, minimiza atrasos e lat&e... ", "modelo": ["Modelo: VG240Y\r"], "url_img": "https://awstatic-5754.kxcdn.com/_helxw_vJGsY-gUs75PfL_KNxsQ=/0x0/loja/londritech.com.br/prodimg/11/0285132001610981981.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Acer LED 27\" 165Hz 1MS FHD Full HD AMD Freesync Premium - VG270  ", "valor": " 1.949,90  ", "descricao": " Fabricante: Acer\r\nModelo: UM.HV0AA.S02\r\n\r\nA tecnologia AMD FreeSync Premium elimina as rupturas e atrasos da tela durante os jogos, apresentando uma sincroniza\u00e7\u00e3o dos quadros do monitor... ", "modelo": ["Modelo: UM.HV0AA.S02\r"], "url_img": "https://awstatic-5754.kxcdn.com/hDqqGdwyuR97gHI_MYLaRyFV5Rc=/0x0/loja/londritech.com.br/prodimg/11/0093566001611779145.png"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 23,6\" Aoc Widescreen Preto - M2470SWH2  ", "valor": " 1.116,68  ", "descricao": " Slim Design, tecnologia de painel WVA (Wide View Angle) para perfeito angulo de vis\u00e3o, LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durab... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/Xp2ueFVQN463H8Kl1hBY3MJKifE=/0x0/loja/londritech.com.br/prodimg/86/0183206001600952203.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta AOC AG323FCXE 31,5 Agon Full HD Wide Curvo 1ms 165hz Com Amd Freesync  ", "valor": " 2.549,72  ", "descricao": " AG323FCXE 31,5 AGON FULHD WIDE CURVO 1MS 165HZ COM AMD FREESYNC \r\nCom tela de alta qualidade, amplo \u00e2ngulo de vis\u00e3o e comando em tempo real, prepare-se para obter uma experi\u00eancia m... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/1QfiX1iQFaFracOXYfNF64OWU4E=/0x0/loja/londritech.com.br/prodimg/12/0654398001620220533.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor AOC LED 18.5\u00b4 HDMI/VGA 5ms - E970SWHNL  ", "valor": " 749,90  ", "descricao": " Marca: AOC\r\n\r\nModelo: E970SWHNL\r\n\r\n\u00a0\r\n\r\nEspecifica\u00e7\u00f5es\r\n\r\n\u00a0\r\n\r\nTela:\r\n\r\nTamanho do painel: 18.5\"\r\n\r\nTamanho da imagem vis\u00edvel (diagonal): 47,0 cm\r\n\r\nPropor\u00e7... ", "modelo": ["Modelo: E970SWHNL\r"], "url_img": "https://awstatic-5754.kxcdn.com/6XcZud1QtwQDYupagwbRZ2zhFNk=/0x0/loja/londritech.com.br/prodimg/86/0290481001600345124.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24 LG GAMER 144HZ 1MS FULL HD FREESYNC - 24GL600F  ", "valor": " 1.459,90  ", "descricao": " \u00a0\r\n\r\nMarca: LG\r\nModelo: 24GL600F-B.AWZ\r\n\r\nDesfrute de uma incr\u00edvel qualidade de imagem com o monitor LG e se surpreenda com o 24GL600F. A alta gama de cores e com resolu\u00e7\u00e3o ... ", "modelo": ["Modelo: 24GL600F-B.AWZ\r"], "url_img": "https://awstatic-5754.kxcdn.com/ZDvvvkLWS4PQXHMFWdpbID-q5s0=/0x0/loja/londritech.com.br/prodimg/66/0906818001575051845.png"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 19,5\" LG HD Widescreen - 20M35TD  ", "valor": " 359,90  ", "descricao": " Marca: LG\r\nModelo: 20M35TD\r\n\r\nModo de Leitura\r\nO Modo de Leitura reduz a cor azul das imagens protegendo sua vis\u00e3o e oferecendo uma condi\u00e7\u00e3o agrad\u00e1vel para leitura.\r\n\r\nFli... ", "modelo": ["Modelo: 20M35TD\r"], "url_img": "https://awstatic-5754.kxcdn.com/rVMuQlDpvx704yCco-hNoXd0djM=/0x0/loja/londritech.com.br/prodimg/59/0315362001561574680.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24\" AOC FullHD 1920x1080 1MS 75Hz VGA HDMI DP - G2460VQ6  ", "valor": " 1.029,87  ", "descricao": " Marca:\u00a0AOC\r\nModelo:\u00a0G2460VQ6\r\n\r\nDisplay especial que redesenha imagens 75 vezes por segundo proporcionando imagens ultra suaves, e tempo de resposta de 1ms para n\u00e3o ter atrasos com o... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/KFWjqfVoxSXXoFNjXxPcWkYtoLM=/0x0/loja/londritech.com.br/prodimg/27/0128206001516298633.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 19.5\" Braview HD com Hdmi MTL19 Preto - 47MLDLED19510  ", "valor": " 429,88  ", "descricao": " - Fabricante: Braview\r\n- Modelo: 47MLDLED19510\r\n\r\nEntradas:\r\nD-sub (VGA): x1\r\nHDMI: x1\r\n\r\nCaracter\u00edsticas da Tela:\r\nTamanho: 49.5 cm (19.5\")\r\nTipo da Tela: LED\r\n\u00c1rea Ativa: 434.0 (... ", "modelo": ["Modelo: 47MLDLED19510\r"], "url_img": "https://awstatic-5754.kxcdn.com/O23TazpxFlI06zJTGKCI9h5qvLQ=/0x0/loja/londritech.com.br/prodimg/30/0666165001523910135.jpg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 31.5\" AOC Gamer 1920x1080 Curvo 144Hz Freesync - AG322FCX/75  ", "valor": " 1.684,79  ", "descricao": " CARACTER\u00cdSTICAS\r\nTipo de painel LED\r\nTamanho do painel 32\" Widescreen\r\nTamanho da imagem vis\u00edvel (diagonal) 80,1 cm\r\nPixel pitch 0,36375 mm\r\nContraste est\u00e1tico 3.000:1\r\nFreq... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/EAUdBGzal8VDV0IMhLSIv8Va6-I=/0x0/loja/londritech.com.br/prodimg/31/0515783001553957956.png"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24\" Acer FullHD 1920x1080 Widescreen Hdmi VGA DVI - V246HQL  ", "valor": " 763,69  ", "descricao": " Marca: ACER\r\nModelo:\u00a0V246HQL\r\n\r\nMonitor LED\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Ac... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/SMiOldhhPh-HXyikzy0ePdm10PY=/0x0/loja/londritech.com.br/prodimg/25/0411379001504358596.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:25", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24\" Acer FullHD 1920x1080 Widescreen HDMI/VGA/DVI 144Hz 1ms - GN246HL  ", "valor": " 1.610,28  ", "descricao": " Marca: ACER\r\nModelo:\u00a0GN246HL\u00a0\r\n\r\nA resolu\u00e7\u00e3o 1920 x 1080 deste monitor LED entrega detalhes excelentes, tornando-o perfeito para jogos avan\u00e7ados em Full HD 1080p, multi... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/Is6GETu6vaI-tAv2kKMVELWhAC8=/0x0/loja/londritech.com.br/prodimg/27/0740356001512628674.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Corporativo Led 19,5\" AOC HD 1600x900 Widescreen VGA DVI Com Ajuste de Altura - E2023PWD  ", "valor": " 623,33  ", "descricao": " Marca: AOC\r\nModelo: E2023PWD\r\n\r\nBase ajust\u00e1vel, conex\u00e3o DVI, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade,... ", "modelo": ["Modelo: E2023PWD\r"], "url_img": "https://awstatic-5754.kxcdn.com/qsyhfOk7v1jWaeKfr_Ior9iXbUY=/0x0/loja/londritech.com.br/prodimg/11/0966414001507276521.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta LED 27\" AOC FullHD 1920x1080 Widescreen 144hz Freesync VGA/HDMI/DP - AG272QCX  ", "valor": " 2.198,05  ", "descricao": " Marca: AOC\r\nModelo:\u00a0AG272QCX\r\n\r\nAMPLA VIS\u00c3O. ALTA PERFORMANCE. \r\n\r\nMonitor Gamer AOC Agon 27 Curvo Full HD 144Hz com acabamento sem bordas e AMD FreeSync\r\n\r\nCARACTER\u00cdSTICAS\r\n\r\nTipo... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/fbKySSwr1ndbz-py2Eb-sQWtQt0=/0x0/loja/londritech.com.br/prodimg/26/0564314001510037748.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 24\" Acer FullHD 1920x1080 Widescreen HDMI VGA DVI Vesa - V246HL  ", "valor": " 659,18  ", "descricao": " Marca:\u00a0Acer\r\nModelo:\u00a0V246HL\r\n\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Acer EcoDis... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/xhBl_Ykrkfn5eqLknn8poIrnWWw=/0x0/loja/londritech.com.br/prodimg/16/0262433001502826365.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21.5\" Braview FullHD 1920x1080 HDMI VGA MTL21 - 21MLDLED21510  ", "valor": " 499,89  ", "descricao": " Marca: Braview\r\nModelo:\u00a047MLDLED21510\r\n\r\nVersatilidade e tecnologia: Monitor LED da Braview de 21.5 Polegadas com entradas HDMI e VGA\r\n\r\nInforma\u00e7\u00f5es do produto:\r\n\r\nD-sub( VGA ): x1... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/GX5_g_4z5g0aA2a8WjdxF0Vvygk=/0x0/loja/londritech.com.br/prodimg/24/0214409001502461976.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 24\" Acer 1920x1080 Widescreen FullHD Hdmi Vga Dvi Vesa - V246HL  ", "valor": " 785,96  ", "descricao": " Monitor LED\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Acer EcoDisplay\r\nTela de 24 Full HD Ace... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/zQ8tHeV0eD6jgbk13Ix2EnVWrn0=/0x0/loja/londritech.com.br/prodimg/23/0885568001556264205.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 19,5\" LG HD 1600x900 Com Ajuste de Altura Preto - 20M35PD  ", "valor": " 529,89  ", "descricao": " Marca: LG\r\nModelo:\u00a020M35PD-B\r\n\r\nPivot e Ajuste de Altura\r\nAs fun\u00e7\u00f5es Pivot e Ajuste de altura colaboram com a ergonomia.\r\nSuper Energy Saving\r\nA tecnologia SUPER Energy Saving ofer... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/ON86slseQuooqHAEHm0_uldTxU4=/0x0/loja/londritech.com.br/prodimg/16/0674311001502711311.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 23\" LG FullHD IPS Pivolt e Ajuste de Altura - 23MB35PH  ", "valor": " 672,50  ", "descricao": " IPS\r\n\r\nA consist\u00eancia de caracter\u00edsticas do Monitor LG IPS e a diminui\u00e7\u00e3o nas mudan\u00e7as de temperatura da cor, traz uma impress\u00e3o de cor id\u00eantica a image... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/_sHl0QQlk-2jC9qJPDnyqnCLocA=/0x0/loja/londritech.com.br/prodimg/24/0220205001502714639.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 19.5\" LG HD Widescreen Preto - 20M37AA  ", "valor": " 429,90  ", "descricao": " Descri\u00e7\u00e3o do produto:\r\n\r\n- Monitor LG 20M37AA-B de 19,5 polegadas, com tecnologia LED iluminado por pequenas part\u00edculas que possibilitam um painel mais fino com alta qualidade de... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/xdwbEPD_hxvYJMT3zCyCzffyAQA=/0x0/loja/londritech.com.br/prodimg/13/0988076001502549503.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23\" Philips FullHD Wide VGA DVI HDMI Multim\u00eddia - 243V5QHAB  ", "valor": " 766,34  ", "descricao": " Marca: Philips\r\nPart Number: 243V5QHAB\r\n\r\nCurta jogos, shows, filmes com uma perfeita qualidade de som. S\u00e3o 2 potentes alto-falantes embutidos de 2 watts, totalizando uma pot\u00eancia sonora... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/JqoD7Q3U1zKz8EKPsbhPMEpYnjU=/0x0/loja/londritech.com.br/prodimg/17/0187899001505376381.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 21.5\" LG FullHD 1920x1080 IPS Modo Leitura Preto - 22MP55VQ  ", "valor": " 599,90  ", "descricao": " Marca: LG\r\nModelo: 22MP55VQ-BK\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\nTela:\r\n\r\nTamanho da tela (Polegadas): 21,5\"\r\nContraste: 5.000.000:1\r\nTempo de Resposta: 5ms (GTG)\r\nBrilho: 250 cd/m\u00b2\r\nReso... ", "modelo": ["Modelo: 22MP55VQ-BK\r"], "url_img": "https://awstatic-5754.kxcdn.com/27IZlZBbg26kuJgd7iqmxVsjhFw=/0x0/loja/londritech.com.br/prodimg/14/0662525001499258858.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 25\" LG FullHD Ultrawide IPS 1080P - 25UM58-P  ", "valor": " 1.199,88  ", "descricao": " Defina seu modo de jogo e condi\u00e7\u00f5es ideais de jogo. H\u00e1 3 modos game, 2 modos de FPS e at\u00e9 mesmo e modo de RTS para que voc\u00ea possa escolher o melhor modo para voc&eci... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/mjT7K7vi-W-d0LIXFjr0mrI6s7E=/0x0/loja/londritech.com.br/prodimg/24/0354451001502715296.jpg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta LED 21,5\" AOC FullHD 1920X1080 1MS 75Hz - G2260VWQ6  ", "valor": " 701,90  ", "descricao": " Marca: AOC\r\nModelo:\u00a0G2260VWQ6\r\n\r\nDisplay especial que redesenha imagens 75 vezes por segundo proporcionando imagens ultra suaves, e tempo de resposta de 1ms para n\u00e3o ter atrasos com os mo... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/M4mOcShj6kA8Zi3Drai6BT-JrZc=/0x0/loja/londritech.com.br/prodimg/14/0553866001505461864.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Samsung LED 24\" FullHD 1MS 75Hz HDMI/VGA - LS24D332HSXZD  ", "valor": " 999,90  ", "descricao": " Marca: Samsung\r\nModelo: LS24D332HSXZD\r\n\r\nConhe\u00e7a o novo Samsung Gaming Monitor que chegou para melhorar a sua performance para as pr\u00f3ximas conquistas. Com o tempo de resposta de 1ms ult... ", "modelo": ["Modelo: LS24D332HSXZD\r"], "url_img": "https://awstatic-5754.kxcdn.com/P-nQgUnHM6HAeKKx3BwJnEizsAE=/0x0/loja/londritech.com.br/prodimg/63/0418225001566995947.png"}}
-{"data_coleta": "2021-12-13 17:24:26", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG 20'' HDMI D-Sub 20MK400H  ", "valor": " 839,90  ", "descricao": " Marca: LG\r\n\r\nModelo: 20MK400H\r\n\r\n\u00a0\r\n\r\nProte\u00e7\u00e3o aos olhos com o modo leitor\r\n\r\nReduzindo a luz azul para ajudar a diminuir a fadiga ocular, o Modo Leitor fornece condi\u00e7&otild... ", "modelo": ["Modelo: 20MK400H\r"], "url_img": "https://awstatic-5754.kxcdn.com/adPztBLDuYOHQIMiVMjiMsCq2dc=/0x0/loja/londritech.com.br/prodimg/75/0841429001587580675.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 21.5 Aoc Widescreen Preto - E2270SMHEN  ", "valor": " 919,82  ", "descricao": " Design diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade, produto ecol\u00f3gico), Ultra High DCR (alt&iacute... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/x8cYroU4V0xlSIyBPFSIxY6nES8=/0x0/loja/londritech.com.br/prodimg/86/0770207001600951547.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 23,8\" Philips com Webcam e Microfone 241B7QPJKEB  ", "valor": " 1.782,31  ", "descricao": " A webcam que abre quando voc\u00ea precisa dela e fecha quando n\u00e3o for usada \r\nAs webcams s\u00e3o uma \u00f3tima forma para bater papo com os amigos e para trabalhar em conjunto naquele ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/v9kCLcoKTAlfpTIMFna4I7I86KU=/0x0/loja/londritech.com.br/prodimg/86/0382017001617221951.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta AOC 27G2HE5 27 Full Hd Wide IPS 1ms 75hz Adaptive G-sync  ", "valor": " 1.408,80  ", "descricao": " MONITOR GAMER AOC SNIPER 27 IPS 75HZ 1MS \r\n\r\nCOMANDOS EM TEMPO REAL\r\nDESENVOLVIDO PARA SUPORTAR TODAS AS EMO\u00c7\u00d5ES DOS SEUS JOGOS, O INCR\u00cdVEL TEMPO DE RESPOSTA DE 1MS OFERECE ALTA ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/W5OmLfU8CO6ZT6IkpphrIEr_NIY=/0x0/loja/londritech.com.br/prodimg/12/0579369001620243564.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Led 23.8'' Philips Widescreen Preto - 242V8A  ", "valor": " 964,90  ", "descricao": " Caracter\u00edsticas:\r\nMarca: Philips\u00a0\r\nModelo: 242V8A\r\n\r\nTecnologia com vis\u00e3o ampla LED IPS para imagens e cores precisas\r\nOs monitores IPS utilizam uma tecnologia avan\u00e7ada que ... ", "modelo": ["Modelo: 242V8A\r"], "url_img": "https://awstatic-5754.kxcdn.com/P4kDMQ275aLVriKH_yx86ZVs9Mc=/0x0/loja/londritech.com.br/prodimg/10/0344554001608584229.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Acer LED 23.6'' Full HD Free Sync 165Hz, 0.5ms, Preto/Vermelho - KG241Q_S  ", "valor": " 1.459,90  ", "descricao": " Marca: Acer\r\n\r\nModelo: KG241Q_S\r\n\r\n\u00a0\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\n\u00a0\r\n\r\nTela:\r\n\r\n\u00a0\r\n\r\nFHD: 1920 x 1080\r\n\r\nOverclock de @165Hz\r\n\r\nTempo de resposta: 1 ms (Avg G para G) / 0.5 ms (... ", "modelo": ["Modelo: KG241Q_S\r"], "url_img": "https://awstatic-5754.kxcdn.com/Q--rchOdMYezp0-WqF-EohHaGXY=/0x0/loja/londritech.com.br/prodimg/83/0495750001595083045.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer AOC HERO 27G2 Compat\u00edvel G-SYNC 144Hz 1MS IPS  ", "valor": " 1.949,90  ", "descricao": " Marca: AOC\r\n\r\nModelo: 27G2/BK\r\n\r\n\u00a0\r\n\r\nO monitor AOC Hero 27 \u00e9 compat\u00edvel com a tecnologia G-Sync e entrega aos gamers uma experi\u00eancia lisa, r\u00e1pida e responsiva em todo... ", "modelo": ["Modelo: 27G2/BK\r"], "url_img": "https://awstatic-5754.kxcdn.com/Af5mKe5ekaJOGodUELLtKSH-CGY=/0x0/loja/londritech.com.br/prodimg/82/0267901001594068159.gif"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 35\" AOC Gamer Agon 2560x1080 Ultrawide Free-Sync - Vga Dvi Hdmi DP - AG352QCX  ", "valor": " 4.544,96  ", "descricao": " Monitor Gamer AOC Agon 35 Pol. 240Hz Ultra Wide Tela Curva com Free-Sync \r\n.\r\nCARACTER\u00cdSTICAS\r\nTipo de painel: LED\r\nTamanho do painel: 35 Widescreen\r\nTamanho da imagem vis\u00edvel (diagonal... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/pc0FykW2g-7nvI3imc9HsolqgTA=/0x0/loja/londritech.com.br/prodimg/58/0413440001558691937.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LG 25\" Ultrawide Fullhd - 25UM58G-P  ", "valor": " 1.233,32  ", "descricao": " Marca: LG\r\n\r\nModelo: 25UM58G\r\n\r\n\u00a0\r\n\r\n1ms Motion Blur Reduction\r\n\r\nTenha imagens sem rastros e a\u00e7\u00f5es mais r\u00e1pidas com o tempo de resposta de 1ms com Motion Blur Reduction.\r\n\r... ", "modelo": ["Modelo: 25UM58G\r"], "url_img": "https://awstatic-5754.kxcdn.com/Qb4nCpY8j21oP8jbIMmpQKyTzQU=/0x0/loja/londritech.com.br/prodimg/83/0365549001596140793.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 18.5'' HP - V19B  ", "valor": " 424,89  ", "descricao": " Marca: HP\r\n\r\nModelo: 3MV30LA\r\n\r\n\u00a0\r\n\r\nSupra todas as suas necessidades di\u00e1rias de neg\u00f3cios a um pre\u00e7o acess\u00edvel com o monitor HP V19b de 18,5. A dimens\u00e3o compac... ", "modelo": ["Modelo: 3MV30LA\r"], "url_img": "https://awstatic-5754.kxcdn.com/e1rk5ZxriTdQh4RqwF4o_CUVIC8=/0x0/loja/londritech.com.br/prodimg/77/0278328001591037194.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 24\" AOC 144Hz 1MS FullHD 1920x1080 VGA DVI HDMI DP - G2460PF  ", "valor": " 1.479,90  ", "descricao": " Marca: AOC\r\nModelo:\u00a0G2460PF\r\n\r\nMonitor com design exclusivo para o mundo gamer e base com ajuste de altura para maior conforto durante os jogos, aprovado pelo time da CNB.\u00a0\r\n\r\nDisplay profi... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/29FLu6LtFE-U8ZX_Ob62M8hOl7E=/0x0/loja/londritech.com.br/prodimg/27/0408028001516299114.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23.6\" LG FullHD Hdmi Vesa Preto - 24M38H-B  ", "valor": " 719,89  ", "descricao": " - Fabricante: LG\r\n- Modelo: 24M38H-B.AWZ\r\n\r\nEspecifica\u00e7\u00f5es:\r\n\r\n- Tela:\r\n- Tamanho: 23,6\"\r\n- Tipo de Tela: LED TN (Full HD)\r\n- Brilho: 200 cd/m\u00b2\r\n- Resolu\u00e7\u00e3o M&aa... ", "modelo": ["Modelo: 24M38H-B.AWZ\r"], "url_img": "https://awstatic-5754.kxcdn.com/i4zBHfsMTKJ6T68jcmbGLJrnMPY=/0x0/loja/londritech.com.br/prodimg/40/0620129001539693215.jpg"}}
-{"data_coleta": "2021-12-13 17:24:27", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor Gamer Entusiasta AOC 35\" LED 3440x1440 UltraWide 120Hz HDMI/DP - AG352UCG  ", "valor": " 5.574,57  ", "descricao": " Marca: AOC\r\nModelo:\u00a0AG352UCG\r\n\r\nAMPLA VIS\u00c3O. ALTA PERFORMANCE. \r\n\r\nTela curva de 35 para voc\u00ea n\u00e3o perder nenhum detalhe.\r\nMonitor Gamer AOC Agon 35 Pol. Ultra Wide Tela Curva... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/NeglmtqWmkJ12SwSXNJGizh1ehs=/0x0/loja/londritech.com.br/prodimg/26/0156936001515825649.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": "MONITOR/MONITOR", "produto": {"nome": " Monitor LED 23\" Philips FullHD Wide VGA DVI HDMI Multim\u00eddia - 243V5QHAB  ", "valor": " 764,90  ", "descricao": " Marca:\u00a0Philips\r\nPart Number:\u00a0243V5QHAB\r\n\r\nCurta jogos, shows, filmes com uma perfeita qualidade de som. S\u00e3o 2 potentes alto-falantes embutidos de 2 watts, totalizando uma pot\u00ean... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/aiWMjCdShZGxD0m-50FdG1RZTQw=/0x0/loja/londritech.com.br/prodimg/29/0975393001521116957.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor LED 21.5\" Philips 1920X1080 Wide VGA Hdmi Branco - 223V5LHSW  ", "valor": " 651,78  ", "descricao": " Marca: Philips\r\nModelo: 223V5LHSW\r\n\r\nDisplay Full HD 16:9 de alt\u00edssima qualidadeDisplay Full HD 16:9 de alt\u00edssima qualidade A tela Full HD possui resolu\u00e7\u00e3o widescreen de 1... ", "modelo": ["Modelo: 223V5LHSW\r"], "url_img": "https://awstatic-5754.kxcdn.com/B6d3bWDUoREkOw68twU-iGlim9Y=/0x0/loja/londritech.com.br/prodimg/16/0314635001502713690.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Bluecase 23,6\" LED Full HD Preto - BM24D1HVW  ", "valor": " 749,90  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: Bluecase\u00a0\r\n- Modelo: BM24D1HVW\r\n\r\nEspecifica\u00e7\u00f5es:\r\n- Conex\u00e3o VGA (D-sub) e HDMI\r\n- Voltagem de entrada: 110-240V ~ 50/60Hz\r\n- Voltagem de s... ", "modelo": ["Modelo: BM24D1HVW\r"], "url_img": "https://awstatic-5754.kxcdn.com/FcysMgELDcdMzihbbyZzAGedrpg=/0x0/loja/londritech.com.br/prodimg/12/0760195001619527476.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Pctop 17\" HDMI VGA Led Preto - MLP170HDMI  ", "valor": " 589,89  ", "descricao": " Caracter\u00edsticas:\r\n- Marca: PCTop\r\n- Modelo: MLP170HDMI\r\n\r\nEspecifica\u00e7\u00f5es:\r\n- Monitor: 17'' (4:3)\r\n- Resolu\u00e7\u00e3o: 1280x1024px\r\n- Fonte de alimenta\u00e7&atil... ", "modelo": ["Modelo: MLP170HDMI\r"], "url_img": "https://awstatic-5754.kxcdn.com/uLlhN2-_XEb1XLqlKTqXVj-R5_o=/0x0/loja/londritech.com.br/prodimg/14/0445196001626786565.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor LED 24.5' Bluecase FULL HD HDMI VGA BM251GW  ", "valor": " 1.099,90  ", "descricao": " - Marca: Bluecase\r\n- Modelo: 05683-IVB\r\n\r\nEspecifica\u00e7\u00f5es:\r\n- Tamanho: 24,5\"\u00a0\r\n- Formato: 16:9 Plano\r\n- Resolu\u00e7\u00e3o: 1920 x 1080 (Full HD)\r\n- Taxa de atualiza&ccedi... ", "modelo": ["Modelo: 05683-IVB\r"], "url_img": "https://awstatic-5754.kxcdn.com/SYM-m0vvgoLM4EaIOAK44Qq99Pc=/0x0/loja/londritech.com.br/prodimg/13/0684175001620394754.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Gamer AOC Entusiasta AG251FZ Agon Led 25 240hz 0,5ms Com AMD Freesync  ", "valor": " 2.113,90  ", "descricao": " MONITOR GAMER AOC AGON LED 24,5 240HZ 0,5MS \r\n\r\nEste monitor gamer tem tempo de resposta super-r\u00e1pido de 0,5 ms (MPRT) e um desempenho excepcional com mais velocidade e sem efeitos fantasmas n... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/lPypMTYcGufiCARscpZdiTnWC8E=/0x0/loja/londritech.com.br/prodimg/12/0660624001617828739.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Led 21,5\" Philips 221V8 Full HD Wide Com Vesa Preto  ", "valor": " 1.004,86  ", "descricao": " Imagens claras e n\u00edtidas al\u00e9m dos limites \r\nO monitor de vis\u00e3o ampla Philips V line oferece uma visualiza\u00e7\u00e3o al\u00e9m dos limites, excelente custo com recursos e... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/8_FK4BlPTxjmNJ66K9WwVmixdhE=/0x0/loja/londritech.com.br/prodimg/83/0674088001620930252.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Touch 21,5'' Widescreen Philips - 222B9T   ", "valor": " 2.962,47  ", "descricao": " Monitor touch screen 10 pontos certificado para Microsoft, design diferenciado, webcam e microfone integrados, tecnologia de painel IPS Full HD para maior durabilidade com touch screen e maior angulo... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/7uS0nb3wBG2Wv7KP9cvOCKYyCPI=/0x0/loja/londritech.com.br/prodimg/78/0902227001591964879.gif"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor AOC Led 18,5\" E970SWHNL 1366x768 HD Widescreen Com VGA e HDMI Preto Piano  ", "valor": " 806,44  ", "descricao": " Caracter\u00edsticas Especiais: Design diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade, produto ecol&oacute... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/9hYwrozC5AQTJhK-VKGKq4lpfvY=/0x0/loja/londritech.com.br/prodimg/85/0902606001620243364.jpg"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor LED 24'' Samsung 144Hz Curvo - LC24RG50FQLMZD  ", "valor": " 1.249,90  ", "descricao": " Marca:\u00a0SAMSUNG\r\nModelo:\u00a0LC24RG50FQLMZD\r\n\r\nVelocidade incr\u00edvel, imers\u00e3o completa\r\n\r\n\r\nO campe\u00e3o curvo\r\nLideran\u00e7a em monitores curvos. A Samsung lidera o mercado d... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/QDFZgJbmUzpnScKmQTm0V8soBrk=/0x0/loja/londritech.com.br/prodimg/67/0735196001579971269.png"}}
-{"data_coleta": "2021-12-13 17:24:28", "secao": null, "produto": {"nome": " Monitor Multilaser Warrior 24\" Gamer Curvo 144hz MN101  ", "valor": " 1.987,50  ", "descricao": " - Marca: Warrior\r\n- Modelo: MN101\r\n\r\nEspecifica\u00e7\u00f5es:\r\n- Tamanho: 23.6\"\r\n- Tipo de Painel: VA\r\n- Profundidade de Cor: 8 bits 16.7 Milh\u00f5es\r\n- \u00c2ngulo de vis\u00e3o: 178... ", "modelo": ["Modelo: MN101\r"], "url_img": "https://awstatic-5754.kxcdn.com/eJXrZav7tyDvxEJPq14pRGqZX4w=/0x0/loja/londritech.com.br/prodimg/12/0038686001619531724.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor Led 21.5\" AOC Widescreen Preto - 22P1E  ", "valor": " 884,44  ", "descricao": " Caracter\u00edsticas\r\nTipo de painel: LED\r\nTamanho do painel: 21,5 Widescreen\r\nTamanho da imagem vis\u00edvel (diagonal): 54,7 cm\r\nPixel pitch 0,248 mm\r\nContraste est\u00e1tico: 1.000:1\r\nFrequ&... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/hHZ_SB1YTwqXtLcegLQm-6AVIzU=/0x0/loja/londritech.com.br/prodimg/49/0860322001600952470.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 29\" LG Full HD IPS UltraWide 21:9 HDMI Preto - 29UM68-P  ", "valor": " 1.339,90  ", "descricao": " Marca: LG\r\nModelo: 29UM68-P\r\n\r\nEspecifica\u00e7\u00f5es:\u00a0\r\n- Tamanho da tela (Polegadas): 29\r\n- Tipo painelLED IPS\r\n- R\u00e1io de aspecto: 21:9\r\n- Resolu\u00e7\u00e3o Nativa: 2560 x 1... ", "modelo": ["Modelo: 29UM68-P\r"], "url_img": "https://awstatic-5754.kxcdn.com/vyAFyDfbxNEGQeWF7j3CBwP7JW8=/0x0/loja/londritech.com.br/prodimg/31/0737338001527188443.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LG LED 23\u00b4 Widescreen Full HD IPS HDMI/VGA - 23MP55HQ  ", "valor": " 769,90  ", "descricao": " Marca: LG\r\nModelo: 23MP55HQ\r\n\r\nO Reader Mode reduza cor azul das imagens e protege sua vis\u00e3o, oferecendo uma visualiza\u00e7\u00e3o mais agrad\u00e1vel para voc\u00ea ler qualquer docum... ", "modelo": ["Modelo: 23MP55HQ\r"], "url_img": "https://awstatic-5754.kxcdn.com/JX146FQOyBF45M4ZyN_gnF17Ujg=/0x0/loja/londritech.com.br/prodimg/50/0534135001545334224.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 18,5\" Philips Widescreen VGA Preto - 193V5LSB2  ", "valor": " 349,90  ", "descricao": " Fabricante:\u00a0Philips\r\nModelo:\u00a0193V5LSB2\u00a0\r\n\r\nTecnologia LED para cores vivas\u00a0\r\n\r\nOs LED brancos s\u00e3o dispositivos em estado s\u00f3lido que acendem mais rapidamente com um b... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/N1eEaqm2U-bfnrM5PGWlyk8wAew=/0x0/loja/londritech.com.br/prodimg/52/0144761001549373528.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 21.5\" Philips FullHD 1920x1080 Widescreen Hdmi - 223V5LHSB2  ", "valor": " 549,90  ", "descricao": " - Fabricante: Philips\r\n- Modelo: 223V5LHSB2\r\n\r\n- Imagem / Tela:\r\n\r\n- Tela LCD: LCD TFT\r\n- Tipo de ilumina\u00e7\u00e3o traseira: Sistema W-LED\r\n- Dimens\u00f5es do painel: 21,5 pol / 54,6 cm\r\n-... ", "modelo": ["Modelo: 223V5LHSB2\r"], "url_img": "https://awstatic-5754.kxcdn.com/K7Bs-P8zh6dOQ4g5hRCWuceSxeg=/0x0/loja/londritech.com.br/prodimg/24/0339485001502827535.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 19.5 Acer 1366x768 Widescreen VGA Vesa - V206HQL  ", "valor": " 450,72  ", "descricao": " Marca: Acer\r\nModelo: V206HQL\u00a0\r\n\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Acer EcoDispla... ", "modelo": ["Modelo: V206HQL\u00a0\r"], "url_img": "https://awstatic-5754.kxcdn.com/QBfqGYSSLagT0Vr4B53kEAOtVSM=/0x0/loja/londritech.com.br/prodimg/17/0233843001504107334.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 18.5\" Acer HD 1366x768 VGA - V196HQL  ", "valor": " 402,90  ", "descricao": " Marca: Acer\r\nModelo:\u00a0V196HQL\r\n\r\nCores brilhantes, vis\u00e3o sustent\u00e1vel\r\nVis\u00e3o Sustent\u00e1vel: Pl\u00e1stico reciclado, retro ilumina\u00e7\u00e3o LED, Acer EcoDisplay... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/VVBbLExtuu4q0n1AEkRSjc6Or40=/0x0/loja/londritech.com.br/prodimg/16/0043197001502711193.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor Gamer Entusiasta Led 28,5\" Philips UltraHD 4K 3840x2160 Widescreen - 288P6LJEB  ", "valor": " 2.303,88  ", "descricao": " Marca: Philips\r\nModelo:\u00a0288P6LJEB/57\r\n\r\nEspecifica\u00e7\u00f5es:\u00a0\r\nTipo:\u00a0LED\r\nTempo de resposta:\u00a01ms ( Gray to Gray); 5ms (T\u00edpico)\r\nPedestal incluso\r\nCaixas ac\u00fa... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/3ckMVFmKRrt79827gqgFtWCaDuo=/0x0/loja/londritech.com.br/prodimg/23/0991090001504355032.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor Gamer Entusiasta LED 27\" AOC Quad 2560x1440 Widescreen 144hz Freesync VGA/HDMI/DP - AG272QCX  ", "valor": " 2.827,57  ", "descricao": " Marca: AOC\r\nModelo:\u00a0AG272QCX\r\n\r\nAMPLA VIS\u00c3O. ALTA PERFORMANCE. \r\n\r\nMonitor Gamer AOC Agon 27 Curvo QHD 144Hz com acabamento sem bordas e AMD FreeSync\r\n\r\nCARACTER\u00cdSTICAS\r\n\r\nTipo de ... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/zk4akW7Lr3aJwYEw94PQ9mJeeLw=/0x0/loja/londritech.com.br/prodimg/26/0867546001510037748.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor LED 21,5\" AOC FullHD 1920x1080 Widescreen Preto - E2270SWN  ", "valor": " 587,24  ", "descricao": " Marca: AOC\r\nModelo: E2270SWN\r\n\r\nDesign diferenciado, tecnologia LED backlight (at\u00e9 50% de economia de energia em rela\u00e7\u00e3o a um LCD comum, maior durabilidade, produto ecol\u00f3g... ", "modelo": ["Modelo: E2270SWN\r"], "url_img": "https://awstatic-5754.kxcdn.com/M2oLfhcAtpSIXD46pwDry9mHubQ=/0x0/loja/londritech.com.br/prodimg/14/0364310001502710803.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor Pctop 20\" HDMI Led Preto - MLP200HDMI  ", "valor": " 589,90  ", "descricao": " Marca: PCTOP\r\nModelo: MLP200HDMI\r\n\r\nCom um design muito fino, visualiza\u00e7\u00f5es em grande angular e cores vivas, os monitores LED de mesa TDD incluem aplicativos para desktop geral, jogos e... ", "modelo": ["Modelo: MLP200HDMI\r"], "url_img": "https://awstatic-5754.kxcdn.com/vCmdurYLg16C6GlrijOaLxy3oO0=/0x0/loja/londritech.com.br/prodimg/98/0125868001605725179.jpg"}}
-{"data_coleta": "2021-12-13 17:24:29", "secao": null, "produto": {"nome": " Monitor Gamer Entusiasta AOC AG251FG 24,5\" LED 1920x1080 Wide G-Sync 240hz HDMI/DP  ", "valor": " 3.390,47  ", "descricao": " Marca: AOC\r\nModelo:\u00a0\u00a0AG251FG\r\n\r\nAMPLA VIS\u00c3O. ALTA PERFORMANCE.\r\n\r\nMonitor Gamer AOC Agon 24 Pol. Tela Curva 240Hz NVIDIA G-Sync \r\n\r\nCARACTER\u00cdSTICAS\r\n\r\nTipo de painel: LED\r\nTam... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/I8G9hr9d3FMS6rmY8llhGOaUJXw=/0x0/loja/londritech.com.br/prodimg/26/0498182001513408603.jpeg"}}
-{"data_coleta": "2021-12-13 17:24:30", "secao": null, "produto": {"nome": " Monitor Led 24\" Braview FullHD 1920x1080 Hdmi VGA - LED-2401  ", "valor": " 709,88  ", "descricao": " Caracter\u00edsticas:\r\n\r\nTamanho 60,5 cm (24\"\")\r\nTipo da Tela LED\r\n\u00c1rea Ativa 527,04 (H) x 296,46 (V) mm\r\nRela\u00e7\u00e3o de Aspecto 16:9\r\nBrilho 250cd/m2\r\nContraste Est&aacu... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/lVg5OUUvd7FyqoSJmqP6wN0v_pQ=/0x0/loja/londritech.com.br/prodimg/24/0974801001502461426.jpg"}}
-{"data_coleta": "2021-12-13 17:24:30", "secao": null, "produto": {"nome": " Monitor Gamer Acer 27'' Full HD 165Hz 1ms - KG271  ", "valor": " 1.899,90  ", "descricao": " Marca: ACER\r\n\r\nModelo: KG271\r\n\r\n\u00a0\r\n\r\n\r\nMonitor Gamer Acer LED Full HD 27\" Widescreen KG271 BMIIX HDMI/VGA FreeSync Som Integrado 1ms\r\n\r\nVire pro no mundo dos games e domine o campo de batal... ", "modelo": ["Modelo: KG271\r"], "url_img": "https://awstatic-5754.kxcdn.com/ybBd9FRfhEqPn6W7IDyI3SVHB0g=/0x0/loja/londritech.com.br/prodimg/83/0302538001595081480.jpg"}}
-{"data_coleta": "2021-12-13 17:24:30", "secao": null, "produto": {"nome": " Monitor Led 27'' Philips Widescreen Preto - 272V8A   ", "valor": " 1.229,90  ", "descricao": " Tecnologia com vis\u00e3o ampla LED IPS para imagens e cores precisas \r\nOs monitores IPS utilizam uma tecnologia avan\u00e7ada que oferece \u00e2ngulos de vis\u00e3o extralargos de 178/178 gra... ", "modelo": [], "url_img": "https://awstatic-5754.kxcdn.com/ksoS15l959x7s17OH31iLCGMhMg=/0x0/loja/londritech.com.br/prodimg/78/0057168001591966360.gif"}}
+[
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:09:57",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-gamer-27-warrior-kaizen-144hz-fullhd-mn201-164877.html",
+            "nome": "Monitor Gamer 27\" Warrior Kaizen 144hz FullHD - MN201",
+            "valor": 2989.31,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <div><strong>- Marca:</strong> Multilaser&nbsp;</div>\n\n<div><strong>- Modelo: </strong>MN201</div>\n\n<div>&nbsp;</div>\n\n<div><strong>Detalhes</strong></div>\n\n<div>MONITOR GAMER WARRIOR KAIZEN - 27\" IPS 165HZ 1MS MN201</div>\n\n<div>Monitor Gamer de Alta Performance</div>\n\n<div>&nbsp;</div>\n\n<div>Iluminação RGB: seu setup gamer ainda melhor.</div>\n\n<div>144hz melhor qualidade de imagem, sem o efeito ghosting</div>\n\n<div>Tempo de resposta: ultrarápido para seus comandos</div>\n\n<div>Perfeito para jogos como Valorant, Fortnite e CS:GO.</div>\n\n<div>&nbsp;</div>\n\n<div><strong>CARACTERÍSTICAS TÉCNICAS</strong></div>\n\n<div>Taxa de atualização: 144 hz;</div>\n\n<div>Base justável: altura e rotação;</div>\n\n<div>Tecnologia: Freesynctm;</div>\n\n<div>Entradas e saídas: 1 HDMI, 1 Display port, 1 USB, 1 Fone de ouvido;</div>\n\n<div>Tela: 27\" full hd kaizen 1920 x 1080 px.</div>\n\n<div>&nbsp;</div>\n\n<div><strong>Mais informações</strong></div>\n\n<div>Peso(Kg): 6</div>\n\n<div>Part Number: MN201</div>\n\n<div>Múltiplo: 1</div>\n\n<div>Largura: 16 Cm</div>\n\n<div>Altura: 60 Cm</div>\n\n<div>Profundidade: 84 Cm</div>\n\n<div>&nbsp;</div>\n ",
+            "fichaTecnica": "- Marca: Multilaser \n- Modelo: MN201\n  Detalhes\nMONITOR GAMER WARRIOR KAIZEN - 27\" IPS 165HZ 1MS MN201\nMonitor Gamer de Alta Performance\n  Iluminação RGB: seu setup gamer ainda melhor.\n144hz melhor qualidade de imagem, sem o efeito ghosting\nTempo de resposta: ultrarápido para seus comandos\nPerfeito para jogos como Valorant, Fortnite e CS:GO.\n  CARACTERÍSTICAS TÉCNICAS\nTaxa de atualização: 144 hz;\nBase justável: altura e rotação;\nTecnologia: Freesynctm;\nEntradas e saídas: 1 HDMI, 1 Display port, 1 USB, 1 Fone de ouvido;\nTela: 27\" full hd kaizen 1920 x 1080 px.\n  Mais informações\nPeso(Kg): 6\nPart Number: MN201\nMúltiplo: 1\nLargura: 16 Cm\nAltura: 60 Cm\nProfundidade: 84 Cm\n ",
+            "urlImg": "https://awstatic-5754.kxcdn.com/5nY0mhUaGMsHrb8G4l3m3vYW6v0=/0x0/loja/londritech.com.br/prodimg/16/0368573001641463532.jpg",
+            "modelo": "MN201",
+            "marca": "Multilaser",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 87.97
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 3197.12
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 1638.53
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 1117.93
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 857.63
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 699.53
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 590.4
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 512.0
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 451.59
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 404.97
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 367.67
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 2989.31
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:10:17",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-samsung-28-4k-ips-uhd-hdr-10-hdmidisplayport-lu28r550uqlmzd-164726.html",
+            "nome": "Monitor Samsung 28\" 4K IPS UHD HDR 10 HDMI/DisplayPort - LU28R550UQLMZD",
+            "valor": 2299.88,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca: </strong>Samsung<br>\n<strong>Modelo: </strong>LU28R550UQLMZD</p>\n\n<p>Sente-se em qualquer lugar e tenha uma experiência colorida e completa. O painel IPS preserva a vivacidade e a nitidez das cores em cada centímetro da tela. Mesmo em um display deste tamanho, os tons e as sombras parecem precisos a partir de praticamente qualquer ângulo, sem perda de intensidade dos tons. Diga adeus aos cortes de quadros. O AMD FreeSync elimina praticamente todo o efeito de \"screen tearing\" (tela travada) e \"screen stuttering\" (tela embaçada) para proporcionar uma experiência visual fluida.</p>\n\n<p><img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/p6pim/br/feature/others/br-feature-ur55-347688451?$FB_TYPE_A_JPG$\" style=\"height:563px; width:800px\"><br>\n<img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/br-feature-reveal-every-detail-258478480?$FB_TYPE_A_JPG$\" style=\"height:760px; width:800px\"><br>\n<br>\n<img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/br-feature-ur55-260113345?$FB_TYPE_A_PNG$\" style=\"height:462px; width:800px\"><br>\n<img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/br-feature-ur55-260113347?$FB_TYPE_A_PNG$\" style=\"height:413px; width:800px\"><img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/br-feature-ur55-260113351?$FB_TYPE_A_PNG$\" style=\"height:488px; width:800px\"><img alt=\"\" src=\"https://images.samsung.com/is/image/samsung/br-feature-display-with-no-borders-258478484?$FB_TYPE_A_JPG$\" style=\"height:450px; width:800px\"></p>\n\n<p><strong>Especificações:</strong><br>\nTamanho da tela (cm): 70.8<br>\nPlano / Curvo: Plano<br>\nÁrea de Display Ativo (HxV) (mm): 620.928(H) * 341.28(V)<br>\nProporção de Tela: 16:9<br>\nTipo de painel: IPS<br>\nBrilho (Típico): 300cd/m2<br>\nBrilho (mínimo): 250cd/m2<br>\nContraste Estático: 1,000:1(Padrão)<br>\nTipo de Contraste: Mega ∞ DCR<br>\nHDR(High Dynamic Range): HDR10<br>\nResolução: 3,840 x 2,160<br>\nTempo de resposta: 4(GTG)<br>\nÂngulo de visão (horizontal / vertical): 178°/178°<br>\nSuporte de Cor: Máx. 1B<br>\nColor Gamut (DCI Coverage): 0.9<br>\nTaxa de atualização: Máx. 60 Hz</p>\n\n<p><strong>Recursos gerais:</strong><br>\nSamsung MagicBright: Sim<br>\nSamsung Magic Upscale: Sim<br>\nEco Saving Plus: Sim<br>\nEye Saver Mode: Sim<br>\nFlicker Free: Sim<br>\nPicture-In-Picture: Sim<br>\nPicture-By-Picture: Sim<br>\nModo Game: Sim<br>\nTamanho da Imagem: Sim<br>\nCaixa de configuração fácil: Sim<br>\nCertificação Windows: Windows 10<br>\nFreeSync: Sim<br>\nOff Timer Plus: Sim</p>\n\n<p><strong>Interface:</strong><br>\nDisplay sem fio: Não<br>\nD-Sub: Não<br>\nDVI: Não<br>\nDual Link DVI: Não<br>\nDisplay Port: 1 EA<br>\nVersão do Display Port: 1.2<br>\nDisplay Port Out: Não<br>\nVersão da saída do Display Port: Não<br>\nMini-Display Port: Não<br>\nHDMI: 2 EA<br>\nVersão HDMI: 2<br>\nEntrada de áudio: Não<br>\nFones de ouvido: Sim<br>\nPortas USB: Não<br>\nVersão hub USB: Não<br>\nUSB-C: Não</p>\n\n<p><strong>Áudio:</strong><br>\nAlto-falante: Não<br>\nSoundbar USB (pronto): Não</p>\n\n<p><strong>Condições operacionais:</strong><br>\nTemperatura: 10~40 ℃<br>\nUmidade: 10~80, sem condensação</p>\n\n<p><strong>Calibração:</strong><br>\nAjuste de fábrica: Sim</p>\n\n<p><strong>Design:</strong><br>\nTipo de Suporte: SIMPLES<br>\nInclinação Ajustável: -2.0˚(±2.0˚) ~ 15.0˚(±2.0˚)<br>\nMontagem de parede: 75.0 x 75.0</p>\n\n<p><strong>Alimentação:</strong><br>\nAlimentação de Energia: AC 100~240V<br>\nConsumo de Energia (DPMS): ≤0.5 W<br>\nConsumo de energia (modo desligado): ≤0.3 W<br>\nTipo: Adaptador externo</p>\n\n<p><strong>Conteúdo da Embalagem:</strong><br>\nMonitor Samsung LED<br>\nComprimento do cabo de força: 1.5 m</p>\n\n<p><strong>Peso:</strong><br>\n11731 gramas (bruto com embalagem)</p>\n ",
+            "fichaTecnica": "Marca: Samsung\nModelo: LU28R550UQLMZD\nSente-se em qualquer lugar e tenha uma experiência colorida e completa. O painel IPS preserva a vivacidade e a nitidez das cores em cada centímetro da tela. Mesmo em um display deste tamanho, os tons e as sombras parecem precisos a partir de praticamente qualquer ângulo, sem perda de intensidade dos tons. Diga adeus aos cortes de quadros. O AMD FreeSync elimina praticamente todo o efeito de \"screen tearing\" (tela travada) e \"screen stuttering\" (tela embaçada) para proporcionar uma experiência visual fluida.\n\n\n\n\nEspecificações:\nTamanho da tela (cm): 70.8\nPlano / Curvo: Plano\nÁrea de Display Ativo (HxV) (mm): 620.928(H) * 341.28(V)\nProporção de Tela: 16:9\nTipo de painel: IPS\nBrilho (Típico): 300cd/m2\nBrilho (mínimo): 250cd/m2\nContraste Estático: 1,000:1(Padrão)\nTipo de Contraste: Mega ∞ DCR\nHDR(High Dynamic Range): HDR10\nResolução: 3,840 x 2,160\nTempo de resposta: 4(GTG)\nÂngulo de visão (horizontal / vertical): 178°/178°\nSuporte de Cor: Máx. 1B\nColor Gamut (DCI Coverage): 0.9\nTaxa de atualização: Máx. 60 Hz\nRecursos gerais:\nSamsung MagicBright: Sim\nSamsung Magic Upscale: Sim\nEco Saving Plus: Sim\nEye Saver Mode: Sim\nFlicker Free: Sim\nPicture-In-Picture: Sim\nPicture-By-Picture: Sim\nModo Game: Sim\nTamanho da Imagem: Sim\nCaixa de configuração fácil: Sim\nCertificação Windows: Windows 10\nFreeSync: Sim\nOff Timer Plus: Sim\nInterface:\nDisplay sem fio: Não\nD-Sub: Não\nDVI: Não\nDual Link DVI: Não\nDisplay Port: 1 EA\nVersão do Display Port: 1.2\nDisplay Port Out: Não\nVersão da saída do Display Port: Não\nMini-Display Port: Não\nHDMI: 2 EA\nVersão HDMI: 2\nEntrada de áudio: Não\nFones de ouvido: Sim\nPortas USB: Não\nVersão hub USB: Não\nUSB-C: Não\nÁudio:\nAlto-falante: Não\nSoundbar USB (pronto): Não\nCondições operacionais:\nTemperatura: 10~40 ℃\nUmidade: 10~80, sem condensação\nCalibração:\nAjuste de fábrica: Sim\nDesign:\nTipo de Suporte: SIMPLES\nInclinação Ajustável: -2.0˚(±2.0˚) ~ 15.0˚(±2.0˚)\nMontagem de parede: 75.0 x 75.0\nAlimentação:\nAlimentação de Energia: AC 100~240V\nConsumo de Energia (DPMS): ≤0.5 W\nConsumo de energia (modo desligado): ≤0.3 W\nTipo: Adaptador externo\nConteúdo da Embalagem:\nMonitor Samsung LED\nComprimento do cabo de força: 1.5 m\nPeso:\n11731 gramas (bruto com embalagem)",
+            "urlImg": "https://awstatic-5754.kxcdn.com/8lw9s8A8FhDDyOfIJkNOSuuZ5QE=/0x0/loja/londritech.com.br/prodimg/16/0711254001639164940.jpg",
+            "modelo": "LU28R550UQLMZD",
+            "marca": "Samsung",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 45.75
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 2459.77
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 1260.63
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 860.1
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 659.83
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 538.2
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 454.24
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 393.91
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 347.44
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 311.57
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 282.87
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 2299.88
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:10:34",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-gamer-redragon-sapphire-24-144hz-1ms-freesync-full-hd-ips-m2444ph-164967.html",
+            "nome": "Monitor Gamer Redragon Sapphire 24\" 144Hz 1ms Freesync Full HD IPS - M2444PH",
+            "valor": 1729.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca</strong>: Redragon<br>\n<strong>Modelo</strong>: Sapphire - M2444PH</p>\n\n<p><strong>MONITOR GAMER REDRAGON RUBY 24 POL, FULL HD, VA, 1MS, 144HZ, HDMI/DP</strong><br>\nO caminho para o Game Perfeito! Aperte o cinto, o monitor Redragon Sapphire oferece uma incrível experiência para quem busca uma experiência perfeita de gameplay, entregando máximo desempenho durante os games.</p>\n\n<p><strong>REAÇÕES RÁPIDAS E PRECISAS</strong><br>\nDerrote todos os inimigos, mesmo em alta velocidade. A taxa de atualização de 144Hz elimina o lag para uma jogabilidade emocionante com ação ultra suave.Tenha movimentos precisos, sem quadros desfocados.</p>\n\n<p><strong>MODERNO</strong><br>\nCom um design fino, elegante e moderno o Redragon Sapphire além de entregar máximo desempenho durante os games, dá um toque de estilo ao seu setup.</p>\n\n<p><strong>FREESYNC</strong><br>\nA tecnologia AMD FreeSync passa por um processo de certificação para garantir uma experiência sem falhas e com baixa latência. Complemente sua Experiência Gaming com um monitor SuperFrame com FreeSync para ter uma experiência de jogo suave e sem esforço.</p>\n\n<p><strong>Tamanho da tela:</strong><br>\n24 Polegadas</p>\n\n<p><strong>Tipo de painel:</strong><br>\nIPS</p>\n\n<p><strong>Freesync</strong>:<br>\nSim</p>\n\n<p><strong>Taxa de atualização:</strong><br>\n144Hz</p>\n\n<p><strong>Resolução:</strong><br>\n1920 x 1080p</p>\n\n<p><strong>Taxa de proporção:</strong><br>\n16:9</p>\n\n<p><strong>Contraste</strong>:<br>\n1000:1</p>\n\n<p><strong>Brilho máximo:</strong><br>\n350 Nits</p>\n\n<p><strong>Tipo de Backlight:</strong><br>\nLED</p>\n\n<p><strong>Número de cores:</strong><br>\n16.7 M</p>\n\n<p><strong>Conectividade:</strong><br>\n1x VGA,<br>\n2x HDMI<br>\n1x Display Port<br>\n1x 3.5 mm Áudio</p>\n\n<p><strong>Espaçamento VESA:</strong><br>\n75 x 75 mm</p>\n\n<p><strong>Tensão de entrada:</strong><br>\n100 V até 240 V AC&nbsp; 50/60HZ&nbsp;</p>\n ",
+            "fichaTecnica": "Marca: Redragon\nModelo: Sapphire - M2444PH\nMONITOR GAMER REDRAGON RUBY 24 POL, FULL HD, VA, 1MS, 144HZ, HDMI/DP\nO caminho para o Game Perfeito! Aperte o cinto, o monitor Redragon Sapphire oferece uma incrível experiência para quem busca uma experiência perfeita de gameplay, entregando máximo desempenho durante os games.\nREAÇÕES RÁPIDAS E PRECISAS\nDerrote todos os inimigos, mesmo em alta velocidade. A taxa de atualização de 144Hz elimina o lag para uma jogabilidade emocionante com ação ultra suave.Tenha movimentos precisos, sem quadros desfocados.\nMODERNO\nCom um design fino, elegante e moderno o Redragon Sapphire além de entregar máximo desempenho durante os games, dá um toque de estilo ao seu setup.\nFREESYNC\nA tecnologia AMD FreeSync passa por um processo de certificação para garantir uma experiência sem falhas e com baixa latência. Complemente sua Experiência Gaming com um monitor SuperFrame com FreeSync para ter uma experiência de jogo suave e sem esforço.\nTamanho da tela:\n24 Polegadas\nTipo de painel:\nIPS\nFreesync:\nSim\nTaxa de atualização:\n144Hz\nResolução:\n1920 x 1080p\nTaxa de proporção:\n16:9\nContraste:\n1000:1\nBrilho máximo:\n350 Nits\nTipo de Backlight:\nLED\nNúmero de cores:\n16.7 M\nConectividade:\n1x VGA,\n2x HDMI\n1x Display Port\n1x 3.5 mm Áudio\nEspaçamento VESA:\n75 x 75 mm\nTensão de entrada:\n100 V até 240 V AC  50/60HZ ",
+            "urlImg": "https://awstatic-5754.kxcdn.com/-3Es4sh_oQiYJyco1z9rtV7Mr-8=/0x0/loja/londritech.com.br/prodimg/16/0513075001642530032.jpg",
+            "modelo": "Sapphire - M2444PH",
+            "marca": "Redragon",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 40.05
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1850.16
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 948.21
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 646.94
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 496.31
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 404.82
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 341.66
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 296.29
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 261.33
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 234.35
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 212.77
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 1729.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:10:51",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-lg-27-hdmi-d-sub-amd-freesync-75hz-27mp400-165056.html",
+            "nome": "Monitor LG 27'' HDMI D-Sub AMD Freesync 75hz - 27MP400",
+            "valor": 1279.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca:</strong> LG<br>\n<strong>Modelo: </strong>27MP400-B</p>\n\n<p><strong>Tela IPS Full HD</strong><br>\nCores vibrantes de qualquer ângulo</p>\n\n<p>A tela IPS de 27” com resolução Full HD (1920 x 1080), presente no Monitor LG, oferece incrível qualidade de imagem com cores precisas de qualquer ângulo.</p>\n\n<p><strong>Imagens fluidas e rápidas</strong><br>\nTenha imagens sem cortes e falhas de repetições com a tecnologia AMD FreeSync™, que ocorrem pela diferença entre os quadros gráficos (FPS) e a taxa de atualização do monitor (Hz).</p>\n\n<p><strong>Experiência Imersiva</strong><br>\nO design 3-Side Borderless trás bordas finas para o Monitor, permitindo uma tela muito mais ampla e uma incrível experiência visual.</p>\n\n<p><strong>Fácil configuração</strong><br>\nO OnScreen Control permite alterar as configurações do monitor e customizar as janelas em até 14 modos diferentes, com o Screen Split 2.0.</p>\n\n<p><strong>Dynamic Action Sync</strong><br>\nExperimente um jogo otimizado e com ritmo alucinante com o Dynamic Action Sync. Um recurso avançado para jogos de estratégia que torna o tempo de resposta ainda mais responsivo.</p>\n\n<p><strong>Estabilizador de preto</strong><br>\nMantenha a visibilidade mesmo em cenas escuras. O estabilizador de preto ajuda a tornar tudo mais claro, para que você possa encontrar os inimigos escondidos.</p>\n\n<p><strong>Design ergonômico</strong><br>\nMais conforto no home-office<br>\nHome-office que se ajusta ao seu estilo. O Monitor LG possui ajustes de inclinação que tornam o seu espaço de trabalho mais agradável.</p>\n\n<p><strong>Informações do Produto</strong><br>\nTamanho da tela: 27\"<br>\nResolução: 1920 x 1080 pixels<br>\nTaxa de atualização: 75hz<br>\nTecnologia da tela: LED<br>\nProporção de tela: 16:9<br>\nTempo de resposta: 5ms<br>\nBrilho: Típico: 250cd/m² | Mínimo: 200 cd/m²<br>\nContraste: 600: 1<br>\nNúmero de cres: 16,7 milhões<br>\nHDMI: 1<br>\nUSB: Não<br>\nVGA: 1<br>\nDisplay Port: Não<br>\nEntrada para fone de ouvido: Não<br>\nSuporte: VESA 75X75<br>\nAltura: Com suporte: 45,49 cm | Sem suporte: 36,25 cm<br>\nLargura: Com suporte: 61,2 cm | Sem suporte: 61,2 cm<br>\nProfundidade: Com suporte: 19 cm | Sem suporte: 5,62 cm<br>\nPeso: Com suporte: 3,4 kg | Sem suporte: 3,1 kg<br>\nConsumo: 26 W<br>\nInmetro: Sim<br>\n01 monitor, 01 cabo HDMI, fonte de alimentação e manual de instruções.</p>\n ",
+            "fichaTecnica": "Marca: LG\nModelo: 27MP400-B\nTela IPS Full HD\nCores vibrantes de qualquer ângulo\nA tela IPS de 27” com resolução Full HD (1920 x 1080), presente no Monitor LG, oferece incrível qualidade de imagem com cores precisas de qualquer ângulo.\nImagens fluidas e rápidas\nTenha imagens sem cortes e falhas de repetições com a tecnologia AMD FreeSync™, que ocorrem pela diferença entre os quadros gráficos (FPS) e a taxa de atualização do monitor (Hz).\nExperiência Imersiva\nO design 3-Side Borderless trás bordas finas para o Monitor, permitindo uma tela muito mais ampla e uma incrível experiência visual.\nFácil configuração\nO OnScreen Control permite alterar as configurações do monitor e customizar as janelas em até 14 modos diferentes, com o Screen Split 2.0.\nDynamic Action Sync\nExperimente um jogo otimizado e com ritmo alucinante com o Dynamic Action Sync. Um recurso avançado para jogos de estratégia que torna o tempo de resposta ainda mais responsivo.\nEstabilizador de preto\nMantenha a visibilidade mesmo em cenas escuras. O estabilizador de preto ajuda a tornar tudo mais claro, para que você possa encontrar os inimigos escondidos.\nDesign ergonômico\nMais conforto no home-office\nHome-office que se ajusta ao seu estilo. O Monitor LG possui ajustes de inclinação que tornam o seu espaço de trabalho mais agradável.\nInformações do Produto\nTamanho da tela: 27\"\nResolução: 1920 x 1080 pixels\nTaxa de atualização: 75hz\nTecnologia da tela: LED\nProporção de tela: 16:9\nTempo de resposta: 5ms\nBrilho: Típico: 250cd/m² | Mínimo: 200 cd/m²\nContraste: 600: 1\nNúmero de cres: 16,7 milhões\nHDMI: 1\nUSB: Não\nVGA: 1\nDisplay Port: Não\nEntrada para fone de ouvido: Não\nSuporte: VESA 75X75\nAltura: Com suporte: 45,49 cm | Sem suporte: 36,25 cm\nLargura: Com suporte: 61,2 cm | Sem suporte: 61,2 cm\nProfundidade: Com suporte: 19 cm | Sem suporte: 5,62 cm\nPeso: Com suporte: 3,4 kg | Sem suporte: 3,1 kg\nConsumo: 26 W\nInmetro: Sim\n01 monitor, 01 cabo HDMI, fonte de alimentação e manual de instruções.",
+            "urlImg": "https://awstatic-5754.kxcdn.com/IksmSfb1fQgx3hvHWMd5RNhn2FU=/0x0/loja/londritech.com.br/prodimg/16/0350885001643288874.jpg",
+            "modelo": "27MP400-B",
+            "marca": "LG",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1368.88
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 701.55
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 478.65
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 367.2
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 299.51
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 252.79
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 219.22
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 193.35
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 173.39
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 157.42
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 1279.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:11:09",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-238-acer-gamer-nitro-fullhd-1920x1080-widescreen-hdmi-165hz-1ms-qg241y-165098.html",
+            "nome": "Monitor LED 23,8\" Acer Gamer Nitro FullHD 1920x1080 Widescreen HDMI 165Hz 1ms - QG241Y",
+            "valor": 1599.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca:</strong> Acer<br>\n<strong>Modelo:</strong> QG241Y</p>\n\n<p><strong>JOGUE EM PERFEITA SINCRONIA</strong><br>\nTela de 23.8\"&nbsp;com Resolução de 1920x1080 FHD, Jogo suave com a tecnologia compatível AMD FreeSync, Premium, Tempo de resposta 1ms VRB, Taxa de atualização de 144Hz até 165Hz (Utilizando o Overclock Mode), Tecnologia para redução de fadiga Blue Light Shield &amp; Flicker-less</p>\n\n<p><strong>Especificações:</strong><br>\nLargura (bruto) [m]: 0.9<br>\nProfundidade (bruto) [m]: 0.45<br>\nPeso (bruto) [Kg]: 5.2<br>\nAltura (bruto) [m]: 0.6<br>\nTamanho de Tela: 23,8<br>\nTipo de Tela: LCD LED VA<br>\nCor: Preto<br>\nResolução: 1920X1080<br>\nTempo de Resposta: 1ms<br>\nBrilho: 250 Nits<br>\nContraste: 4.000:1<br>\nConexões DVI: Não<br>\nConexões VGA: Não<br>\nFuração Vesa: VESA 100mm<br>\nAudio: Não<br>\nConexões HDMI: 02<br>\nConexão USB: Não<br>\nDisplay Port: 01<br>\nPivot: Não<br>\nAjuste de Altura: Não<br>\nWebcam + Mic: Não<br>\nTipo de Fonte: Interna<br>\nAutomação Comercial: Não<br>\nTecnologia de Tela IPS/WVA: Sim<br>\nFrequência: 165Hz</p>\n ",
+            "fichaTecnica": "Marca: Acer\nModelo: QG241Y\nJOGUE EM PERFEITA SINCRONIA\nTela de 23.8\" com Resolução de 1920x1080 FHD, Jogo suave com a tecnologia compatível AMD FreeSync, Premium, Tempo de resposta 1ms VRB, Taxa de atualização de 144Hz até 165Hz (Utilizando o Overclock Mode), Tecnologia para redução de fadiga Blue Light Shield & Flicker-less\nEspecificações:\nLargura (bruto) [m]: 0.9\nProfundidade (bruto) [m]: 0.45\nPeso (bruto) [Kg]: 5.2\nAltura (bruto) [m]: 0.6\nTamanho de Tela: 23,8\nTipo de Tela: LCD LED VA\nCor: Preto\nResolução: 1920X1080\nTempo de Resposta: 1ms\nBrilho: 250 Nits\nContraste: 4.000:1\nConexões DVI: Não\nConexões VGA: Não\nFuração Vesa: VESA 100mm\nAudio: Não\nConexões HDMI: 02\nConexão USB: Não\nDisplay Port: 01\nPivot: Não\nAjuste de Altura: Não\nWebcam + Mic: Não\nTipo de Fonte: Interna\nAutomação Comercial: Não\nTecnologia de Tela IPS/WVA: Sim\nFrequência: 165Hz",
+            "urlImg": "https://awstatic-5754.kxcdn.com/0x0-w6WBYucGhKS-wGV1J1cYs4U=/0x0/loja/londritech.com.br/prodimg/16/0836178001643817831.jpg",
+            "modelo": "QG241Y",
+            "marca": "Acer",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 40.06
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1711.12
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 876.95
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 598.32
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 459.01
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 374.39
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 315.99
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 274.02
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 241.7
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 216.74
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 196.78
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 1599.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:11:26",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-245-acer-gamer-nitro-280hz-05ms-ips-fullhd-1920x1080-hdmi-xv252q-165099.html",
+            "nome": "Monitor LED 24,5\" Acer Gamer Nitro 280Hz 0.5ms IPS FullHD 1920x1080 HDMI - XV252Q",
+            "valor": 2699.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca: </strong>Acer<br>\n<strong>Modelo: </strong>XV252Q</p>\n\n<p>Monitor LED Full HD Traga os usuários para um mundo colorido perfeito com FHD1920 x 1080 e oferece a melhor qualidade original natural e nítida.&nbsp;</p>\n\n<p>Taxa de atualização de overclock para 390 Hz A taxa de atualização de 390 Hz acelera os quadros por segundo para fornecer cenas de movimento 2D ultra-suaves. Com uma rápida taxa de atualização de 390 Hz, os monitores de jogos da Acer encurtam o tempo necessário para a renderização de quadros, diminuem o atraso de entrada e fornecem aos jogadores uma excelente experiência no jogo.&nbsp;</p>\n\n<p>AMD FreeSync TM Premium Com o AMD FreeSync TM Premium, a taxa de quadros do jogo é determinada pela sua placa de vídeo, não pela taxa de atualização fixa do monitor. Isso significa que os quadros do monitor são sincronizados com os quadros da placa gráfica, o que elimina a tela quebrada e oferece experiências de jogo muito suaves.&nbsp;</p>\n\n<p>Overclock para 390 Hz A taxa de atualização de 390 Hz acelera os quadros por segundo para fornecer cenas de movimento 2D ultra-suaves. Com uma rápida taxa de atualização de 390 Hz, os monitores de jogos da Acer encurtam o tempo necessário para a renderização de quadros, diminuem o atraso de entrada e fornecem aos jogadores uma excelente experiência no jogo.&nbsp;</p>\n\n<p>Acer VisionCare A tecnologia Acer VisionCare incorpora vários recursos que levam em consideração o uso prolongado por usuários frequentes, como programadores, escritores e designers gráficos, para reduzir o cansaço visual e fornecer uma experiência de visualização mais confortável.</p>\n\n<p><strong>Especificações:<br>\nGeral:</strong><br>\nTamanho da Tela: 24.5”H<br>\nProporção da Tela: 16:9<br>\nCor: Preto e vermelho</p>\n\n<p><strong>Máxima resolução:</strong><br>\nNormal mode:<br>\nHDMI: 1920x1080 @240Hz<br>\nDP: 1920x1080 @360Hz</p>\n\n<p><strong>Overclocking mode:</strong><br>\nDP: 1920x1080 @390Hz</p>\n\n<p><strong>Exibição:</strong><br>\nÁrea de exibição ativa (mm): 543x303<br>\nPixel Pitch (mm): 0.283x0.280</p>\n\n<p><strong>Frequência Horizontal/Vertical:</strong><br>\nH- frequency: HDMI 30K~255K/ DP 255KHz-255KHz<br>\nV- frequency: HDMI 48Hz-240Hz /DP 48Hz-390Hz</p>\n\n<p><strong>Geral:</strong><br>\nTipo de painel: LED IPS<br>\nGiro: 360°<br>\nAjuste de altura: 120mm<br>\nPivo: Sim<br>\nReflexo: N<br>\nTipo de moldura: 3S E2E<br>\nSaturação de cor: 99% sRGB<br>\nTempo de resposta: 1 ms (G para G) &amp; 0.5 (G para G, min)<br>\nBrilho / Contraste (cd/m2): Native 400nits, HDR400 mode: pico 400nits<br>\nÂngulo de visão: 178° (H),178° (V)<br>\nContraste Nativo: 1,000:1<br>\nContraste Máximo: 100,000,000:1<br>\nCores: 16.7M<br>\nBits: 8Bit</p>\n\n<p><strong>Conexão de entrada:&nbsp;</strong><br>\n2x HDMI2.0&nbsp;&nbsp;<br>\n1x DP1.4&nbsp;<br>\nSPK<br>\nAudio out</p>\n\n<p><strong>Detalhes:</strong><br>\nVesa (Montagem na parede): 100x100mm<br>\nCaixa de som: 2W x 2<br>\nFonte de alimentação (100 - 240 V): Interno<br>\nInclinação: -5° – 25°</p>\n\n<p><strong>Consumo de energia:</strong><br>\nDesligado: 0.3W&nbsp;<br>\nDescanso: 0.5W&nbsp;<br>\nLigado: 40W&nbsp;<br>\nMáximo: 60W</p>\n\n<p><strong>Dimensão do monitor:&nbsp;</strong><br>\n55.8 x 38.3~50.3 x 23.4</p>\n\n<p><strong>Peso:</strong><br>\n12963 gramas (bruto com embalagem)</p>\n ",
+            "fichaTecnica": "Marca: Acer\nModelo: XV252Q\nMonitor LED Full HD Traga os usuários para um mundo colorido perfeito com FHD1920 x 1080 e oferece a melhor qualidade original natural e nítida. \nTaxa de atualização de overclock para 390 Hz A taxa de atualização de 390 Hz acelera os quadros por segundo para fornecer cenas de movimento 2D ultra-suaves. Com uma rápida taxa de atualização de 390 Hz, os monitores de jogos da Acer encurtam o tempo necessário para a renderização de quadros, diminuem o atraso de entrada e fornecem aos jogadores uma excelente experiência no jogo. \nAMD FreeSync TM Premium Com o AMD FreeSync TM Premium, a taxa de quadros do jogo é determinada pela sua placa de vídeo, não pela taxa de atualização fixa do monitor. Isso significa que os quadros do monitor são sincronizados com os quadros da placa gráfica, o que elimina a tela quebrada e oferece experiências de jogo muito suaves. \nOverclock para 390 Hz A taxa de atualização de 390 Hz acelera os quadros por segundo para fornecer cenas de movimento 2D ultra-suaves. Com uma rápida taxa de atualização de 390 Hz, os monitores de jogos da Acer encurtam o tempo necessário para a renderização de quadros, diminuem o atraso de entrada e fornecem aos jogadores uma excelente experiência no jogo. \nAcer VisionCare A tecnologia Acer VisionCare incorpora vários recursos que levam em consideração o uso prolongado por usuários frequentes, como programadores, escritores e designers gráficos, para reduzir o cansaço visual e fornecer uma experiência de visualização mais confortável.\nEspecificações:\nGeral:\nTamanho da Tela: 24.5”H\nProporção da Tela: 16:9\nCor: Preto e vermelho\nMáxima resolução:\nNormal mode:\nHDMI: 1920x1080 @240Hz\nDP: 1920x1080 @360Hz\nOverclocking mode:\nDP: 1920x1080 @390Hz\nExibição:\nÁrea de exibição ativa (mm): 543x303\nPixel Pitch (mm): 0.283x0.280\nFrequência Horizontal/Vertical:\nH- frequency: HDMI 30K~255K/ DP 255KHz-255KHz\nV- frequency: HDMI 48Hz-240Hz /DP 48Hz-390Hz\nGeral:\nTipo de painel: LED IPS\nGiro: 360°\nAjuste de altura: 120mm\nPivo: Sim\nReflexo: N\nTipo de moldura: 3S E2E\nSaturação de cor: 99% sRGB\nTempo de resposta: 1 ms (G para G) & 0.5 (G para G, min)\nBrilho / Contraste (cd/m2): Native 400nits, HDR400 mode: pico 400nits\nÂngulo de visão: 178° (H),178° (V)\nContraste Nativo: 1,000:1\nContraste Máximo: 100,000,000:1\nCores: 16.7M\nBits: 8Bit\nConexão de entrada: \n2x HDMI2.0  \n1x DP1.4 \nSPK\nAudio out\nDetalhes:\nVesa (Montagem na parede): 100x100mm\nCaixa de som: 2W x 2\nFonte de alimentação (100 - 240 V): Interno\nInclinação: -5° – 25°\nConsumo de energia:\nDesligado: 0.3W \nDescanso: 0.5W \nLigado: 40W \nMáximo: 60W\nDimensão do monitor: \n55.8 x 38.3~50.3 x 23.4\nPeso:\n12963 gramas (bruto com embalagem)",
+            "urlImg": "https://awstatic-5754.kxcdn.com/Lb3nJx6ChoT-j5t_Vi260ouRVKM=/0x0/loja/londritech.com.br/prodimg/16/0786340001643820170.jpg",
+            "modelo": "XV252Q",
+            "marca": "Acer",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 51.06
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 2887.59
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 1479.89
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 1009.69
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 774.6
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 631.8
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 533.24
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 462.43
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 407.87
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 365.76
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 332.07
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 2699.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:11:44",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-27-philips-multimidia-4k-uhd-3840x2160-dp-hdmi-276e8vjsb-62711.html",
+            "nome": "Monitor Led 27\" Philips Multimídia 4k UHD 3840x2160 - DP HDMI - 276E8VJSB",
+            "valor": 2109.25,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Monitor LCD Ultra HD 4K </strong><br>\nE-Line, 68, 6 cm (27), UHD de 4K (3840 x 2160)<br>\n<br>\n<strong>Resolução UltraClear UHD 4K (3840x2160) para maior precisão </strong><br>\nOs mais recentes monitores Philips utilizam painéis de alto desempenho para oferecer resolução imagens UltraClear, UHD de 4K (3840 x 2160). Se você precisa de imagens profissionais e extremamente detalhadas para soluções CAD, usando aplicativos de gráficos 3D ou assistente financeiro para planilhas complexas, os monitores da Philips dão vida a imagens e gráficos.<br>\n<br>\n<strong>Tecnologia com visão ampla LED IPS para imagens e cores precisas </strong><br>\nOs monitores IPS utilizam uma tecnologia avançada que oferece ângulos de visão extralargos de 178/178 graus, fazendo com que seja possível visualizar o monitor de quase qualquer ângulo. Ao contrário das telas TN padrão, os monitores IPS oferecem imagens incrivelmente nítidas com cores excelentes, tornando-o ideal não apenas para fotos, filmes e navegação na Web, mas também para aplicativos profissionais que requerem precisão de cores e brilho constantemente.<br>\n<br>\nPart number: 276E8VJSB<br>\nTecnologia IPS<br>\nTipo de iluminação traseira: Sistema W-LED<br>\nDimensões do painel: 27 pol / 68,6 cm<br>\nRevestimento da tela: Camada antiofuscante, 3H, Névoa 25%<br>\nÁrea de exibição de alto desempenho: 596,74 (A) x 335,66 (V)<br>\nProp. imagem: 16:9<br>\nÓtima resolução: 3840 x 2160 a 60 Hz<br>\nDensidade de pixels: 163 PPI<br>\nTempo de resposta (típico): 5 ms (cinza para cinza)*<br>\nBrilho: 350 cd/m²<br>\nProporção de contraste (típica): 1000:1<br>\nSmartContrast: 20.000.000:1<br>\nPixel pitch|: 0,155 x 0,155 mm<br>\nÂngulo de visão: 178° (A) /178° (V) @ C/R &gt; 10<br>\nCores da tela: Suporte a cores, 1,07 bilhão de cores<br>\nGama de cores (comum): 91% de NTSC* , 109% de sRGB*<br>\nFrequência de varredura: 30 - 83 kHz (A) / 59 - 61 Hz (V)<br>\n<br>\n<strong>Entrada de sinal </strong><br>\n01 -DisplayPort 1.2<br>\n02 - HDMI 2.0<br>\nOutras facilidades: Trava Kensington<br>\n&nbsp;</p>\n ",
+            "fichaTecnica": "Monitor LCD Ultra HD 4K\nE-Line, 68, 6 cm (27), UHD de 4K (3840 x 2160)\n\nResolução UltraClear UHD 4K (3840x2160) para maior precisão\nOs mais recentes monitores Philips utilizam painéis de alto desempenho para oferecer resolução imagens UltraClear, UHD de 4K (3840 x 2160). Se você precisa de imagens profissionais e extremamente detalhadas para soluções CAD, usando aplicativos de gráficos 3D ou assistente financeiro para planilhas complexas, os monitores da Philips dão vida a imagens e gráficos.\n\nTecnologia com visão ampla LED IPS para imagens e cores precisas\nOs monitores IPS utilizam uma tecnologia avançada que oferece ângulos de visão extralargos de 178/178 graus, fazendo com que seja possível visualizar o monitor de quase qualquer ângulo. Ao contrário das telas TN padrão, os monitores IPS oferecem imagens incrivelmente nítidas com cores excelentes, tornando-o ideal não apenas para fotos, filmes e navegação na Web, mas também para aplicativos profissionais que requerem precisão de cores e brilho constantemente.\n\nPart number: 276E8VJSB\nTecnologia IPS\nTipo de iluminação traseira: Sistema W-LED\nDimensões do painel: 27 pol / 68,6 cm\nRevestimento da tela: Camada antiofuscante, 3H, Névoa 25%\nÁrea de exibição de alto desempenho: 596,74 (A) x 335,66 (V)\nProp. imagem: 16:9\nÓtima resolução: 3840 x 2160 a 60 Hz\nDensidade de pixels: 163 PPI\nTempo de resposta (típico): 5 ms (cinza para cinza)*\nBrilho: 350 cd/m²\nProporção de contraste (típica): 1000:1\nSmartContrast: 20.000.000:1\nPixel pitch|: 0,155 x 0,155 mm\nÂngulo de visão: 178° (A) /178° (V) @ C/R > 10\nCores da tela: Suporte a cores, 1,07 bilhão de cores\nGama de cores (comum): 91% de NTSC* , 109% de sRGB*\nFrequência de varredura: 30 - 83 kHz (A) / 59 - 61 Hz (V)\n\nEntrada de sinal\n01 -DisplayPort 1.2\n02 - HDMI 2.0\nOutras facilidades: Trava Kensington\n ",
+            "urlImg": "https://awstatic-5754.kxcdn.com/qy2tpKiPkLbjnduitshyC1TTBY0=/0x0/loja/londritech.com.br/prodimg/62/0580221001620754373.jpg",
+            "modelo": "XV252Q",
+            "marca": "Acer",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 45.93
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 2255.88
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 1156.14
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 788.81
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 605.14
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 493.59
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 416.59
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 361.26
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 318.64
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 285.74
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 259.43
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 2109.25
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:12:01",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-315-acer-gamer-nitro-curvo-fullhd-1920x1080-widescreen-hdmi-165hz-4ms-xz322q-165097.html",
+            "nome": "Monitor LED 31.5\" Acer Gamer Nitro Curvo FullHD 1920x1080 Widescreen HDMI 165Hz 4ms - XZ322Q",
+            "valor": 2399.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Marca:</strong> Acer<br>\n<strong>Modelo: </strong>XZ322Q P</p>\n\n<p><strong>JOGUE EM PERFEITA SINCRONIA</strong><br>\nExiba seu Radeon FreeSync com ótimos núcleos em um monitor de tecnologia VA. A tecnologia AMD® Radeon FreeSync elimina as rupturas e atrasos da tela durante os jogos, apresentando uma sincronização dos quadros do monitor muito mais eficiente. Sua experiência visual será mais suave, fluida e responsiva</p>\n\n<p><strong>DIMINUI&nbsp;O INPUT LAG</strong><br>\nO Nitro XZ322Q conta com uma alta taxa de atualização de 165Hz. Prepare-se para ver imagens mais suaves, sem rastros e sem rasgos.</p>\n\n<p><strong>DESIGN ZEROFRAME</strong><br>\nMonitor é igual exp: quanto mais, melhor. Jogue com múltiplos monitores sem problemas, o design ZeroFrame praticamente elimina<br>\nas bordas para que você tenha uma verdadeira imersão no jogo.</p>\n\n<p><strong>CURVA IMERSIVA DE 1500R</strong><br>\nA tela curva deste monitor gamer proporciona uma experiência uniforme e reduz o cansaço dos olhos durante longos períodos de competições. Aproveite o amplo campo de visão para aniquilar seu adversário.</p>\n\n<p>Com Vesa Certified Display HDR 400, o XZ3 se ajusta às cenas, tornando-as mais brilhantes e detalhadas. Nas cenas mais escuras, os pretos ricos são preservados e os detalhes aprimorados, gerando maior luminosidade. A tela de 31,5 Full HD potencializa seu poder de imersão nas batalhas</p>\n\n<p><strong>FOQUE NO MOVIMENTO</strong><br>\nCom o Visual Response Boost (VRB), o monitor reduz borrões, efeitos fantasmas e manchas nas imagens. Além disso, elimina o desfoque em objetos em movimento rápido</p>\n\n<p><strong>ENXERGUE O QUE INTERESSA</strong><br>\nA tecnologia Black Boost conta com 11 níveis de ajustes escuros, realçando detalhes das imagens rapidamente. Você verá aquilo que seus inimigos não podem ver.</p>\n\n<p><strong>Acompanha o produto:</strong><br>\nBase e Monitor<br>\nManual em português<br>\nTermo de garantia<br>\nCabo HDMI e Cabo de força</p>\n\n<p><strong>Tela:</strong><br>\nTamanho: 31.5\"<br>\nFHD (1920 x 1080)<br>\nVESA DisplayHDR 400<br>\nAMD FreeSync<br>\nBlack boost<br>\nReflexo: Anti reflexo<br>\nPainel: VA<br>\nTempo de resposta: 4 ms (G to G) ou 1 ms (VRB)*<br>\nContraste (ACM): 100 milhão:1 max<br>\nBrilho Nativo: 400nits;<br>\nModo HDR400: Peak 400nits<br>\nÂngulo de visão: 178° (H), 178° (V)<br>\nCores: 16.7 milhões<br>\nBits: 8 bit</p>\n\n<p>* As taxas de atualização reais podem variar dependendo das especificações / hardware e / ou configuração do computador.</p>\n\n<p><strong>Conforto:</strong><br>\nFlicker-Less<br>\nBlue-Light<br>\nAcer Comfyview</p>\n\n<p><strong>Borda:</strong><br>\nDesigner ZeroFrame</p>\n\n<p><strong>Usabilidade:</strong><br>\nInclinação de – 5° ~ 35°<br>\nRotação: 360°<br>\nSuporte Vesa</p>\n\n<p><strong>Rotação e Ajustes:</strong><br>\n360° de rotação<br>\n120mm de ajuste de altura</p>\n\n<p><strong>Entradas:</strong><br>\n1x HDMI¹ (v1.4)<br>\n1x HDMI² (2.0)<br>\n1x DisplayPort (1.2a)<br>\n1x Áudio out</p>\n\n<p><strong>Resolução Máxima:&nbsp;</strong><br>\nHDMI¹ 1920 x 1080<br>\nHDMI² 1920 x 1080<br>\nDP: 1920 x 1080</p>\n\n<p><strong>Taxa de atualização:&nbsp;</strong><br>\n120Hz<br>\n165Hz</p>\n\n<p><strong>Físico:</strong><br>\nCor (Produto) Preto e Vermelho<br>\nVESA (Montagem na parede): 100 x 100 mm<br>\nInclinação -5° ~ 35°</p>\n\n<p><strong>Áudio:</strong><br>\nAlto falantes 2x de 3W</p>\n\n<p><strong>Fonte de energia:</strong><br>\nExterno 32W<br>\nVoltagem: 100-240 V</p>\n\n<p><strong>Conteúdo da Embalagem:</strong><br>\nMonitor Gamer Acer<br>\nManual em português<br>\nTermo de garantia<br>\nCabo HDMI e DP<br>\nCabo de força<br>\nBase e Monitor</p>\n\n<p><strong>Peso:</strong><br>\n21234 gramas (bruto com embalagem)</p>\n ",
+            "fichaTecnica": "Marca: Acer\nModelo: XZ322Q P\nJOGUE EM PERFEITA SINCRONIA\nExiba seu Radeon FreeSync com ótimos núcleos em um monitor de tecnologia VA. A tecnologia AMD® Radeon FreeSync elimina as rupturas e atrasos da tela durante os jogos, apresentando uma sincronização dos quadros do monitor muito mais eficiente. Sua experiência visual será mais suave, fluida e responsiva\nDIMINUI O INPUT LAG\nO Nitro XZ322Q conta com uma alta taxa de atualização de 165Hz. Prepare-se para ver imagens mais suaves, sem rastros e sem rasgos.\nDESIGN ZEROFRAME\nMonitor é igual exp: quanto mais, melhor. Jogue com múltiplos monitores sem problemas, o design ZeroFrame praticamente elimina\nas bordas para que você tenha uma verdadeira imersão no jogo.\nCURVA IMERSIVA DE 1500R\nA tela curva deste monitor gamer proporciona uma experiência uniforme e reduz o cansaço dos olhos durante longos períodos de competições. Aproveite o amplo campo de visão para aniquilar seu adversário.\nCom Vesa Certified Display HDR 400, o XZ3 se ajusta às cenas, tornando-as mais brilhantes e detalhadas. Nas cenas mais escuras, os pretos ricos são preservados e os detalhes aprimorados, gerando maior luminosidade. A tela de 31,5 Full HD potencializa seu poder de imersão nas batalhas\nFOQUE NO MOVIMENTO\nCom o Visual Response Boost (VRB), o monitor reduz borrões, efeitos fantasmas e manchas nas imagens. Além disso, elimina o desfoque em objetos em movimento rápido\nENXERGUE O QUE INTERESSA\nA tecnologia Black Boost conta com 11 níveis de ajustes escuros, realçando detalhes das imagens rapidamente. Você verá aquilo que seus inimigos não podem ver.\nAcompanha o produto:\nBase e Monitor\nManual em português\nTermo de garantia\nCabo HDMI e Cabo de força\nTela:\nTamanho: 31.5\"\nFHD (1920 x 1080)\nVESA DisplayHDR 400\nAMD FreeSync\nBlack boost\nReflexo: Anti reflexo\nPainel: VA\nTempo de resposta: 4 ms (G to G) ou 1 ms (VRB)*\nContraste (ACM): 100 milhão:1 max\nBrilho Nativo: 400nits;\nModo HDR400: Peak 400nits\nÂngulo de visão: 178° (H), 178° (V)\nCores: 16.7 milhões\nBits: 8 bit\n* As taxas de atualização reais podem variar dependendo das especificações / hardware e / ou configuração do computador.\nConforto:\nFlicker-Less\nBlue-Light\nAcer Comfyview\nBorda:\nDesigner ZeroFrame\nUsabilidade:\nInclinação de – 5° ~ 35°\nRotação: 360°\nSuporte Vesa\nRotação e Ajustes:\n360° de rotação\n120mm de ajuste de altura\nEntradas:\n1x HDMI¹ (v1.4)\n1x HDMI² (2.0)\n1x DisplayPort (1.2a)\n1x Áudio out\nResolução Máxima: \nHDMI¹ 1920 x 1080\nHDMI² 1920 x 1080\nDP: 1920 x 1080\nTaxa de atualização: \n120Hz\n165Hz\nFísico:\nCor (Produto) Preto e Vermelho\nVESA (Montagem na parede): 100 x 100 mm\nInclinação -5° ~ 35°\nÁudio:\nAlto falantes 2x de 3W\nFonte de energia:\nExterno 32W\nVoltagem: 100-240 V\nConteúdo da Embalagem:\nMonitor Gamer Acer\nManual em português\nTermo de garantia\nCabo HDMI e DP\nCabo de força\nBase e Monitor\nPeso:\n21234 gramas (bruto com embalagem)",
+            "urlImg": "https://awstatic-5754.kxcdn.com/eBxNIYgNxSaaLyI1G2OOG7cK7cQ=/0x0/loja/londritech.com.br/prodimg/16/0484536001643831511.jpg",
+            "modelo": "XZ322Q P",
+            "marca": "Acer",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 48.06
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 2566.74
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 1315.45
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 897.5
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 688.53
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 561.6
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 473.99
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 411.05
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 362.55
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 325.12
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 295.18
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 2399.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:12:18",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-29-lg-full-hd-ips-ultrawide-219-hdmi-hdr-29wk600-165124.html",
+            "nome": "Monitor LED 29\" LG Full HD IPS UltraWide 21:9 HDMI HDR - 29WK600",
+            "valor": 1719.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Características</strong>:<br>\n- <strong>Marca</strong>: LG<br>\n- <strong>Modelo</strong>: 29WK600&nbsp;</p>\n\n<p>Monitor LG LED 29´ Eleve o equipamento do seu Home Office O monitor LG UltraWide 29´ tem resolução Full HD (2560x1080) e oferece 33% mais espaço de tela comparado a monitores convencionais, permite que você trabalhe em mais de um relatório de uma vez só, sem precisar alternar de janelas toda vez.&nbsp;</p>\n\n<p>Aproveite a tela para ver mais janelas de uma vez durante a video-chamada. O novo Monitor de 29 polegadas UltraWide da LG Possibilitando o uso de mais de um programa ao mesmo tempo sem perder qualidade de resolução. Você pode executar várias telas e visualizar mais miniaturas de uma só vez. Tecnologia que um Monitor para PC pede! O OnScreen Control permite alterar as configurações do monitor, customizar a tela em até 14 modos, com o Screen Split 2.0, e visualizar duas janelas ao mesmo tempo através do PIP.&nbsp;</p>\n\n<p>O monitor IPS da LG exibe precisão de cores impecável. Com um ângulo de visão ampliado, a exibição IPS reproduz 99% de cobertura do espectro de cores sRGB. E também conta com o MAXXAUDIO para uma experiência imersiva de cinema tendo 2 alto-falantes de 5W cada no monitor UltraWide 21:9 com HDR10. Tenha seu monitor de 29 polegadas na parede ou na mesa A base curvada aprimora a estabilidade para a obtenção de um desempenho confiável. Ela pode ser ajustada para alterar a inclinação, do monitor para que haja uma experiência mais confortável de visualização.&nbsp;</p>\n\n<p>Função Game, para um Monitor Gamer Customize a experiência em jogo com a Função Game Mode para jogos em FPS e RTS, ajustando e melhorando as configurações para o tipo de jogo que você escolher.</p>\n\n<p><strong>Especificações</strong>:<br>\n- Tamanho da tela: 29 \"<br>\n- Tipo de painel: IPS<br>\n- Gama de cores (CIE1931): sRGB 99% (Typ)<br>\n- Profundidade de cor (número de cores): 8bits (6bit + FRC), 16,7m<br>\n- Passo de pixel (mm): 0,2628 x 0,2628<br>\n- Tempo de Resposta (GTG): 5ms (alta)<br>\n- Proporção da tela: 21: 9<br>\n- Resolução: 2560 x 1080<br>\n- Brilho: 300 (Typ), 240 (min) cd / m2<br>\n- Taxa de contraste: 1000: 1 (Typ)<br>\n- Ângulo de visão: 178/178 (CR≥10)<br>\n- Tratamento da superfície: Anti-reflexo 3H<br>\n- Base Detectável<br>\n- Ângulo de inclinaçao: -5 ~ 15 graus<br>\n- Tamanho VESA (mm): 100 x 100 (compatível com VESA)<br>\n- Dimensões (sem base): 691.1 x 76.9 x 317.5 mm<br>\n- Dimensões (com base): 698.1 x 209.4 x 410.9 mm</p>\n\n<p><strong>Entrada / Saída:</strong><br>\n- 2x HDMI<br>\n- DisplayPort<br>\n- Saída de fone de ouvido</p>\n\n<p><strong>Power</strong>:<br>\n- Tipo: Adaptador<br>\n- Entrada: 100 ~ 240V<br>\n- Normal ativado (tipo EPA): 20,5 W<br>\n- Normal Ligado (condição de fábrica): 32W<br>\n- Modo de economia de energia / suspensão (máx.): 0,5 W<br>\n- DC Off (máx): 0,3 W</p>\n\n<p><strong>Som</strong>:<br>\n- Alto falante: 5W x 2<br>\n- Ajuste de áudio: MAXXAudio</p>\n\n<p><strong>Recursos</strong>:<br>\n- Modo de Imagem:(Conteúdo não HDR) Personalizado, Efeito HDR, Leitor, Foto, Cinema, Fraqueza de cor, Jogo FPS1 / Jogo FPS2, RTS Game, Custom (Game), (conteúdo HDR)&nbsp; HDR Vivid, Cinema HDR, Jogo HDR, Padrão HDR<br>\n- Raio: Largo, Original, Cinema 1, Cinema 2<br>\n- PIP: Modo PIP na divisão de tela<br>\n- DDC / CI<br>\n- HDCP: HDCP2.2 / HDCP1.4<br>\n- Bloqueio de teclas<br>\n- Plug &amp; Play<br>\n- Controle de Tempo de Resposta<br>\n- Cor Calibrada<br>\n- Sincronização Adaptativa: AMD FreeSync<br>\n- Modo de jogo<br>\n- Modo DAS<br>\n- Estabilizador Preto<br>\n- Sincronização de ação dinâmica<br>\n- Crosshair<br>\n- Flicker Safe<br>\n- Espera Automática<br>\n- Controle de Seis Eixos<br>\n- Economia de energia inteligente<br>\n- Modo Leitor<br>\n- Controlador Duplo<br>\n- Tela split2.0 (em OSC)<br>\n- Minha exibição predefinida (em OSC)<br>\n- Controle na tela (OSC)<br>\n- One Click Stand Set-up<br>\n- Super resolução +<br>\n- HDR (High Dynamic Range)<br>\n- HDR 10</p>\n\n<p><strong>Conteúdo da embalagem:</strong><br>\n- Monitor LG UltraWide 29´´&nbsp;</p>\n ",
+            "fichaTecnica": "Características:\n- Marca: LG\n- Modelo: 29WK600 \nMonitor LG LED 29´ Eleve o equipamento do seu Home Office O monitor LG UltraWide 29´ tem resolução Full HD (2560x1080) e oferece 33% mais espaço de tela comparado a monitores convencionais, permite que você trabalhe em mais de um relatório de uma vez só, sem precisar alternar de janelas toda vez. \nAproveite a tela para ver mais janelas de uma vez durante a video-chamada. O novo Monitor de 29 polegadas UltraWide da LG Possibilitando o uso de mais de um programa ao mesmo tempo sem perder qualidade de resolução. Você pode executar várias telas e visualizar mais miniaturas de uma só vez. Tecnologia que um Monitor para PC pede! O OnScreen Control permite alterar as configurações do monitor, customizar a tela em até 14 modos, com o Screen Split 2.0, e visualizar duas janelas ao mesmo tempo através do PIP. \nO monitor IPS da LG exibe precisão de cores impecável. Com um ângulo de visão ampliado, a exibição IPS reproduz 99% de cobertura do espectro de cores sRGB. E também conta com o MAXXAUDIO para uma experiência imersiva de cinema tendo 2 alto-falantes de 5W cada no monitor UltraWide 21:9 com HDR10. Tenha seu monitor de 29 polegadas na parede ou na mesa A base curvada aprimora a estabilidade para a obtenção de um desempenho confiável. Ela pode ser ajustada para alterar a inclinação, do monitor para que haja uma experiência mais confortável de visualização. \nFunção Game, para um Monitor Gamer Customize a experiência em jogo com a Função Game Mode para jogos em FPS e RTS, ajustando e melhorando as configurações para o tipo de jogo que você escolher.\nEspecificações:\n- Tamanho da tela: 29 \"\n- Tipo de painel: IPS\n- Gama de cores (CIE1931): sRGB 99% (Typ)\n- Profundidade de cor (número de cores): 8bits (6bit + FRC), 16,7m\n- Passo de pixel (mm): 0,2628 x 0,2628\n- Tempo de Resposta (GTG): 5ms (alta)\n- Proporção da tela: 21: 9\n- Resolução: 2560 x 1080\n- Brilho: 300 (Typ), 240 (min) cd / m2\n- Taxa de contraste: 1000: 1 (Typ)\n- Ângulo de visão: 178/178 (CR≥10)\n- Tratamento da superfície: Anti-reflexo 3H\n- Base Detectável\n- Ângulo de inclinaçao: -5 ~ 15 graus\n- Tamanho VESA (mm): 100 x 100 (compatível com VESA)\n- Dimensões (sem base): 691.1 x 76.9 x 317.5 mm\n- Dimensões (com base): 698.1 x 209.4 x 410.9 mm\nEntrada / Saída:\n- 2x HDMI\n- DisplayPort\n- Saída de fone de ouvido\nPower:\n- Tipo: Adaptador\n- Entrada: 100 ~ 240V\n- Normal ativado (tipo EPA): 20,5 W\n- Normal Ligado (condição de fábrica): 32W\n- Modo de economia de energia / suspensão (máx.): 0,5 W\n- DC Off (máx): 0,3 W\nSom:\n- Alto falante: 5W x 2\n- Ajuste de áudio: MAXXAudio\nRecursos:\n- Modo de Imagem:(Conteúdo não HDR) Personalizado, Efeito HDR, Leitor, Foto, Cinema, Fraqueza de cor, Jogo FPS1 / Jogo FPS2, RTS Game, Custom (Game), (conteúdo HDR)  HDR Vivid, Cinema HDR, Jogo HDR, Padrão HDR\n- Raio: Largo, Original, Cinema 1, Cinema 2\n- PIP: Modo PIP na divisão de tela\n- DDC / CI\n- HDCP: HDCP2.2 / HDCP1.4\n- Bloqueio de teclas\n- Plug & Play\n- Controle de Tempo de Resposta\n- Cor Calibrada\n- Sincronização Adaptativa: AMD FreeSync\n- Modo de jogo\n- Modo DAS\n- Estabilizador Preto\n- Sincronização de ação dinâmica\n- Crosshair\n- Flicker Safe\n- Espera Automática\n- Controle de Seis Eixos\n- Economia de energia inteligente\n- Modo Leitor\n- Controlador Duplo\n- Tela split2.0 (em OSC)\n- Minha exibição predefinida (em OSC)\n- Controle na tela (OSC)\n- One Click Stand Set-up\n- Super resolução +\n- HDR (High Dynamic Range)\n- HDR 10\nConteúdo da embalagem:\n- Monitor LG UltraWide 29´´ ",
+            "urlImg": "https://awstatic-5754.kxcdn.com/wUrdlckvJljVorn3O7GtaKnVbK8=/0x0/loja/londritech.com.br/prodimg/16/0276160001644065243.jpg",
+            "modelo": "29WK600",
+            "marca": "LG",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 68.94
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1839.46
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 942.73
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 643.2
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 493.44
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 402.47
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 339.69
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 294.58
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 259.82
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 233.0
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 211.54
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 1719.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:12:36",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-pctop-17-hdmi-vga-led-preto-mlp170hdmi-144987.html",
+            "nome": "Monitor Pctop 17\" HDMI VGA Led Preto - MLP170HDMI",
+            "valor": 479.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p><strong>Características</strong>:<br>\n- Marca: PCTop<br>\n- Modelo: MLP170HDMI</p>\n\n<p><strong>Especificações</strong>:<br>\n- Monitor: 17'' (4:3)<br>\n- Resolução: 1280x1024px<br>\n- Fonte de alimentação: Interna<br>\n- Furação: VESA<br>\n- Interfaces: VGA, HDMI<br>\n- Painel: LED<br>\n- Tempo de resposta: 5ms<br>\n- Taxa de contraste: 700:1<br>\n- Consumo ligado: 15W<br>\n- Consumo em standby: 1W<br>\n- Voltagem de entrada: 100-240VAC<br>\n- Pixel Pitch (mm): 0,264(H) x 0,264(V)<br>\n- Área visível: 33.792cm(H) x 27.0336cm(V)<br>\n- Brilho: 200cd/m²<br>\n&nbsp;<br>\n<strong>Itens Inclusos</strong><br>\n- 1x Monitor PCTop 17\", LED HDMI/VGA - MLP170HDMI</p>\n ",
+            "fichaTecnica": "Características:\n- Marca: PCTop\n- Modelo: MLP170HDMI\nEspecificações:\n- Monitor: 17'' (4:3)\n- Resolução: 1280x1024px\n- Fonte de alimentação: Interna\n- Furação: VESA\n- Interfaces: VGA, HDMI\n- Painel: LED\n- Tempo de resposta: 5ms\n- Taxa de contraste: 700:1\n- Consumo ligado: 15W\n- Consumo em standby: 1W\n- Voltagem de entrada: 100-240VAC\n- Pixel Pitch (mm): 0,264(H) x 0,264(V)\n- Área visível: 33.792cm(H) x 27.0336cm(V)\n- Brilho: 200cd/m²\n \nItens Inclusos\n- 1x Monitor PCTop 17\", LED HDMI/VGA - MLP170HDMI",
+            "urlImg": "https://awstatic-5754.kxcdn.com/uLlhN2-_XEb1XLqlKTqXVj-R5_o=/0x0/loja/londritech.com.br/prodimg/14/0445196001626786565.jpg",
+            "modelo": "MLP170HDMI",
+            "marca": "PCTop",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 28.86
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 513.26
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 263.05
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 179.47
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 137.68
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 112.3
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 94.78
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 82.19
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 72.5
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 65.01
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 59.02
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 479.9
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:12:53",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-lg-led-215-full-hd-widescreen-hdmi-22mk400h-129580.html",
+            "nome": "Monitor LG LED 21.5´ Full HD Widescreen HDMI - 22MK400H",
+            "valor": 1177.35,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <div class=\"data item content\" id=\"description\" style=\"box-sizing: border-box; color: rgb(40, 40, 40); font-family: Poppins, &quot;Helvetica Neue&quot;, Verdana, Arial, sans-serif; font-size: 12px;\">\n<div class=\"product attribute description\" style=\"box-sizing: border-box;\">\n<div class=\"value\" style=\"box-sizing: border-box;\">O novo Monitor LG 21,5\" conta com resolução Full HD (1920x1080) para melhor definição e mais clareza nas imagens reproduzidas.<br>\n<br>\n<strong>FÁCIL CONFIGURAÇÃO</strong><br>\nO OnScreen Control permite alterar as configurações do monitor, customizar a tela em até 14 modos, com o Screen Split 2.0.<br>\n<br>\n<strong>ERGONOMIA</strong><br>\nInstale o Monitor LG de acordo com a sua necessidade. Seja na mesa com ajuste de inclinação para melhor visão ou na parede para melhor uso do seu espaço de trabalho.<br>\n<br>\n<strong>IMAGEM DE ALTA QUALIDADE</strong><br>\nCom a tecnologia AMD Radeon FreeSync você aproveitará ainda mais das imagens do Monitor LG, eliminando os cortes e repetições de imagem.<br>\n<br>\n<strong>Especificações:</strong><br>\n<br>\nMarca: LG<br>\nModelo: 22MK400H<br>\nTamanho: 21,5\"<br>\nTipo de Tela: TN<br>\nBrilho: 200 cd/m²<br>\nResolução Máxima: 1920 x 1080<br>\nContraste Estático: 600:1<br>\nSuporte de Cores: 16,7M<br>\nPixel Pitch: 0,24825 x 0,24825 mm<br>\nTempo de Resposta: 5ms<br>\nRevestimento de Tela: Anti-glare (3H)<br>\nFrequência: H: 30 - 83 kHz / V: 56 - 75 Hz<br>\nÂngulo de Visão: 90° / 60°<br>\nSuporte de Parede (VESA): 75 x 75mm<br>\nFonte Adaptador externo<br>\nConsumo de Energia 16,9W<br>\nHDMI<br>\nHP Out<br>\n<br>\n<strong>Recursos:</strong><br>\n<br>\nReader Mode<br>\nFlicker Safe<br>\nColor Weakness<br>\nBlack Stabilizer<br>\nSmart Energy Saving<br>\nOnScreen Control</div>\n</div>\n</div>\n\n<p>&nbsp;</p>\n\n<h1>Mais informações</h1>\n\n<div class=\"data item content\" id=\"additional-new\" style=\"box-sizing: border-box; color: rgb(40, 40, 40); font-family: Poppins, &quot;Helvetica Neue&quot;, Verdana, Arial, sans-serif; font-size: 12px;\">\n<div class=\"additional-attributes-wrapper table-wrapper\" style=\"box-sizing: border-box; margin-bottom: 20px;\">\n<table class=\"additional-attributes data table\" id=\"product-attribute-specs-table\" style=\"border-collapse:collapse; border-spacing:0px; border:none; max-width:100%; width:auto\">\n\t<caption>Mais informações</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Marca</th>\n\t\t\t<td style=\"vertical-align:top\">LG</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Peso(Kg)</th>\n\t\t\t<td style=\"vertical-align:top\">3.600000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Part Number</th>\n\t\t\t<td style=\"vertical-align:top\">22MK400H-B.AWZ</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Múltiplo</th>\n\t\t\t<td style=\"vertical-align:top\">1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Largura</th>\n\t\t\t<td style=\"vertical-align:top\">36 Cm</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Altura</th>\n\t\t\t<td style=\"vertical-align:top\">12 Cm</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\" style=\"text-align:left; vertical-align:top\">Profundidade</th>\n\t\t\t<td style=\"vertical-align:top\">63 Cm</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n</div>\n ",
+            "fichaTecnica": "O novo Monitor LG 21,5\" conta com resolução Full HD (1920x1080) para melhor definição e mais clareza nas imagens reproduzidas.\n\nFÁCIL CONFIGURAÇÃO\nO OnScreen Control permite alterar as configurações do monitor, customizar a tela em até 14 modos, com o Screen Split 2.0.\n\nERGONOMIA\nInstale o Monitor LG de acordo com a sua necessidade. Seja na mesa com ajuste de inclinação para melhor visão ou na parede para melhor uso do seu espaço de trabalho.\n\nIMAGEM DE ALTA QUALIDADE\nCom a tecnologia AMD Radeon FreeSync você aproveitará ainda mais das imagens do Monitor LG, eliminando os cortes e repetições de imagem.\n\nEspecificações:\n\nMarca: LG\nModelo: 22MK400H\nTamanho: 21,5\"\nTipo de Tela: TN\nBrilho: 200 cd/m²\nResolução Máxima: 1920 x 1080\nContraste Estático: 600:1\nSuporte de Cores: 16,7M\nPixel Pitch: 0,24825 x 0,24825 mm\nTempo de Resposta: 5ms\nRevestimento de Tela: Anti-glare (3H)\nFrequência: H: 30 - 83 kHz / V: 56 - 75 Hz\nÂngulo de Visão: 90° / 60°\nSuporte de Parede (VESA): 75 x 75mm\nFonte Adaptador externo\nConsumo de Energia 16,9W\nHDMI\nHP Out\n\nRecursos:\n\nReader Mode\nFlicker Safe\nColor Weakness\nBlack Stabilizer\nSmart Energy Saving\nOnScreen Control\n  Mais informações\nMais informações\nMarca LG\nPeso(Kg) 3.600000\nPart Number 22MK400H-B.AWZ\nMúltiplo 1\nLargura 36 Cm\nAltura 12 Cm\nProfundidade 63 Cm",
+            "urlImg": "https://awstatic-5754.kxcdn.com/MXu54PR6vK4FzzTJ2-xCLgKaInE=/0x0/loja/londritech.com.br/prodimg/12/0661416001619773320.jpg",
+            "modelo": "22MK400H",
+            "marca": "LG",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 30.37
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1259.2
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 645.34
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 440.3
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 337.78
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 275.51
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 232.53
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 201.65
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 177.86
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 159.5
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 144.81
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 1177.35
+            }
+        ]
+    },
+    {
+        "produto": {
+            "createdAt": "2022-02-14 21:13:11",
+            "secao": 2,
+            "url": "https://londritech.com.br/monitor-led-236-aoc-widescreen-preto-m2470swh2-86254.html",
+            "nome": "Monitor Led 23,6\" Aoc Widescreen Preto - M2470SWH2",
+            "valor": 974.9,
+            "descricao": " <div class=\"description-title hide\">Descrição</div> <p>Slim Design, tecnologia de painel WVA (Wide View Angle) para perfeito angulo de visão, LED backlight (até 50% de economia de energia em relação a um LCD comum, maior durabilidade, produto ecológico), Eco Mode, Picture Boost, DCB (amplificação dinâmica de cores), Ultra High DCR (altíssimo contraste dinâmico - 20.000.000:1), Menu OSD com interface gráfica amigável (tipo ícones de celular), tempo de resposta ultra rápido (5 ms), i-Menu (controle dos menus pelo mouse), acabamento em black piano com textura diferenciada na base e painel traseiro, direct-insert (facilita a conexão de cabos), conexão digital DVI e analógica VGA, ajuste ângulo da base - Tilt (-4~17o), certificado EPEAT (produto ecológico), FULL HD (1080p).</p>\n\n<p>Part number: M2470SWH<br>\nTamanho do painel: 23,6 Widescreen WVA (LED LCD)<br>\nTipo de Painel: Wide View Angle<br>\nTamanho da imagem visível (diagonal): 59,8 cm<br>\nPixel pitch : 0,271 mm<br>\nBrilho: 250 cd/m2<br>\nRelação de contraste (dinâmico): 20.000.000:1<br>\nTempo de resposta 5 ms<br>\nÂngulo de visão: Horizontal 178º / Vertical 178º<br>\nFrequência de varredura: Horizontal - 50Hz ~ 76 Hz / Vertical: 30kHz to 83kHz<br>\nFrequência de pixel: 165 MHz<br>\nCompatibilidade:<br>\nWindows, MAC, Linux<br>\nResolução máxima:<br>\n1920 x 1080 @ 60 Hz (FULL HD)<br>\nResolução recomendada:<br>\n1920 x 1080 @ 60 Hz (FULL HD)<br>\nSuporte de cores:Maior que 16 Milhões</p>\n\n<p>Conectores:&nbsp;<br>\n01- Analógico (RGB)<br>\n01-HDMI digital</p>\n\n<p>Consumo Ligado: 26 Watts (típico) - Stand By - 0,5 Watt<br>\nFonte Interna: 90~240V - 50/60 Hz</p>\n\n<p>VESA (sistema internacional de furação para fixação em paredes ou painéis -100 x 100 mm)<br>\nCor predominante Preto</p>\n\n<p>Acompanha na caixa:&nbsp;<br>\nCabo de força<br>\nCabo RGB,<br>\nManual (CD),<br>\nCertificado de garantia.</p>\n\n<div id=\"njcdgcofcbnlbpkpdhmlmiblaglnkpnj\">&nbsp;</div>\n ",
+            "fichaTecnica": "Slim Design, tecnologia de painel WVA (Wide View Angle) para perfeito angulo de visão, LED backlight (até 50% de economia de energia em relação a um LCD comum, maior durabilidade, produto ecológico), Eco Mode, Picture Boost, DCB (amplificação dinâmica de cores), Ultra High DCR (altíssimo contraste dinâmico - 20.000.000:1), Menu OSD com interface gráfica amigável (tipo ícones de celular), tempo de resposta ultra rápido (5 ms), i-Menu (controle dos menus pelo mouse), acabamento em black piano com textura diferenciada na base e painel traseiro, direct-insert (facilita a conexão de cabos), conexão digital DVI e analógica VGA, ajuste ângulo da base - Tilt (-4~17o), certificado EPEAT (produto ecológico), FULL HD (1080p).\nPart number: M2470SWH\nTamanho do painel: 23,6 Widescreen WVA (LED LCD)\nTipo de Painel: Wide View Angle\nTamanho da imagem visível (diagonal): 59,8 cm\nPixel pitch : 0,271 mm\nBrilho: 250 cd/m2\nRelação de contraste (dinâmico): 20.000.000:1\nTempo de resposta 5 ms\nÂngulo de visão: Horizontal 178º / Vertical 178º\nFrequência de varredura: Horizontal - 50Hz ~ 76 Hz / Vertical: 30kHz to 83kHz\nFrequência de pixel: 165 MHz\nCompatibilidade:\nWindows, MAC, Linux\nResolução máxima:\n1920 x 1080 @ 60 Hz (FULL HD)\nResolução recomendada:\n1920 x 1080 @ 60 Hz (FULL HD)\nSuporte de cores:Maior que 16 Milhões\nConectores: \n01- Analógico (RGB)\n01-HDMI digital\nConsumo Ligado: 26 Watts (típico) - Stand By - 0,5 Watt\nFonte Interna: 90~240V - 50/60 Hz\nVESA (sistema internacional de furação para fixação em paredes ou painéis -100 x 100 mm)\nCor predominante Preto\nAcompanha na caixa: \nCabo de força\nCabo RGB,\nManual (CD),\nCertificado de garantia.\n ",
+            "urlImg": "https://awstatic-5754.kxcdn.com/Xp2ueFVQN463H8Kl1hBY3MJKifE=/0x0/loja/londritech.com.br/prodimg/86/0183206001600952203.jpg",
+            "modelo": "22MK400H",
+            "marca": "LG",
+            "loja": 3
+        },
+        "avaliacao": [],
+        "entrega": [
+            {
+                "nome": "Motoboy",
+                "valor": 20.0
+            },
+            {
+                "nome": "Retirada Loja Física",
+                "valor": 0.0
+            },
+            {
+                "nome": "Sedex",
+                "valor": 32.5
+            }
+        ],
+        "pagamento": [
+            {
+                "tipo": 2,
+                "vezes": 1,
+                "valor": 1042.67
+            },
+            {
+                "tipo": 2,
+                "vezes": 2,
+                "valor": 534.37
+            },
+            {
+                "tipo": 2,
+                "vezes": 3,
+                "valor": 364.59
+            },
+            {
+                "tipo": 2,
+                "vezes": 4,
+                "valor": 279.69
+            },
+            {
+                "tipo": 2,
+                "vezes": 5,
+                "valor": 228.14
+            },
+            {
+                "tipo": 2,
+                "vezes": 6,
+                "valor": 192.55
+            },
+            {
+                "tipo": 2,
+                "vezes": 7,
+                "valor": 166.98
+            },
+            {
+                "tipo": 2,
+                "vezes": 8,
+                "valor": 147.28
+            },
+            {
+                "tipo": 2,
+                "vezes": 9,
+                "valor": 132.07
+            },
+            {
+                "tipo": 2,
+                "vezes": 10,
+                "valor": 119.91
+            },
+            {
+                "tipo": 4,
+                "vezes": 1,
+                "valor": 974.9
+            }
+        ]
+    }
+]
