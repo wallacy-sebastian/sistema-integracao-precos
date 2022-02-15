@@ -18,6 +18,12 @@ A avaliação do produto é uma informação importante, pois servirá para comp
 
 Por fim, o pagamento de um produto pode ser feito de várias formas, como cartão de crédito, cartão de débito, boleto, etc. Alguns tipos de pagamento possuem a opção de parcelamento, e alguns sites oferecem desconto de acordo com a quantidade de parcelas ou se o pagamento é feito à vista. Portanto, os dados coletados em relação ao pagamento será o tipo de pagamento, a quantidade de parcelas (se o tipo de pagamento oferecer isso) e o desconto ofertado de acordo com a quantidade de parcelas.
 
+## Tecnologias necessárias para executar os crawlers
+
+- Python
+    - Selenium
+    - Webdriver Manager
+
 ## Diagrama ER
 
 ![diagrama_er.png](docs/diagrama_er.png)
