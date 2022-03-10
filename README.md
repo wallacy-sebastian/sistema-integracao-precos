@@ -6,7 +6,7 @@ Este sistema terá como objetivo capturar informações de produtos de diferente
 
 ## Sites e seções
 
-A princípio, para este projeto, este sistema será capaz de capturar dados dos sites **Kabum**, **Americanas** e **Londritech**, com foco em duas seções: *Mouse* e *Monitor*.
+A princípio, para este projeto, este sistema será capaz de capturar dados dos sites **Kabum**, **Lojas Colombo** e **Londritech**, com foco em duas seções: *Mouse* e *Monitor*.
 
 ## Informações a serem coletadas
 
@@ -17,6 +17,12 @@ Sobre as especificações, pode-se obter em comum a marca e o modelo (para auxil
 A avaliação do produto é uma informação importante, pois servirá para comparar em qual e-commerce este produto possuirá mais ou menos problemas. Servirá como comparativo, junto com o preço. Os dados de avaliação coletados serão: o nome, o comentário (se houver), a data em que foi feita a avaliação e qual a nota da avaliação.
 
 Por fim, o pagamento de um produto pode ser feito de várias formas, como cartão de crédito, cartão de débito, boleto, etc. Alguns tipos de pagamento possuem a opção de parcelamento, e alguns sites oferecem desconto de acordo com a quantidade de parcelas ou se o pagamento é feito à vista. Portanto, os dados coletados em relação ao pagamento será o tipo de pagamento, a quantidade de parcelas (se o tipo de pagamento oferecer isso) e o desconto ofertado de acordo com a quantidade de parcelas.
+
+## Tecnologias necessárias para executar os crawlers
+
+- Python
+    - Selenium
+    - Webdriver Manager
 
 ## Diagrama ER
 
