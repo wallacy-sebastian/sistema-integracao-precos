@@ -38,8 +38,8 @@ public abstract class ConnectionFactory {
 
                 throw new IOException("Erro ao obter informações do banco de dados.");
             }
-
-            if (getDbServer().equals("postgresql")) {
+//            System.out.println(getDbServer());
+            if (getDbServer().equals("joaobd")) {
                 instance = new PgConnectionFactory();
             }
             else {

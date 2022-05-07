@@ -296,6 +296,7 @@ public class ProductController extends HttpServlet {
             throws ServletException, IOException {
 
         DAO<Product> dao;
+        ProductDAO prdDao;
         Product prod;
         Avaliacao ava;
         Entrega etg;
@@ -305,9 +306,9 @@ public class ProductController extends HttpServlet {
         switch (request.getServletPath()) {
             case "/product": {
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
-                    dao = daoFactory.getProductDAO();
+                    prdDao = daoFactory.getProductDAO();
 
-                    List<Product> productList = dao.all();
+                    List<Product> productList = prdDao.allMaster();
                     request.setAttribute("productList", productList);
                 } catch (ClassNotFoundException | IOException | SQLException ex) {
                     request.getSession().setAttribute("error", ex.getMessage());

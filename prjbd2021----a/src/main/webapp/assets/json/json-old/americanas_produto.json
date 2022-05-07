@@ -1,0 +1,159 @@
+{
+    "data_coleta": "2021-12-14 10:11:32",
+    "tipos_de_pagamento": [
+        {
+            "tipo_de_pagamento": "cart\u00e3o de cr\u00e9dito",
+            "informacoes": "",
+            "parcelas": [
+                {
+                    "qtd": "1",
+                    "valor_parcela": "34.90",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "2",
+                    "valor_parcela": "17.45",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "3",
+                    "valor_parcela": "11.63",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "4",
+                    "valor_parcela": "9.23",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "36.92"
+                },
+                {
+                    "qtd": "5",
+                    "valor_parcela": "7.46",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "37.33"
+                },
+                {
+                    "qtd": "6",
+                    "valor_parcela": "6.29",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "37.74"
+                },
+                {
+                    "qtd": "7",
+                    "valor_parcela": "5.45",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "38.16"
+                },
+                {
+                    "qtd": "8",
+                    "valor_parcela": "4.82",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "38.59"
+                },
+                {
+                    "qtd": "9",
+                    "valor_parcela": "4.33",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "39.01"
+                },
+                {
+                    "qtd": "10",
+                    "valor_parcela": "3.94",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "39.44"
+                },
+                {
+                    "qtd": "11",
+                    "valor_parcela": "3.62",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "39.87"
+                },
+                {
+                    "qtd": "12",
+                    "valor_parcela": "3.35",
+                    "juros": "com juros de 2,29 % a.m.",
+                    "total": "40.31"
+                }
+            ]
+        },
+        {
+            "tipo_de_pagamento": "americanas",
+            "informacoes": "",
+            "parcelas": [
+                {
+                    "qtd": "1",
+                    "valor_parcela": "34.90",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "2",
+                    "valor_parcela": "17.45",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "3",
+                    "valor_parcela": "11.63",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "4",
+                    "valor_parcela": "8.72",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "5",
+                    "valor_parcela": "6.98",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "6",
+                    "valor_parcela": "5.81",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                }
+            ]
+        },
+        {
+            "tipo_de_pagamento": "boleto banc\u00e1rio",
+            "informacoes": "R$ 34,90 no boleto bancario\nO boleto ser\u00e1 gerado ap\u00f3s a finaliza\u00e7\u00e3o de sua compra. Imprima e pague no banco ou pague pela internet utilizando o c\u00f3digo de barras do boleto.",
+            "parcelas": []
+        },
+        {
+            "tipo_de_pagamento": "ame",
+            "informacoes": "",
+            "parcelas": [
+                {
+                    "qtd": "1",
+                    "valor_parcela": "34.90",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "2",
+                    "valor_parcela": "17.45",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                },
+                {
+                    "qtd": "3",
+                    "valor_parcela": "11.63",
+                    "juros": "sem juros",
+                    "total": "34.90"
+                }
+            ]
+        },
+        {
+            "tipo_de_pagamento": "Pix",
+            "informacoes": "R$ 34,90 com Pix\nO pagamento \u00e9 instant\u00e2neo e s\u00f3 pode ser \u00e0 vista. Na etapa de finaliza\u00e7\u00e3o da compra, a gente explica direitinho como pagar com Pix.",
+            "parcelas": []
+        }
+    ]
+}

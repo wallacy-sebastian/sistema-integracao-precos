@@ -87,6 +87,12 @@ public class PgProductDAO implements ProductDAO{
                         "SELECT id_produto FROM integracao_precos.produto_integracao " +
                         "WHERE id_integracao = ?;";
     
+    private static final String ALL_MASTER =
+                                "SELECT id, nome, valor, marca, modelo " +
+                                "FROM integracao_precos.produto " +
+                                "WHERE is_master IS TRUE " +
+                                "ORDER BY id;"; 
+
     
     
     public PgProductDAO(Connection connection) {
@@ -251,6 +257,32 @@ public class PgProductDAO implements ProductDAO{
 
         return prodList;
     }
+    
+    @Override
+    public List<Product> allMaster() throws SQLException{
+        List<Product> prodList = new ArrayList<>();
+
+        try (PreparedStatement statement = connection.prepareStatement(ALL_MASTER);
+            ResultSet result = statement.executeQuery()) {
+            while (result.next()) {
+                Product prod = new Product();
+                prod.setId(result.getInt("id"));
+                prod.setNome(result.getString("nome"));
+                prod.setMarca(result.getString("marca"));
+                prod.setModelo(result.getString("modelo"));
+                prod.setValor(result.getDouble("valor"));
+
+                prodList.add(prod);
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+
+            throw new SQLException("Erro ao listar produtos.");
+        }
+
+        return prodList;
+    }
+    
     @Override
     public Integer getIntegracaoProduto(Integer productIid) throws SQLException{
         

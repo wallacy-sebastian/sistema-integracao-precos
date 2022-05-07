@@ -13,6 +13,7 @@ import model.Product;
  * @author joao
  */
 public interface ProductDAO  extends DAO<Product> {
+     public List<Product> allMaster() throws SQLException;
      public Integer getIntegracaoProduto(Integer productId) throws SQLException;
      public void createIntegracaoProduto(Integer integId, Integer productId) throws SQLException;
      public Integer getLastIntegracaoProdutoId() throws SQLException;
