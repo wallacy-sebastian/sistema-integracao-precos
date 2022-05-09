@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
 # Lojas:
-#       1 - Americanas
+#       1 - Colombo
 #       2 - Kabum
 #       3 - Londritech
 # Seções:
@@ -195,14 +195,6 @@ class Produto:
         self.loja = loja
         self.secao = secao
 
-        self.nome = ""
-        self.valor = 0
-        self.descricao = ""
-        self.fichaTecnica = ""
-        self.urlImg = ""
-        self.modelo = ""
-        self.marca = ""
-
     def continuarExecucao(self):
         return self.continuar
 
@@ -221,9 +213,12 @@ class Produto:
         self.continuar = False
 
     def obterData(self):
+        self.data = ""
         self.data = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
     def obterNome(self, driver):
+        self.nome = ""
+
         try:
             self.nome = driver.find_element(By.CSS_SELECTOR, self.elementos["nome"][self.loja-1]).get_attribute('textContent')
             if self.loja == 1:
@@ -233,6 +228,8 @@ class Produto:
             raise
 
     def obterValor(self, driver):
+        self.valor = 0
+
         try:
             valor_texto = driver.find_element(By.CSS_SELECTOR, self.elementos["valor"][self.loja-1]).get_attribute('textContent')
             if self.loja == 2:
@@ -243,6 +240,8 @@ class Produto:
             raise
 
     def obterDescricao(self, driver):
+        self.descricao = ""
+
         try:
             descricao = driver.find_element(By.CSS_SELECTOR, self.elementos["descricao"][self.loja-1]).get_attribute('innerText')
 
@@ -261,6 +260,8 @@ class Produto:
             raise
 
     def obterFichaTecnica(self, driver):
+        self.fichaTecnica = ""
+
         try:
             fichaTecnica = driver.find_element(By.CSS_SELECTOR, self.elementos["fichaTecnica"][self.loja-1]).get_attribute("innerText")
 
@@ -282,6 +283,8 @@ class Produto:
                 raise
 
     def obterUrlImg(self, driver):
+        self.urlImg = ""
+
         try:
             self.urlImg = driver.find_element(By.CSS_SELECTOR, self.elementos["urlImg"][self.loja-1]).get_attribute('src')
         except:
@@ -289,6 +292,8 @@ class Produto:
             raise
 
     def obterModelo(self, driver):
+        self.modelo = ""
+
         try:
             if self.fichaTecnica.find("Modelo") != -1:
                 self.modelo = driver.find_element(By.CSS_SELECTOR, self.elementos["modelo"][self.loja-1]).get_attribute('innerHTML')
@@ -326,6 +331,8 @@ class Produto:
             raise
 
     def obterMarca(self, driver):
+        self.marca = ""
+
         try:
             if self.loja == 1:
                 if self.fichaTecnica.find("Marca") != -1:
@@ -367,9 +374,9 @@ class Produto:
             raise
 
     def obterAvaliacoes(self, driver):
-        try:
-            self.avaliacoes = []
+        self.avaliacoes = []
 
+        try:
             if self.loja == 3:
                 return
 
@@ -416,10 +423,16 @@ class Produto:
             raise
 
     def obterEntregas(self, driver):
+        self.entregas = []
+
         try:
-            self.entregas = []
             time.sleep(2)
             if self.loja == 1:
+                try:
+                    cookiesButton = driver.find_element(By.CSS_SELECTOR, "button.cookie-bar--bt-accept")
+                    cookiesButton.click()
+                except:
+                    pass
                 buscaCEP = driver.find_element(By.CSS_SELECTOR, self.elementos["entregas"][self.loja-1]["acesso"])
                 buscaCEP.click()
             buscaCEP = driver.find_element(By.CSS_SELECTOR, self.elementos["entregas"][self.loja-1]["buscaCEP"])
@@ -450,7 +463,11 @@ class Produto:
                     By.CSS_SELECTOR, self.elementos["entregas"][self.loja-1]["dados"]["nome"]).get_attribute('textContent')
 
                 valor_texto = entrega_elemento.find_element(
-                    By.CSS_SELECTOR, self.elementos["entregas"][self.loja-1]["dados"]["valor"]).get_attribute('textContent')[3:]
+                    By.CSS_SELECTOR, self.elementos["entregas"][self.loja-1]["dados"]["valor"]).get_attribute('textContent')
+                if valor_texto == "Grátis":
+                    valor_texto = "0"
+                else:
+                    valor_texto = valor_texto[3:]
                 entrega["valor"] = self.__corrigirValor(valor_texto)
 
                 self.entregas.append(entrega)
@@ -590,8 +607,9 @@ class Produto:
             raise
 
     def obterPagamentos(self, driver):
+        self.pagamentos = []
+
         try:
-            self.pagamentos = []
             try:
                 acessoPagamentos = driver.find_element(By.CSS_SELECTOR, self.elementos["pagamentos"][self.loja-1]["acesso"])
                 acessoPagamentos.click()
@@ -621,6 +639,7 @@ class Produto:
 
     def obterProdutoInfo(self, driver):
         self.obterData()
+        time.sleep(1)
         self.obterNome(driver)
         self.obterValor(driver)
         self.obterDescricao(driver)
