@@ -1,0 +1,60 @@
+@options
+@packages
+-classpath
+'/home/wallacy/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar:/home/wallacy/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/wallacy/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar:/home/wallacy/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/home/wallacy/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/home/wallacy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/wallacy/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'prjbd2021 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'prjbd2021 1.0-SNAPSHOT API'
+controller
+dao
+jdbc
+model
+/home/wallacy/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar = 1651570303440
+/home/wallacy/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar = 1651570303706
+/home/wallacy/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar = 1651570303193
+/home/wallacy/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar = 1651570303303
+/home/wallacy/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar = 1651570303369
+/home/wallacy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar = 1651570303735
+/home/wallacy/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar = 1651570304025
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/src/main/java = 1650802461564
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/javadoc.sh = 1651758621961
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/element-list = 1651758674798
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/constant-values.html = 1651758674818
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/serialized-form.html = 1651758674822
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/overview-tree.html = 1651758674893
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/package-search-index.js = 1651758674918
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/package-search-index.zip = 1651758674919
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/type-search-index.js = 1651758674919
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/type-search-index.zip = 1651758674920
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/member-search-index.js = 1651758674920
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/member-search-index.zip = 1651758674921
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/index-all.html = 1651758674923
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/allclasses-index.html = 1651758674927
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/allpackages-index.html = 1651758674929
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/deprecated-list.html = 1651758674933
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/allclasses.html = 1651758674934
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/index.html = 1651758674937
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/overview-summary.html = 1651758674938
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/help-doc.html = 1651758674940
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/stylesheet.css = 1651758674941
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/script.js = 1651758674941
+/home/wallacy/Documentos/Faculdade/Banco de dados/sistema-integracao-precos/prjbd2021/target/apidocs/search.js = 1651758674942

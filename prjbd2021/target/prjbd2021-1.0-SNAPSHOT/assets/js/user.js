@@ -61,8 +61,10 @@ function readProduct(e){
                 loja = "Americanas";
             } else if(product.loja == '2'){
                 loja = "Kabum";
-            } else {
+            } else if(product.loja == '3') {
                 loja = "Londritech";
+            } else {
+                loja = "Colombo";
             }
 
             modal.find('.p_id').html('<strong>ID: </strong> '+product.id);

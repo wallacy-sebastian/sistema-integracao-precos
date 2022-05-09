@@ -5,6 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="java.util.*" %>
+<%@ page import="com.google.gson.Gson"%>
+<%@ page import="com.google.gson.JsonObject"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
@@ -67,6 +70,61 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <%
+                            Gson gsonObj = new Gson();
+                            Map<Object,Object> map = null;
+                            List<Map<Object,Object>> list = new ArrayList<Map<Object,Object>>();
+
+                            int count = 50;
+                            int y = 100;
+                            Random rand = new Random();
+
+                            for(int i = 1; i < count; i++){
+                                    y += rand.nextInt(11) - 5;
+                                    map = new HashMap<Object,Object>();
+                                    map.put("x", i);
+                                    map.put("y", y);
+                                    list.add(map);
+                            }
+
+                            String dataPoints = gsonObj.toJson(list);
+                        %>
+                        <script type="text/javascript">
+                            window.onload = function () {
+
+                            var data = [];
+                            var dataSeries = { type: "line" };
+                            var dataPoints = <%out.print(dataPoints);%>
+                            dataSeries.dataPoints = dataPoints;
+                            data.push(dataSeries);
+
+                            //Better to construct options first and then pass it as a parameter
+                            var options = {
+                                    zoomEnabled: true,
+                                    animationEnabled: true,
+                                    title: {
+                                            text: "Histórico de preços"
+                                    },
+                                    axisX: {
+                                        title: "Data"
+                                    },
+                                    axisY: {
+                                        title: "Preço"
+                                    },
+                                    data: data  // random data
+                            };
+
+                            var chart = new CanvasJS.Chart("chartContainer", options);
+                            var startTime = new Date();
+                            chart.render();
+                            var endTime = new Date();
+                            document.getElementById("timeToRender").innerHTML = "Time to Render: " + (endTime - startTime) + "ms";
+
+                            };
+                        </script>
+                        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                        
+                        <script src="${pageContext.servletContext.contextPath}/assets/js/canvasjs.min.js"></script>
                    </div>
                </c:otherwise>
             </c:choose>
