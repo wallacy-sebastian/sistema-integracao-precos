@@ -53,3 +53,22 @@ BEGIN
 END;
 $$ LANGUAGE plpgslq;
 
+CREATE OR REPLACE FUNCTION func1() RETURNS VOID AS $$
+DECLARE
+	c RECORD;
+BEGIN
+	FOR c IN (SELECT * FROM integracao_precos.produto) LOOP
+		IF LEFT(c.nome, 1) = '@'::CHAR(1) THEN
+			UPDATE integracao_precos.produto SET nome = '' WHERE id=c.id;
+			RAISE NOTICE 'id: %', c.id;
+		ELSEIF LEFT(c.marca, 1) = '@'::CHAR(1) THEN
+			UPDATE integracao_precos.produto SET marca = '' WHERE id=c.id;
+			RAISE NOTICE 'id: %', c.id;
+		ELSEIF LEFT(c.modelo, 1) = '@'::CHAR(1) THEN
+			UPDATE integracao_precos.produto SET modelo = '' WHERE id=c.id;
+			RAISE NOTICE 'id: %', c.id;
+		END IF;
+	END LOOP;
+END;
+$$ LANGUAGE PLPGSQL;
+

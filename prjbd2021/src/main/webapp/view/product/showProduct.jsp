@@ -22,6 +22,7 @@
                </c:when>
                <c:otherwise>
                    <div class = "container">
+                       <a href="${pageContext.servletContext.contextPath}/product/show" class="btn btn-lg btn-success">Voltar</a>
                        <img src="${pMaster.getUrlImg()}" width="300px" alt="${pMaster.getNome()}" style="display: block; margin: 0 auto;"/>
                         <table>
                             <tbody>

@@ -456,17 +456,41 @@ public class ProductController extends HttpServlet {
                 break;
             }
             case "/product/show":{
-                String str = request.getParameter("searchInput");
+                String rSearch = request.getParameter("searchInput");
+                String rCat = request.getParameter("categoria");
+                String rSort = request.getParameter("sort");
+                String rLj = request.getParameter("loja");
+//                System.out.println(rSearch+rSort+rLj+rCat);
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
                     prdDao = daoFactory.getProductDAO();
                     List<Product> pList;
-                    if(str != null){
-                        pList = prdDao.search(str);
-                    }else{
-                        pList = prdDao.allMaster();
+                    if(rSearch == null){
+                        rSearch = "";
+                    }if(rCat == null){
+                        rCat = "0";
+                    } if (rSort == null){
+                        rSort = "";
+                    } else {
+                        if(rSort.equals("1")){
+                            rSort = "nome";
+                        } else if (rSort.equals("2")){
+                            rSort = "valor";
+                        } else {
+                            rSort = "id";
+                        }
+                    } if (rLj == null){
+                        rLj = "0";
                     }
+//                    System.out.println(rSearch+rSort+rLj+rCat);
+                    pList = prdDao.search(rSearch, Integer.parseInt(rCat), rSort, Integer.parseInt(rLj));
+                    
                     request.setAttribute("productList", pList);
-                    request.setAttribute("contextPath", request.getContextPath());
+                    request.setAttribute("MOUSE", Product.MOUSE);
+                    request.setAttribute("MONITOR", Product.MONITOR);
+                    request.setAttribute("KABUM", Product.KABUM);
+                    request.setAttribute("AMERICANAS", Product.AMERICANAS);
+                    request.setAttribute("LONDRITECH", Product.LONDRITECH);
+                    //request.setAttribute("PONTOFRIO", Product.MONITOR); // A DEFINIR
                     dispatcher = request.getRequestDispatcher("/view/product/showList.jsp");
                     dispatcher.forward(request, response);
                 } catch (ClassNotFoundException | IOException | SQLException ex) {

@@ -16,12 +16,32 @@
     <body>
         <input id="contextPath" type="hidden" value="${pageContext.servletContext.contextPath}/product/show"/>
         <div class = "container d-flex flex-wrap">
+            <a href="${pageContext.servletContext.contextPath}" class="btn btn-lg btn-success">Voltar</a>
             <a class="col-12 text-center" href="${pageContext.servletContext.contextPath}/product/show">
                 <h1>Lista de produtos</h1>
             </a>
-            <form class="form_p_show col-12" action="${pageContext.servletContext.contextPath}/product/show?searchInput=" method="POST">
+            <form class="form_p_show col-12 d-flex flex-wrap form-group" action="${pageContext.servletContext.contextPath}/product/show?searchInput=" method="POST">
                 <p>O que voce esta procurando? </p>
                 <input class="form-control" id="search-input" type="text">
+                <label class="form-control col-3 mt-2" style="border: 0">Categoria: </label>
+                <select class="form-control col-9 mt-2" id="categoria">
+                    <option value="0">Selecione uma opcao</option>
+                    <option value="${MONITOR}">Monitor</option>
+                    <option value="${MOUSE}">Mouse</option>
+                </select>
+                <label class="form-control col-3" style="border: 0">Ordenar por: </label>
+                <select class="form-control col-9" id="sort">
+                    <option value="0">Selecione uma opcao</option>
+                    <option value="1">Nome</option>
+                    <option value="2">Preco</option>
+                </select>
+                <label class="form-control col-3" style="border: 0">Qual loja vc busca: </label>
+                <select class="form-control col-9" id="loja">
+                    <option value="0">Selecione uma opcao</option>
+                    <option value="${KABUM}">Kabum</option>
+                    <option value="${AMERICANAS}">Americanas</option>
+                    <option value="${LONDRITECH}">Londritech</option>
+                </select>
                 <button class="btn btn-primary btn-func" style="float: right; margin: 15px 0">Pesquisar</button>
             </form>
             <div class = "col-12 d-flex flex-wrap">
