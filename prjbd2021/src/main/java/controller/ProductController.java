@@ -55,7 +55,10 @@ import model.StringParecida;
             "/product/read",
             "/product/update",
             "/product/delete",
-            "/product/checkString"
+            "/product/checkString",
+            "/product/show",
+            "/product/show/view",
+            "/product/show/search"
         }
 )
 public class ProductController extends HttpServlet {
@@ -248,7 +251,7 @@ public class ProductController extends HttpServlet {
         if (prod.getMarca().isEmpty())
             prod.setMarca("@@@@@@@");
         if(prod.getModelo().isEmpty())
-            prod.setModelo("@@@@@@@@@");
+            prod.setModelo("@@@@@@@");
         
         try(DAOFactory daoFactory = DAOFactory.getInstance()){
             dao = daoFactory.getProductDAO();
@@ -280,6 +283,13 @@ public class ProductController extends HttpServlet {
             Logger.getLogger(ProductController.class.getName()).log(Level.SEVERE, null, ex);
         }
         
+        if(prod.getNome().equals("@@@@@@@"))
+            prod.setNome("");
+        if (prod.getMarca().equals("@@@@@@@"))
+            prod.setMarca("");
+        if(prod.getModelo().equals("@@@@@@@"))
+            prod.setModelo("");
+       
         return -1;
     }
     
@@ -443,6 +453,55 @@ public class ProductController extends HttpServlet {
                 response.getOutputStream().print(str);
 //                System.out.println("{\"str\":"+r+"}");
                 
+                break;
+            }
+            case "/product/show":{
+                String str = request.getParameter("searchInput");
+                try (DAOFactory daoFactory = DAOFactory.getInstance()) {
+                    prdDao = daoFactory.getProductDAO();
+                    List<Product> pList;
+                    if(str != null){
+                        pList = prdDao.search(str);
+                    }else{
+                        pList = prdDao.allMaster();
+                    }
+                    request.setAttribute("productList", pList);
+                    request.setAttribute("contextPath", request.getContextPath());
+                    dispatcher = request.getRequestDispatcher("/view/product/showList.jsp");
+                    dispatcher.forward(request, response);
+                } catch (ClassNotFoundException | IOException | SQLException ex) {
+                    request.getSession().setAttribute("error", ex.getMessage());
+                }
+                break;
+            }
+            case "/product/show/view":{
+                List<Product> pList = null;
+                prod = null;
+                String str = request.getParameter("id");
+                Integer iId;
+                boolean isEmpty = false;
+                try (DAOFactory daoFactory = DAOFactory.getInstance()) {
+                    prdDao = daoFactory.getProductDAO();
+                    if(str != null){
+                        Integer id = Integer.parseInt(str);
+                        iId = prdDao.getIntegracaoProduto(id);
+                        pList = prdDao.productMasterAndIntegracao(iId);
+                        for(Product p: pList){
+                            if(p.isMaster()){
+                                prod = p;
+                            }
+                        }
+                    } else {
+                        isEmpty = true;
+                    }
+                    request.setAttribute("isEmpty", isEmpty);
+                    request.setAttribute("pMaster", prod);
+                    request.setAttribute("productList", pList);
+                    dispatcher = request.getRequestDispatcher("/view/product/showProduct.jsp");
+                    dispatcher.forward(request, response);
+                } catch (ClassNotFoundException | IOException | SQLException ex) {
+                    request.getSession().setAttribute("error", ex.getMessage());
+                }
                 break;
             }
         }
@@ -741,7 +800,23 @@ public class ProductController extends HttpServlet {
 
                 response.sendRedirect(request.getContextPath() + "/product");
                 break;
-            }       
+            }
+//            case "/product/show":{
+//                ProductDAO prDao;
+//                String str = request.getParameter("searchInput");
+//                try (DAOFactory daoFactory = DAOFactory.getInstance()) {
+//                    prDao = daoFactory.getProductDAO();
+//                    List<Product> pList = prDao.search(str);
+//                } catch (ClassNotFoundException | IOException ex) {
+//                    Logger.getLogger(UserController.class.getName()).log(Level.SEVERE, "Controller", ex);
+//                    session.setAttribute("error", ex.getMessage());
+//                } catch (SQLException ex) {
+//                    Logger.getLogger(UserController.class.getName()).log(Level.SEVERE, "Controller", ex);
+//                    session.setAttribute("rollbackError", ex.getMessage());
+//                }
+//                
+//                response.sendRedirect(request.getContextPath() + "/product/show/search");
+//            }
         }
     }
 

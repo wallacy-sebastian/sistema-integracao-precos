@@ -28,6 +28,9 @@
                     <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/product">
                         Cadastro de Produtos
                     </a>
+                    <a class="btn btn-lg btn-primary" href="${pageContext.servletContext.contextPath}/product/show">
+                        Lista de produtos
+                    </a>
                     <a class="btn btn-default"
                        href="${pageContext.servletContext.contextPath}/logout"
                        data-toggle="tooltip"

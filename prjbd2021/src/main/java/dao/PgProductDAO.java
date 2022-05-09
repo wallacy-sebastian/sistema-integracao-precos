@@ -62,36 +62,49 @@ public class PgProductDAO implements ProductDAO{
                                 "ORDER BY id;"; 
     
     private static final String CHECK_INTEGRACAO_PRODUTO =
-                            "SELECT id_integracao " +
-                            "FROM integracao_precos.produto_integracao " +
-                            "WHERE id_produto = ?;"; 
+                                "SELECT id_integracao " +
+                                "FROM integracao_precos.produto_integracao " +
+                                "WHERE id_produto = ?;"; 
     
     private static final String CREATE_INTEGRACAO_PRODUTO =
-                            "INSERT INTO integracao_precos.produto_integracao(id_integracao, id_produto) " +
-                            "VALUES (?, ?);";
+                                "INSERT INTO integracao_precos.produto_integracao(id_integracao, id_produto) " +
+                                "VALUES (?, ?);";
     
     private static final String LAST_INTEGRACAO_PRODUTO_ID =
-                        "SELECT MAX(id_integracao) AS id " +
-                        "FROM integracao_precos.produto_integracao;";
+                                "SELECT MAX(id_integracao) AS id " +
+                                "FROM integracao_precos.produto_integracao;";
     
     private static final String UPDATE_INTEGRACAO_PRODUTO_ID =
-                        "UPDATE integracao_precos.produto " +
-                        "SET integracao_id = ? " +
-                        "WHERE id = ?;";
+                                "UPDATE integracao_precos.produto " +
+                                "SET integracao_id = ? " +
+                                "WHERE id = ?;";
     
     private static final String DELETE_INTEGRACAO_PRODUTO_ID =
-                        "DELETE FROM integracao_precos.produto_integracao " +
-                        "WHERE id_produto = ?;";
+                                "DELETE FROM integracao_precos.produto_integracao " +
+                                "WHERE id_produto = ?;";
     
     private static final String ALL_INTEGRACAO_PRODUTO_ID =
-                        "SELECT id_produto FROM integracao_precos.produto_integracao " +
-                        "WHERE id_integracao = ?;";
+                                "SELECT id_produto FROM integracao_precos.produto_integracao " +
+                                "WHERE id_integracao = ?;";
     
     private static final String ALL_MASTER =
-                                "SELECT id, nome, valor, marca, modelo " +
+                                "SELECT id, nome, valor, marca, modelo, url_imagem " +
                                 "FROM integracao_precos.produto " +
                                 "WHERE is_master IS TRUE " +
-                                "ORDER BY id;"; 
+                                "ORDER BY id;";
+    private static final String SEARCH = 
+                                "SELECT id, nome, valor, marca, modelo, url_imagem FROM integracao_precos.produto " +
+                                "WHERE is_master IS TRUE AND " +
+                                "(UPPER(nome) LIKE '%'||UPPER(?)||'%' " +
+                                "OR UPPER(descricao) LIKE '%'||UPPER(?)||'%' " +
+                                "OR UPPER(modelo) LIKE '%'||UPPER(?)||'%' " +
+                                "OR UPPER(marca) LIKE '%'||UPPER(?)||'%' " +
+                                "OR UPPER(ficha_tecnica) LIKE '%'||UPPER(?)||'%')";
+    private static final String PRODUCT_AND_INTEG =
+                                "SELECT id, nome, valor, marca, modelo, url_imagem, created_at, id_integracao, loja, secao, is_master, ficha_tecnica, descricao " +
+                                "FROM integracao_precos.produto p " +
+                                "JOIN integracao_precos.produto_integracao pi ON p.id = pi.id_produto " +
+                                "WHERE pi.id_integracao = ?";
 
     
     
@@ -271,6 +284,7 @@ public class PgProductDAO implements ProductDAO{
                 prod.setMarca(result.getString("marca"));
                 prod.setModelo(result.getString("modelo"));
                 prod.setValor(result.getDouble("valor"));
+                prod.setUrlImg(result.getString("url_imagem"));
 
                 prodList.add(prod);
             }
@@ -390,6 +404,74 @@ public class PgProductDAO implements ProductDAO{
                 throw new SQLException("Erro ao pegar lista de ID's do produto");
         }
         return idList;
+    }
+    
+    @Override
+    public List<Product> search(String str) throws SQLException{
+        List<Product> pList = new ArrayList<Product>();
+        
+        try(PreparedStatement statement = connection.prepareStatement(SEARCH)){
+            statement.setString(1, str);
+            statement.setString(2, str);
+            statement.setString(3, str);
+            statement.setString(4, str);
+            statement.setString(5, str);
+            try(ResultSet result = statement.executeQuery()){
+                while(result.next()){
+                Product prod = new Product();
+                prod.setId(result.getInt("id"));
+                prod.setNome(result.getString("nome"));
+                prod.setMarca(result.getString("marca"));
+                prod.setModelo(result.getString("modelo"));
+                prod.setValor(result.getDouble("valor"));
+                prod.setUrlImg(result.getString("url_imagem"));
+
+                pList.add(prod);
+                }
+            } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao executar buscar produto.");
+            }
+        } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao preparar buscar produto.");
+        }
+        return pList;
+    }
+    @Override
+    public List<Product> productMasterAndIntegracao(Integer id) throws SQLException{
+        List<Product> pList = new ArrayList<Product>();
+        //id, nome, valor, marca, modelo, url_imagem, created_at, id_integracao
+        try(PreparedStatement statement = connection.prepareStatement(PRODUCT_AND_INTEG)){
+            statement.setInt(1, id);
+            try(ResultSet result = statement.executeQuery()){
+                while(result.next()){
+                    Product prod = new Product();
+                    prod.setId(result.getInt("id"));
+                    prod.setNome(result.getString("nome"));
+                    prod.setMarca(result.getString("marca"));
+                    prod.setModelo(result.getString("modelo"));
+                    prod.setValor(result.getDouble("valor"));
+                    prod.setUrlImg(result.getString("url_imagem"));
+                    prod.setCreatedAt(result.getDate("created_at"));
+                    prod.setLoja(result.getInt("loja"));
+                    prod.setIntegracaoNumero(result.getInt("id_integracao"));
+                    prod.setSecao(result.getInt("secao"));
+                    prod.setIsMaster(result.getBoolean("is_master"));
+                    prod.setFichaTecnica(result.getString("ficha_tecnica"));
+                    prod.setDescricao(result.getString("descricao"));
+
+                    pList.add(prod);
+                }
+            } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao executar buscar produto.");
+            }
+        } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao preparar buscar produto.");
+        }
+        return pList;
     }
 }
 

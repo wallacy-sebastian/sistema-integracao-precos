@@ -171,6 +171,14 @@ function deleteUsers(e) {
     $('.form_excluir_usuarios').submit();
 }
 
+//function searchProduct(e){
+//    e.preventDefault();
+//    location.href = location.href + $('#search-input').val();
+//    console.log($('#search-input').val());
+//    console.log(location.href);
+//    $('.form_p_show').submit();
+//}
+
 $(document).on('focusout', '.password-input,.password-confirm', function(e) {
     var $form = $(this).closest("form");
     var $password = $form.find(".password-input");
@@ -227,10 +235,6 @@ $(document).ready(function () {
     $(document).on('click', '.link_excluir_usuario', deleteUser);
     $(document).on('click', '.link_visualizar_usuario', readUser);
     $(document).on('click', '.link_visualizar_produto', readProduct);
-//    $(document).on('click', '.exibir-prod-integ', function(){
-//        
-//        $(this).re
-//    });
     $(document).on('click', '.button_confirmacao_excluir_usuarios', deleteUsers);
     $(document).on('click', '#btn-ver-str', stringSimilares);
     $(document).on('click', '.selecionar_todos', function(){
@@ -254,4 +258,6 @@ $(document).ready(function () {
     $("*[data-toggle='tooltip']").tooltip({
         'container': 'body'
     });
+    
+    $(document).on('click', '.btn-func', searchProduct);
 });

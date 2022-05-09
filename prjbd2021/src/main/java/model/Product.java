@@ -7,6 +7,11 @@ package model;
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
+import java.text.DecimalFormat;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+import java.util.TimeZone;
 
 /**
  *
@@ -33,6 +38,15 @@ public class Product {
     private Date createdAt;
     private Integer loja;
     private Integer integracaoNumero;
+    private boolean isMaster;
+
+    public boolean isMaster() {
+        return this.isMaster;
+    }
+
+    public void setIsMaster(boolean isMaster) {
+        this.isMaster = isMaster;
+    }
 
     public Integer getIntegracaoNumero() {
         return integracaoNumero;
@@ -139,6 +153,27 @@ public class Product {
             return "Londritech";
         }
         return null;
+    }
+    
+    public String getSecaoFromValue(int secao){
+        if(this.MOUSE == secao){
+            return "Mouse";
+        } else {
+            return "Monitor";
+        }
+    }
+    
+    public String getDataFromValue(){
+        DateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.US);
+        format.setTimeZone(TimeZone.getTimeZone("Etc/UTC"));
+
+        String str = format.format(this.getCreatedAt());
+        return str;
+    }
+    
+    public String getPreco(){
+        String preco = new DecimalFormat("¤ ###,###,##0.00").format(this.getValor());
+        return preco;
     }
     
     public List<Integer> getLojaAll(){
