@@ -90,16 +90,20 @@ public class PgProductDAO implements ProductDAO{
     private static final String ALL_MASTER =
                                 "SELECT id, nome, valor, marca, modelo, url_imagem " +
                                 "FROM integracao_precos.produto " +
-                                "WHERE is_master IS TRUE " +
-                                "ORDER BY id;";
+                                "WHERE is_master IS TRUE";
     private static final String SEARCH = 
-                                "SELECT id, nome, valor, marca, modelo, url_imagem FROM integracao_precos.produto " +
-                                "WHERE is_master IS TRUE AND " +
                                 "(UPPER(nome) LIKE '%'||UPPER(?)||'%' " +
                                 "OR UPPER(descricao) LIKE '%'||UPPER(?)||'%' " +
                                 "OR UPPER(modelo) LIKE '%'||UPPER(?)||'%' " +
                                 "OR UPPER(marca) LIKE '%'||UPPER(?)||'%' " +
                                 "OR UPPER(ficha_tecnica) LIKE '%'||UPPER(?)||'%')";
+    private static final String LOJA =
+                                "loja = ?";
+    private static final String SECAO =
+                                "secao = ?";
+    private static final String SORT =
+                                "ORDER BY ? ASC";
+    
     private static final String PRODUCT_AND_INTEG =
                                 "SELECT id, nome, valor, marca, modelo, url_imagem, created_at, id_integracao, loja, secao, is_master, ficha_tecnica, descricao " +
                                 "FROM integracao_precos.produto p " +
@@ -407,26 +411,53 @@ public class PgProductDAO implements ProductDAO{
     }
     
     @Override
-    public List<Product> search(String str) throws SQLException{
+    public List<Product> search(String search, Integer cat, String sort, Integer loja) throws SQLException{
         List<Product> pList = new ArrayList<Product>();
+        String FILTER = ALL_MASTER;
+        int i = 0;
         
-        try(PreparedStatement statement = connection.prepareStatement(SEARCH)){
-            statement.setString(1, str);
-            statement.setString(2, str);
-            statement.setString(3, str);
-            statement.setString(4, str);
-            statement.setString(5, str);
+        if(!search.isEmpty()){
+            FILTER += " AND "+SEARCH;
+        } if (cat != 0){
+            FILTER += " AND "+SECAO;
+        } if(loja != 0){
+            FILTER += " AND "+LOJA;
+        } if(!sort.isEmpty()){
+            FILTER += " "+SORT;
+        }
+        
+        try(PreparedStatement statement = connection.prepareStatement(FILTER)){
+            
+            if(!search.isEmpty()){
+                statement.setString(i+1, search);
+                statement.setString(i+2, search);
+                statement.setString(i+3, search);
+                statement.setString(i+4, search);
+                statement.setString(i+5, search);
+                i = 5;
+            } if (cat != 0){
+                i++;
+                statement.setInt(i, cat);
+            } if(loja != 0){
+                i++;
+                statement.setInt(i, loja);
+            } if(!sort.isEmpty()){
+                i++;
+                statement.setString(i, sort);
+            }
+
             try(ResultSet result = statement.executeQuery()){
                 while(result.next()){
-                Product prod = new Product();
-                prod.setId(result.getInt("id"));
-                prod.setNome(result.getString("nome"));
-                prod.setMarca(result.getString("marca"));
-                prod.setModelo(result.getString("modelo"));
-                prod.setValor(result.getDouble("valor"));
-                prod.setUrlImg(result.getString("url_imagem"));
+                    Product prod = new Product();
+                    prod.setId(result.getInt("id"));
+                    prod.setNome(result.getString("nome"));
+                    prod.setMarca(result.getString("marca"));
+                    prod.setModelo(result.getString("modelo"));
+                    prod.setValor(result.getDouble("valor"));
+                    prod.setUrlImg(result.getString("url_imagem"));
 
-                pList.add(prod);
+                    pList.add(prod);
+//                    System.out.println(prod.getId());
                 }
             } catch (SQLException ex) {
                 Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);

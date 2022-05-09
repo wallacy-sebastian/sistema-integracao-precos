@@ -20,6 +20,6 @@ public interface ProductDAO  extends DAO<Product> {
      public void updateIntegracaoprodutoId(Product p) throws SQLException;
      public void deleteIntegracaoprodutoId(Integer id) throws SQLException;
      public List<Integer> getIntegracaoProdutoAll(Integer id) throws SQLException;
-     public List<Product> search(String str) throws SQLException;
+     public List<Product> search(String search, Integer cat, String sort, Integer loja) throws SQLException;
      public List<Product> productMasterAndIntegracao(Integer id) throws SQLException;
 }
