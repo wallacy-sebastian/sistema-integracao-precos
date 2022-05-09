@@ -21,7 +21,7 @@ public abstract class DAOFactory implements AutoCloseable {
         Connection connection = ConnectionFactory.getInstance().getConnection();
         DAOFactory factory;
         
-        if (ConnectionFactory.getDbServer().equals("postgresql")) {
+        if (ConnectionFactory.getDbServer().equals("joaobd")) {
             factory = new PgDAOFactory(connection);
         }
         else {

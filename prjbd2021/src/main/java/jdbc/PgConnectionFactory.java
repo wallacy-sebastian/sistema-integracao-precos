@@ -33,7 +33,6 @@ public class PgConnectionFactory extends ConnectionFactory {
         try {
             InputStream input = this.getClass().getClassLoader().getResourceAsStream(propertiesPath);
             properties.load(input);
-
             dbHost = properties.getProperty("host");
             dbPort = properties.getProperty("port");
             dbName = properties.getProperty("name");
@@ -56,7 +55,9 @@ public class PgConnectionFactory extends ConnectionFactory {
             readProperties();
 
             String url = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
-
+//            System.out.println(dbUser);
+//            System.out.println(dbPassword);
+//            System.out.println(url);
             connection = DriverManager.getConnection(url, dbUser, dbPassword);
         } catch (ClassNotFoundException ex) {
             System.err.println(ex.getMessage());
@@ -69,7 +70,5 @@ public class PgConnectionFactory extends ConnectionFactory {
         }
 
         return connection;
-
     }
-    
 }

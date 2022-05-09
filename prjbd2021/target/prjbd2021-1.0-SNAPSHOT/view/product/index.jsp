@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="/view/include/head.jsp"  %>        
+        <%@include file="/view/include/head.jsp"  %>
         <title>Produtos</title>
     </head>
     <body>
@@ -196,6 +196,6 @@
         </div>
 
         <%@include file="/view/include/scripts.jsp"%>
-        <script src="${pageContext.servletContext.contextPath}/assets/js/user.js"></script>        
+        <script src="${pageContext.servletContext.contextPath}/assets/js/user.js"></script>
     </body>
 </html>

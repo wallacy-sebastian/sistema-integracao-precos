@@ -13,10 +13,13 @@ import model.Product;
  * @author joao
  */
 public interface ProductDAO  extends DAO<Product> {
+     public List<Product> allMaster() throws SQLException;
      public Integer getIntegracaoProduto(Integer productId) throws SQLException;
      public void createIntegracaoProduto(Integer integId, Integer productId) throws SQLException;
      public Integer getLastIntegracaoProdutoId() throws SQLException;
      public void updateIntegracaoprodutoId(Product p) throws SQLException;
      public void deleteIntegracaoprodutoId(Integer id) throws SQLException;
      public List<Integer> getIntegracaoProdutoAll(Integer id) throws SQLException;
+     public List<Product> search(String str) throws SQLException;
+     public List<Product> productMasterAndIntegracao(Integer id) throws SQLException;
 }
