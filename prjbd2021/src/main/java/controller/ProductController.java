@@ -533,26 +533,27 @@ public class ProductController extends HttpServlet {
 
             case "/product/create":{
                 String param = request.getParameter("loja");
+                String paramData = request.getParameter("loja-data");
                 Product p = new Product();
                 InputStream in = null;
-                InputStream in2 = null;
 //                Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
 //                java.lang.reflect.Type type = new TypeToken<List<ProductJson>>() {}.getType();
 //                BufferedReader monitor = new BufferedReader( new FileReader("../../assets/json/americanas_monitor.jl"));
 //                System.out.println(param);
                 String appPath = request.getServletContext().getRealPath("");
                 if(Integer.parseInt(param) == p.AMERICANAS){
-                    in = new FileInputStream(appPath+"/assets/json/americanas_mouse.jl");
+                    in = new FileInputStream(appPath+"/assets/json/americanas-" + paramData + ".jl");
 //                    in = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_mouse.jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_monitor.jl");
                 }else if(Integer.parseInt(param) == p.KABUM){
-                    in = new FileInputStream(appPath+"/assets/json/kabum_mouse.jl");
-                    in2 = new FileInputStream(appPath+"/assets/json/kabum_monitor.jl");
+                    in = new FileInputStream(appPath+"/assets/json/kabum-" + paramData + ".jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/kabum_monitor.jl");
                 }else if(Integer.parseInt(param) == p.LONDRITECH){
-                    in = new FileInputStream(appPath+"/assets/json/londritech_mouse.jl");
-                    in2 = new FileInputStream(appPath+"/assets/json/londritech_monitor.jl");
+                    in = new FileInputStream(appPath+"/assets/json/londritech-" + paramData + ".jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/londritech_monitor.jl");
+                }else if(Integer.parseInt(param) == p.COLOMBO){
+                    in = new FileInputStream(appPath+"/assets/json/colombo-" + paramData + ".jl");
+    //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/londritech_monitor.jl");
                 }
 //                FileReader fr = new FileReader("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_mouse.jl");
 //                JsonReader r = new JsonReader(fr);
@@ -560,10 +561,7 @@ public class ProductController extends HttpServlet {
                 
                 try(DAOFactory daoFactory = DAOFactory.getInstance()){
                     List<ProductJson> pList = readJsonStream(in);
-                    if(in2 != null){
-                        List<ProductJson> p2List = readJsonStream(in2);
-                        pList.addAll(p2List);
-                    }
+                    System.out.println(pList);
                     
                     
 //                        r.setLenient(true);

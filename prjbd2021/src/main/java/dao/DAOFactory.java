@@ -21,10 +21,13 @@ public abstract class DAOFactory implements AutoCloseable {
         Connection connection = ConnectionFactory.getInstance().getConnection();
         DAOFactory factory;
         
-        if (ConnectionFactory.getDbServer().equals("joaobd")) {
+        //if (ConnectionFactory.getDbServer().equals("joaobd")) {
+        //    factory = new PgDAOFactory(connection);
+        //}
+        try {
             factory = new PgDAOFactory(connection);
         }
-        else {
+        catch (RuntimeException re) {
             throw new RuntimeException("Servidor de banco de dados não suportado.");
         }
         
