@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
@@ -20,7 +21,7 @@ class Produtos:
         self.produtos = []
 
     def iniciarDriver(self):
-        op = webdriver.ChromeOptions()
+        op = Options()
 
         user_agent = random.choice(self.user_agents)
         print(user_agent)
@@ -33,7 +34,12 @@ class Produtos:
     def __testarAcesso(self, link, checkText = 'Access to this page has been denied.', checkSelector = ''):
         print(link)
         for attempt in range(5):
-            self.driver.get(link)
+            try:
+                self.driver.set_page_load_timeout(10)
+                self.driver.get(link)
+            except:
+                pass
+            time.sleep(1)
             
             try:
                 if checkSelector == '':
@@ -69,7 +75,8 @@ class Produtos:
     def obterProdutos(self, loja, secao, checkText = 'Access to this page has been denied.', checkSelector = ''):
         produto = Produto(loja, secao)
         for url in self.urls:
-            #if url != 'https://www.colombo.com.br/produto/Informatica/Mouse-M350-910-005773-Sem-Fio-Logitech':
+            time.sleep(5)
+            #if url != 'https://www.colombo.com.br/produto/Informatica/Mouse-Gamer-Pichau-P501-RGB-10000DPI-Preto-PGM-P501-RGB':
             #    continue
             if not self.__testarAcesso(url, checkText, checkSelector):
                 continue
