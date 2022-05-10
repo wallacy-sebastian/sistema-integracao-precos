@@ -8,17 +8,24 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.stream.JsonReader;
+import com.google.gson.JsonObject;
 import dao.AvaliacaoDAO;
 import dao.DAO;
 import dao.DAOFactory;
 import dao.EntregaDAO;
 import dao.PagamentoDAO;
 import dao.ProductDAO;
+import java.time.Month;
+import java.time.LocalDate;
+import java.text.SimpleDateFormat;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.Map;
+import java.util.HashMap;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -307,6 +314,7 @@ public class ProductController extends HttpServlet {
 
         DAO<Product> dao;
         ProductDAO prdDao;
+        AvaliacaoDAO avalDao;
         Product prod;
         Avaliacao ava;
         Entrega etg;
@@ -500,12 +508,30 @@ public class ProductController extends HttpServlet {
             }
             case "/product/show/view":{
                 List<Product> pList = null;
+                List<Avaliacao> aList = null;
+                List<Integer> meses = new ArrayList<Integer>();
                 prod = null;
                 String str = request.getParameter("id");
+                String dataString;
                 Integer iId;
+                double soma = 0;
+                int mes = 0, qtd = 0;
+                int somaAval[] = new int[5];
                 boolean isEmpty = false;
+                boolean existe = false;
+                Gson gsonObj = new Gson();
+                Map<Object,Object> map = null;
+                List<Map<Object,Object>> precoList = new ArrayList<Map<Object,Object>>();
+                List<Map<Object,Object>> avalList = new ArrayList<Map<Object,Object>>();
+                SimpleDateFormat simpleDateFormat = null;
+                
+                for(int i = 0; i < somaAval.length; i++) {
+                    somaAval[i] = 0;
+                }
+                
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
                     prdDao = daoFactory.getProductDAO();
+                    avalDao = daoFactory.getAvaliacaoDAO();
                     if(str != null){
                         Integer id = Integer.parseInt(str);
                         iId = prdDao.getIntegracaoProduto(id);
@@ -513,13 +539,51 @@ public class ProductController extends HttpServlet {
                         for(Product p: pList){
                             if(p.isMaster()){
                                 prod = p;
+                                soma += p.getValor();
+                                qtd++;
+                                aList = avalDao.readByProductId(p.getId());
+                                for(Avaliacao a: aList) {
+                                    somaAval[a.getEstrelas()-1]++;
+                                }
+                                simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                                dataString = simpleDateFormat.format(p.getCreatedAt());
+                                LocalDate data
+                                    = LocalDate.parse(dataString);
+                                for(int m: meses) {
+                                    if(data.getMonthValue() == m) {
+                                        existe = true;
+                                        break;
+                                    }
+                                }
+                                
+                                if(!existe) {
+                                    mes = data.getMonthValue();
+                                    map = new HashMap<Object,Object>();
+                                    map.put("x", mes);
+                                    map.put("y", soma/qtd);
+                                    precoList.add(map);
+                                    
+                                    soma = 0;
+                                    qtd = 0;
+                                    meses.add(mes);
+                                }
+                                existe = false;
                             }
                         }
                     } else {
                         isEmpty = true;
                     }
+                    for(int i = 0; i < somaAval.length; i++) {
+                        map = new HashMap<Object,Object>();
+
+                        map.put("y", somaAval[i]);
+                        map.put("label", i+1);
+                        avalList.add(map);
+                    }
                     request.setAttribute("isEmpty", isEmpty);
                     request.setAttribute("pMaster", prod);
+                    request.setAttribute("pHistorico", gsonObj.toJson(precoList));
+                    request.setAttribute("pAvaliacoes", gsonObj.toJson(avalList));
                     request.setAttribute("productList", pList);
                     dispatcher = request.getRequestDispatcher("/view/product/showProduct.jsp");
                     dispatcher.forward(request, response);

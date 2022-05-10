@@ -71,59 +71,74 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <%
-                            Gson gsonObj = new Gson();
-                            Map<Object,Object> map = null;
-                            List<Map<Object,Object>> list = new ArrayList<Map<Object,Object>>();
-
-                            int count = 50;
-                            int y = 100;
-                            Random rand = new Random();
-
-                            for(int i = 1; i < count; i++){
-                                    y += rand.nextInt(11) - 5;
-                                    map = new HashMap<Object,Object>();
-                                    map.put("x", i);
-                                    map.put("y", y);
-                                    list.add(map);
-                            }
-
-                            String dataPoints = gsonObj.toJson(list);
-                        %>
                         <script type="text/javascript">
                             window.onload = function () {
+                                var dataHistorico;
+                                var dataAvaliacoes;
+                                var dataSeries;
+                                var dataPoints;
+                                
+                                dataHistorico = [];
+                                dataSeries = { type: "line" };
+                                dataPoints = ${pHistorico};
+                                dataSeries.dataPoints = dataPoints;
+                                dataHistorico.push(dataSeries);
+                                
+                                dataAvaliacoes = [];
+                                dataSeries = {
+                                    type: "bar",
+                                    name: "avaliacoes",
+                                    axisYType: "secondary",
+                                    color: "#014D65"
+                                };
+                                dataPoints = ${pAvaliacoes};
+                                dataSeries.dataPoints = dataPoints;
+                                dataAvaliacoes.push(dataSeries);
 
-                            var data = [];
-                            var dataSeries = { type: "line" };
-                            var dataPoints = <%out.print(dataPoints);%>
-                            dataSeries.dataPoints = dataPoints;
-                            data.push(dataSeries);
+                                var optionsHistorico = {
+                                        zoomEnabled: true,
+                                        animationEnabled: true,
+                                        title: {
+                                            text: "Histórico de média de preços"
+                                        },
+                                        axisX: {
+                                            title: "Mês",
+                                            interval: 1
+                                        },
+                                        axisY: {
+                                            title: "Preço"
+                                        },
+                                        data: dataHistorico
+                                };
 
-                            //Better to construct options first and then pass it as a parameter
-                            var options = {
-                                    zoomEnabled: true,
-                                    animationEnabled: true,
-                                    title: {
-                                            text: "Histórico de preços"
-                                    },
-                                    axisX: {
-                                        title: "Data"
-                                    },
-                                    axisY: {
-                                        title: "Preço"
-                                    },
-                                    data: data  // random data
-                            };
+                                var chartHistorico = new CanvasJS.Chart("chartContainerHistorico", optionsHistorico);
+                                chartHistorico.render();
+                                
+                                var optionsAvaliacoes = {
+                                        zoomEnabled: true,
+                                        animationEnabled: true,
+                                        title: {
+                                            text: "Avaliações"
+                                        },
+                                        axisX: {
+                                            interval: 1
+                                        },
+                                        axisY2: {
+                                            interlacedColor: "rgba(1,77,101,.2)",
+                                            gridColor: "rgba(1,77,101,.1)",
+                                            title: "Quantidade de avaliações",
+                                            interval: 1
+                                        },
+                                        data: dataAvaliacoes
+                                };
 
-                            var chart = new CanvasJS.Chart("chartContainer", options);
-                            var startTime = new Date();
-                            chart.render();
-                            var endTime = new Date();
-                            document.getElementById("timeToRender").innerHTML = "Time to Render: " + (endTime - startTime) + "ms";
-
+                                var chartAvaliacoes = new CanvasJS.Chart("chartContainerAvaliacoes", optionsAvaliacoes);
+                                chartAvaliacoes.render();
                             };
                         </script>
-                        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                        <div id="chartContainerHistorico" style="height: 370px; width: 100%;"></div>
+                        <div id="chartContainerAvaliacoes" style="height: 370px; width: 100%;"></div>
+                        <div>${pMedia}</div>
                         
                         <script src="${pageContext.servletContext.contextPath}/assets/js/canvasjs.min.js"></script>
                    </div>
