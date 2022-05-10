@@ -22,4 +22,6 @@ public interface ProductDAO  extends DAO<Product> {
      public List<Integer> getIntegracaoProdutoAll(Integer id) throws SQLException;
      public List<Product> search(String search, Integer cat, String sort, Integer loja) throws SQLException;
      public List<Product> productMasterAndIntegracao(Integer id) throws SQLException;
+     public List<Product> getProductsWhere(String column, String comparador, String value) throws SQLException;
+     public float getAvabyProd(Integer pId) throws SQLException;
 }

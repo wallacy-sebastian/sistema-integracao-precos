@@ -39,8 +39,8 @@ public class PgProductDAO implements ProductDAO{
     private final Connection connection;
     
     private static final String CREATE_QUERY =
-                                "INSERT INTO integracao_precos.produto(nome, secao, url_imagem, descricao, modelo, marca, ficha_tecnica, valor, created_at, loja, integracao_id) " +
-                                "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id;";
+                                "INSERT INTO integracao_precos.produto(nome, secao, url_imagem, descricao, modelo, marca, ficha_tecnica, valor, created_at, loja, integracao_id, is_master) " +
+                                "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id;";
     
     private static final String READ_QUERY =
                                 "SELECT * " +
@@ -109,11 +109,48 @@ public class PgProductDAO implements ProductDAO{
                                 "FROM integracao_precos.produto p " +
                                 "JOIN integracao_precos.produto_integracao pi ON p.id = pi.id_produto " +
                                 "WHERE pi.id_integracao = ?";
+    
+    private static final String SELECT_WHERE =
+                                "SELECT * FROM integracao_precos WHERE ? ? ?";
+    
+    private static final String AVG_AVA =
+                                "SELECT AVG(qtd_estrelas) media FROM integracao_precos.produto p " +
+                                "JOIN integracao_precos.avaliacao a ON p.id = a.id_produto " +
+                                "GROUP BY p.id " +
+                                "HAVING p.id = ?";
 
     
     
     public PgProductDAO(Connection connection) {
         this.connection = connection;
+    }
+    
+    @Override
+    public float getAvabyProd(Integer pId) throws SQLException{
+        float mAva = 0;
+
+        try (PreparedStatement statement = connection.prepareStatement(AVG_AVA)) {
+            statement.setInt(1, pId);
+            try (ResultSet result = statement.executeQuery()) {
+                if (result.next()) {
+                    mAva = result.getFloat("media");
+                } else {
+                    return 0;
+                }
+            } catch (IllegalArgumentException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+            
+            if (ex.getMessage().equals("Erro ao buscar media de avaliacoes.")) {
+                throw ex;
+            } else {
+                throw new SQLException("Erro ao buscar media de avaliacoes.");
+            }
+        }
+
+        return mAva;
     }
     
     @Override
@@ -136,12 +173,14 @@ public class PgProductDAO implements ProductDAO{
             statement.setDouble(8, prod.getValor());
             statement.setDate(9, prod.getCreatedAt());
             statement.setInt(10, prod.getLoja());
+            System.out.println(prod.getLoja());
             in = prod.getIntegracaoNumero();
             if(in > 0){
                 statement.setInt(11, in);
             } else {
                 statement.setNull(11, Types.INTEGER);
             }
+            statement.setBoolean(12, prod.isMaster());
             
             df.beginTransaction();
             statement.execute();
@@ -502,6 +541,45 @@ public class PgProductDAO implements ProductDAO{
                 Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
                 throw new SQLException("Erro ao preparar buscar produto.");
         }
+        return pList;
+    }
+    
+    @Override
+    public List<Product> getProductsWhere(String column, String comparador, String value) throws SQLException{
+        List<Product> pList = new ArrayList<Product>();
+                
+        try(PreparedStatement statement = connection.prepareStatement(SELECT_WHERE)){
+            statement.setString(1, column);
+            statement.setString(2, comparador);
+            statement.setString(3, value);
+            try(ResultSet result = statement.executeQuery()){
+                while(result.next()){
+                    Product prod = new Product();
+                    prod.setId(result.getInt("id"));
+                    prod.setNome(result.getString("nome"));
+                    prod.setMarca(result.getString("marca"));
+                    prod.setModelo(result.getString("modelo"));
+                    prod.setValor(result.getDouble("valor"));
+                    prod.setUrlImg(result.getString("url_imagem"));
+                    prod.setCreatedAt(result.getDate("created_at"));
+                    prod.setLoja(result.getInt("loja"));
+                    prod.setIntegracaoNumero(result.getInt("id_integracao"));
+                    prod.setSecao(result.getInt("secao"));
+                    prod.setIsMaster(result.getBoolean("is_master"));
+                    prod.setFichaTecnica(result.getString("ficha_tecnica"));
+                    prod.setDescricao(result.getString("descricao"));
+
+                    pList.add(prod);
+                }
+            } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao executar buscar produto.");
+            }
+        } catch (SQLException ex) {
+                Logger.getLogger(PgProductDAO.class.getName()).log(Level.SEVERE, "DAO", ex);
+                throw new SQLException("Erro ao preparar buscar produto."); 
+        }
+        
         return pList;
     }
 }

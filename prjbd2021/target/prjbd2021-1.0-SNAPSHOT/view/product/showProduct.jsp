@@ -66,6 +66,14 @@
                                     <th>Valor:&nbsp;</th>
                                     <td>${pMaster.getPreco()}</td>
                                 </tr>
+                                <tr>
+                                    <th>Produtos Integrados:&nbsp;</th>
+                                    <td>${productList.size()}</td>
+                                </tr>
+                                <tr>
+                                    <th>Media de avaliacoes:&nbsp;</th>
+                                    <td>${media}</td>
+                                </tr>
                             </tbody>
                         </table>
                    </div>

@@ -244,7 +244,7 @@ public class ProductController extends HttpServlet {
         ProductDAO dao;
         List<Product> pList;
         double med = 0, s1 = 0, s2 = 0, s3 = 0;
-        final double PORCENTAGEM_SIMILARIDADE = 0.60000;
+        final double PORCENTAGEM_SIMILARIDADE = 0.600;
         
         if(prod.getNome().isEmpty())
             prod.setNome("@@@@@@@");
@@ -498,11 +498,12 @@ public class ProductController extends HttpServlet {
                 }
                 break;
             }
-            case "/product/show/view":{
+            case "/product/show/view": {
                 List<Product> pList = null;
                 prod = null;
                 String str = request.getParameter("id");
                 Integer iId;
+                float mAva = 0;
                 boolean isEmpty = false;
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
                     prdDao = daoFactory.getProductDAO();
@@ -510,14 +511,21 @@ public class ProductController extends HttpServlet {
                         Integer id = Integer.parseInt(str);
                         iId = prdDao.getIntegracaoProduto(id);
                         pList = prdDao.productMasterAndIntegracao(iId);
-                        for(Product p: pList){
-                            if(p.isMaster()){
-                                prod = p;
+                        if(!pList.isEmpty()){
+                            for(Product p: pList){
+                                if(p.isMaster()){
+                                    prod = p;
+                                }
                             }
+                        }else{
+                            prod = prdDao.read(id);
                         }
                     } else {
                         isEmpty = true;
                     }
+                    
+                    mAva = prdDao.getAvabyProd(prod.getId());
+                    request.setAttribute("media", mAva);
                     request.setAttribute("isEmpty", isEmpty);
                     request.setAttribute("pMaster", prod);
                     request.setAttribute("productList", pList);
@@ -526,6 +534,27 @@ public class ProductController extends HttpServlet {
                 } catch (ClassNotFoundException | IOException | SQLException ex) {
                     request.getSession().setAttribute("error", ex.getMessage());
                 }
+                break;
+            }
+            case "/product/show/loja": {
+                String lj = request.getParameter("id");
+                int loja = Integer.parseInt(lj);
+                if(loja == Product.AMERICANAS){
+                    request.setAttribute("nome", "Americanas");
+                } else if(loja == Product.KABUM){
+                    request.setAttribute("nome", "Kabum");
+                } else if(loja == Product.LONDRITECH){
+                    request.setAttribute("nome", "Londritech");
+                } else {
+                    request.setAttribute("nome", "");
+                }
+//                try (DAOFactory daoFactory = DAOFactory.getInstance()) {
+//                    
+//                } catch (ClassNotFoundException | IOException | SQLException ex) {
+//                    request.getSession().setAttribute("error", ex.getMessage());
+//                }
+                dispatcher = request.getRequestDispatcher("/view/product/showLoja.jsp");
+                dispatcher.forward(request, response);
                 break;
             }
         }
@@ -619,15 +648,19 @@ public class ProductController extends HttpServlet {
 //                            System.out.println("In: "+integNum);
                         //  PRODUTO SIMILAR JA FOI INTEGRADO ALGUMA VEZ, LOGO JA POSSUI INTEGRACAO_ID
                             if(integNum > 0){
+                                System.out.println("c1");
                                 prod.setIntegracaoNumero(integNum);
+                                prod.setIsMaster(false);
                                 pId = pDao.create(prod);
                                 prodDAO.createIntegracaoProduto(integNum, pId);
                         //  PRODUTO SIMILAR NÃO FOI INTEGRADO NENHUMA VEZ, LOGO CRIA-SE INTEGRAÇÃO ENTRE OS PRODUTOS
                             } else {
+                                System.out.println("c2");
                                 integNum = prodDAO.getLastIntegracaoProdutoId();
                                 integNum++;
 //                                System.out.println("Last in: "+integNum);
                                 prod.setIntegracaoNumero(integNum);
+                                prod.setIsMaster(false);
                                 pId = pDao.create(prod);
                                 prodDAO.createIntegracaoProduto(integNum, pId);
                                 
@@ -638,6 +671,8 @@ public class ProductController extends HttpServlet {
                             }
                     //  NÃO EXISTE PRODUTO SIMILAR A SER INTEGRADO
                         } else {
+                            System.out.println("c3");
+                            prod.setIsMaster(true);
                             prod.setIntegracaoNumero(-1);
                             pId = pDao.create(prod);
                         }

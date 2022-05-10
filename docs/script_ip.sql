@@ -17,14 +17,24 @@ SELECT * FROM integracao_precos.produto_integracao WHERE id_integracao = 1 ORDER
 CREATE OR REPLACE FUNCTION integracao_precos.setDefaultIntgProd() RETURNS VOID AS $$
 DECLARE
 	c1 RECORD;
+	c3 RECORD;
+	bl BOOLEAN;
 	c2 integracao_precos.produto_integracao%ROWTYPE;
 BEGIN
 	FOR c1 IN (SELECT id_integracao FROM integracao_precos.produto_integracao
 			  GROUP BY id_integracao
 			  ORDER BY id_integracao ASC) LOOP
-		SELECT * INTO c2 FROM integracao_precos.produto_integracao WHERE id_integracao = c1.id_integracao ORDER BY id_produto FETCH FIRST ROW ONLY;
-		UPDATE integracao_precos.produto SET is_master = TRUE WHERE id = c2.id_produto;
-		RAISE NOTICE 'poduto(id %) foi definido como master.', c2.id_produto;
+			bl := TRUE;
+			-- SELECT * INTO c2 FROM integracao_precos.produto_integracao WHERE id_integracao = c1.id_integracao ORDER BY id_produto FETCH FIRST ROW ONLY;
+			FOR c3 IN (SELECT * FROM integracao_precos.produto_integracao WHERE id_integracao = c1.id_integracao ORDER BY id_produto) LOOP
+				IF bl = TRUE THEN
+					bl := FALSE;
+					RAISE NOTICE 'produto(id %) TRUE', c3.id_produto;
+				ELSE
+					UPDATE integracao_precos.produto SET is_master = FALSE WHERE id = c3.id_produto;
+					RAISE NOTICE 'produto(id %) FALSE', c3.id_produto;
+				END IF;
+			END LOOP;
 	END LOOP;
 END;
 $$ LANGUAGE plpgsql;
