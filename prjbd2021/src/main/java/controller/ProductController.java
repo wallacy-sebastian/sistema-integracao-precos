@@ -8,17 +8,24 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.stream.JsonReader;
+import com.google.gson.JsonObject;
 import dao.AvaliacaoDAO;
 import dao.DAO;
 import dao.DAOFactory;
 import dao.EntregaDAO;
 import dao.PagamentoDAO;
 import dao.ProductDAO;
+import java.time.Month;
+import java.time.LocalDate;
+import java.text.SimpleDateFormat;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.Map;
+import java.util.HashMap;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -307,6 +314,7 @@ public class ProductController extends HttpServlet {
 
         DAO<Product> dao;
         ProductDAO prdDao;
+        AvaliacaoDAO avalDao;
         Product prod;
         Avaliacao ava;
         Entrega etg;
@@ -500,34 +508,129 @@ public class ProductController extends HttpServlet {
             }
             case "/product/show/view": {
                 List<Product> pList = null;
+                List<Avaliacao> aList = null;
+                List<Integer> meses = new ArrayList<Integer>();
                 prod = null;
                 String str = request.getParameter("id");
+                String dataString;
                 Integer iId;
                 float mAva = 0;
+                double soma = 0;
+                int mes = 0, qtd = 0;
+                int somaAval[] = new int[5];
+
                 boolean isEmpty = false;
+                boolean existe = false;
+                Gson gsonObj = new Gson();
+                Map<Object,Object> map = null;
+                List<Map<Object,Object>> precoList = new ArrayList<Map<Object,Object>>();
+                List<Map<Object,Object>> avalList = new ArrayList<Map<Object,Object>>();
+                SimpleDateFormat simpleDateFormat = null;
+                
+                for(int i = 0; i < somaAval.length; i++) {
+                    somaAval[i] = 0;
+                }
+                
                 try (DAOFactory daoFactory = DAOFactory.getInstance()) {
                     prdDao = daoFactory.getProductDAO();
+                    avalDao = daoFactory.getAvaliacaoDAO();
+
                     if(str != null){
                         Integer id = Integer.parseInt(str);
                         iId = prdDao.getIntegracaoProduto(id);
                         pList = prdDao.productMasterAndIntegracao(iId);
                         if(!pList.isEmpty()){
+                            System.out.println("aki1");
                             for(Product p: pList){
+                                System.out.println(p.getCreatedAt());
                                 if(p.isMaster()){
                                     prod = p;
                                 }
+                                soma += p.getValor();
+                                qtd++;
+                                aList = avalDao.readByProductId(p.getId());
+                                for(Avaliacao a: aList) {
+                                    if(a.getEstrelas() > 0)
+                                        somaAval[a.getEstrelas()-1]++;
+                                }
+                                simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                                dataString = simpleDateFormat.format(p.getCreatedAt());
+                                LocalDate data
+                                    = LocalDate.parse(dataString);
+                                for(int m: meses) {
+                                    System.out.println(p.getCreatedAt());
+                                    if(data.getMonthValue() == m) {
+                                        System.out.println("aaaaaaaaaaaaaa");
+                                        existe = true;
+                                        break;
+                                    }
+                                }
+
+                                if(!existe) {
+                                    mes = data.getMonthValue();
+                                    map = new HashMap<Object,Object>();
+                                    map.put("x", mes);
+                                    map.put("y", soma/qtd);
+                                    precoList.add(map);
+
+                                    soma = 0;
+                                    qtd = 0;
+                                    meses.add(mes);
+                                }
+                                existe = false;
                             }
                         }else{
+                            System.out.println("aki1");
                             prod = prdDao.read(id);
+                            soma += prod.getValor();
+                            qtd++;
+                            aList = avalDao.readByProductId(prod.getId());
+                            for(Avaliacao a: aList) {
+                                somaAval[a.getEstrelas()-1]++;
+                            }
+                            simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                            dataString = simpleDateFormat.format(prod.getCreatedAt());
+                            LocalDate data
+                                = LocalDate.parse(dataString);
+                            for(int m: meses) {
+                                if(data.getMonthValue() == m) {
+                                    existe = true;
+                                    break;
+                                }
+                            }
+
+                            if(!existe) {
+                                mes = data.getMonthValue();
+                                map = new HashMap<Object,Object>();
+                                map.put("x", mes);
+                                map.put("y", soma/qtd);
+                                precoList.add(map);
+
+                                soma = 0;
+                                qtd = 0;
+                                meses.add(mes);
+                            }
+                            existe = false;
                         }
                     } else {
                         isEmpty = true;
                     }
-                    
+
+                    for(int i = 0; i < somaAval.length; i++) {
+                        map = new HashMap<Object,Object>();
+
+                        map.put("y", somaAval[i]);
+                        map.put("label", i+1);
+                        avalList.add(map);
+                    }
+        
                     mAva = prdDao.getAvabyProd(prod.getId());
                     request.setAttribute("media", mAva);
+                    
                     request.setAttribute("isEmpty", isEmpty);
                     request.setAttribute("pMaster", prod);
+                    request.setAttribute("pHistorico", gsonObj.toJson(precoList));
+                    request.setAttribute("pAvaliacoes", gsonObj.toJson(avalList));
                     request.setAttribute("productList", pList);
                     dispatcher = request.getRequestDispatcher("/view/product/showProduct.jsp");
                     dispatcher.forward(request, response);
@@ -586,26 +689,27 @@ public class ProductController extends HttpServlet {
 
             case "/product/create":{
                 String param = request.getParameter("loja");
+                String paramData = request.getParameter("loja-data");
                 Product p = new Product();
                 InputStream in = null;
-                InputStream in2 = null;
 //                Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
 //                java.lang.reflect.Type type = new TypeToken<List<ProductJson>>() {}.getType();
 //                BufferedReader monitor = new BufferedReader( new FileReader("../../assets/json/americanas_monitor.jl"));
 //                System.out.println(param);
                 String appPath = request.getServletContext().getRealPath("");
                 if(Integer.parseInt(param) == p.AMERICANAS){
-                    in = new FileInputStream(appPath+"/assets/json/americanas_mouse.jl");
+                    in = new FileInputStream(appPath+"/assets/json/americanas-" + paramData + ".jl");
 //                    in = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_mouse.jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_monitor.jl");
                 }else if(Integer.parseInt(param) == p.KABUM){
-                    in = new FileInputStream(appPath+"/assets/json/kabum_mouse.jl");
-                    in2 = new FileInputStream(appPath+"/assets/json/kabum_monitor.jl");
+                    in = new FileInputStream(appPath+"/assets/json/kabum-" + paramData + ".jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/kabum_monitor.jl");
                 }else if(Integer.parseInt(param) == p.LONDRITECH){
-                    in = new FileInputStream(appPath+"/assets/json/londritech_mouse.jl");
-                    in2 = new FileInputStream(appPath+"/assets/json/londritech_monitor.jl");
+                    in = new FileInputStream(appPath+"/assets/json/londritech-" + paramData + ".jl");
 //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/londritech_monitor.jl");
+                }else if(Integer.parseInt(param) == p.COLOMBO){
+                    in = new FileInputStream(appPath+"/assets/json/colombo-" + paramData + ".jl");
+    //                        InputStream in2 = new FileInputStream("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/londritech_monitor.jl");
                 }
 //                FileReader fr = new FileReader("/home/joao/Documentos/computacao/bd/prjbd2021/src/main/webapp/assets/json/americanas_mouse.jl");
 //                JsonReader r = new JsonReader(fr);
@@ -613,10 +717,7 @@ public class ProductController extends HttpServlet {
                 
                 try(DAOFactory daoFactory = DAOFactory.getInstance()){
                     List<ProductJson> pList = readJsonStream(in);
-                    if(in2 != null){
-                        List<ProductJson> p2List = readJsonStream(in2);
-                        pList.addAll(p2List);
-                    }
+                    System.out.println(pList);
                     
                     
 //                        r.setLenient(true);

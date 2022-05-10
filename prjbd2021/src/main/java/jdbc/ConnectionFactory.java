@@ -39,10 +39,13 @@ public abstract class ConnectionFactory {
                 throw new IOException("Erro ao obter informações do banco de dados.");
             }
 //            System.out.println(getDbServer());
-            if (getDbServer().equals("joaobd")) {
+            //if (getDbServer().equals("joaobd")) {
+            //  instance = new PgConnectionFactory();
+            //}
+            try {
                 instance = new PgConnectionFactory();
             }
-            else {
+            catch (RuntimeException re) {
                 throw new RuntimeException("Servidor de banco de dados não suportado.");
             }
         }

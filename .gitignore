@@ -3,7 +3,7 @@
 ./crawling\ scripts/kabum/kabum/spiders/*.json
 ./crawling\ scripts/kabum/kabum/spiders/*.jl
 ./crawling\ scripts/kabum/kabum/spiders/*.html
-./prjbd2021/src/main/webapp/conf/datasource.properties
+./prjbd2021/src/main/webapp/conf/*
 ./prjbd2021/target/*
 ./prjbd2021----a/*
 ./prjbd2021-backup27042022/*

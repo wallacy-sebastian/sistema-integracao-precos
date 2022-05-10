@@ -25,6 +25,7 @@ public class Product {
     public static final int AMERICANAS = 1;
     public static final int KABUM = 2;
     public static final int LONDRITECH = 3;
+    public static final int COLOMBO = 4;
     
     private Integer id;
     private String nome;
@@ -145,8 +146,8 @@ public class Product {
     }
     
     public String getLojaFromValue(int loja){
-        if(this.AMERICANAS == loja){
-            return "Americanas";
+        if(this.COLOMBO == loja){
+            return "Colombo";
         } else if (this.KABUM == loja){
             return "Kabum";
         } else if(this.LONDRITECH == loja){
@@ -178,7 +179,7 @@ public class Product {
     
     public List<Integer> getLojaAll(){
        List lojas = new ArrayList<>();
-       lojas.add(this.AMERICANAS);
+       lojas.add(this.COLOMBO);
        lojas.add(this.KABUM);
        lojas.add(this.LONDRITECH);
        return lojas;

@@ -108,7 +108,8 @@ public class PgProductDAO implements ProductDAO{
                                 "SELECT id, nome, valor, marca, modelo, url_imagem, created_at, id_integracao, loja, secao, is_master, ficha_tecnica, descricao " +
                                 "FROM integracao_precos.produto p " +
                                 "JOIN integracao_precos.produto_integracao pi ON p.id = pi.id_produto " +
-                                "WHERE pi.id_integracao = ?";
+                                "WHERE pi.id_integracao = ?" +
+                                "ORDER BY created_at ASC";
     
     private static final String SELECT_WHERE =
                                 "SELECT * FROM integracao_precos WHERE ? ? ?";
